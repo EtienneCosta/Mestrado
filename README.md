@@ -21,6 +21,9 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 
 **Análise e Teste de Software**
 
+- [Parsers Combinators](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/ParserCombinators) - GIC made in haskell.
+
+
 
 **Especificação e Modelação**
 
