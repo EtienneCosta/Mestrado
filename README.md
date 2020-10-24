@@ -9,8 +9,8 @@ Projectos desenvolvidos durante o mestrado em engenharia informática .
 
 **Processamento e Representação de Informação**
 
-  - [Luxury Ink](https://github.com/EtienneCosta/UMINHO/tree/master/LI3) - Ballpoint webpage.
-  - [Project Record]() - DTD to verify that XML data is valid.
+  - [Luxury Ink](https://github.com/EtienneCosta/Mestrado/tree/main/PRI2020/TP1) - Ballpoint webpage.
+  - [Project Record](https://github.com/EtienneCosta/Mestrado/tree/main/PRI2020/TP2) - DTD to verify that XML data is valid.
   
 
 **Gramáticas na Compreensão de Software**
