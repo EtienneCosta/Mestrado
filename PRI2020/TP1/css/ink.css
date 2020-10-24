@@ -1,0 +1,69 @@
+
+body{
+    font-family: 'Lobster', cursive;}
+
+.navbar-brand {
+
+    font-size: 40px;
+    padding-left: 10%;
+}
+
+.bg-dark {
+  background-color: black !important;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.title-row {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-bottom: 20.9%;
+    color: white;
+    background-color: black;
+}
+
+
+
+.pen-img {
+    width: 60%;
+    transform: rotate(90deg);
+    animation: pen;
+    animation-duration: 30s;
+    -webkit-animation-fill-mode: forwards;
+    margin-top: -110px;
+}
+
+@keyframes pen {
+
+    from {
+        transform: rotate(90deg);
+      }
+      to {
+        transform: rotate(0deg);
+      }
+    }
+
+
+
+
+#pricing {
+
+    text-align: center;
+    padding: 5%;
+    background-color: black;
+    
+}
+
+
+
+#footer {
+
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+.pricing-text {
+    color: white;
+    padding-bottom:200px;
+}
