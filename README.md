@@ -1,7 +1,7 @@
-# Mestrado
+# Mestrado           
 
-Projectos desenvolvidos durante o mestrado em engenharia informática .
-![uminho](http://www4.di.uminho.pt/~jmf/IMAGES/um_eeng.gif)
+Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho](http://www4.di.uminho.pt/~jmf/IMAGES/um_eeng.gif)
+
 
 
 # 4° year:
