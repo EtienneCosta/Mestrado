@@ -1,8 +1,0 @@
-LISTA 1 .
-Lista aaa .
-lista  4 , 5 , start, 5, 3, 1, 1, stop, 10. 
-LisTA 12, a, b, 1 .
-liSTA 1, 2, 3, start, 4, 2, 24, stop, 5, 9, stop, 3, 2, 1, start, 33, 7, stop, end.
-Lista 1, 2, agora, 3, 4, fim, 7, 8.
-lIsTa start, 4, 5, prh, gcs, 1.
-
