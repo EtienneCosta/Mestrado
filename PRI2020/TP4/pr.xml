@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+
+    <metadados>
+
+        <keyname> PLC_PRI2021 </keyname>
+
+        <title> Servidor Web Com NodeJs </title>
+
+        <bdate>2 Novembro 2020</bdate>
+
+        <edate>9 Novembro 2020</edate>
+
+        <supervisor name="José Carlos Ramalho">
+
+            <email> jcr@di.uminho.pt</email>
+
+            <href link="http://www4.di.uminho.pt/~jcr/"> WebPage </href>
+
+        </supervisor>
+
+    </metadados>
+
+
+    <workteam>
+
+        <person identifier="a76089">
+            <name> Etienne da Silva Filipe Amado da Costa </name>
+
+            <email> a76089@alunos.uminho.pt </email>
+
+        </person>
+
+    </workteam>
+
+
+    <abstract>
+
+        <paragraph> Este trabalho prático foi dividido em duas etapas distintas: 1ª :
+                <italic>Criação de websites sobre os arqueosítios do nw português através de um
+                xslt</italic> , sendo criado um index com links associados aos respectivos
+            arqueosítios. </paragraph>
+
+
+        <paragraph> 2ª : <italic>Criação de um servidor web com nodejs</italic>, que tem como
+            objectivo devolver uma página html com a respectiva informação sobre um arqueosítio.
+            Este servidor recebe pedidos na forma 7777 , tendo os pedidos válidos representados no
+            seguinte formato : <bold>localhost:7777/arqsite/X</bold> , onde X é um valor que
+            pertence ao intervalo [1..122] U [*]. </paragraph>
+
+
+
+    </abstract>
+
+
+    <deliverables>
+
+        <deliverable link="/Users/etiennecosta/Desktop/GitHub/Mestrado/PRI2020/TP4/pr.xml"> Project
+            Record (XML version) </deliverable>
+
+        <deliverable link="/Users/etiennecosta/Desktop/GitHub/Mestrado/PRI2020/TP4/arq.xml">
+            Arqueosítios (XML version) </deliverable>
+
+        <deliverable link="/Users/etiennecosta/Desktop/GitHub/Mestrado/PRI2020/TP4/arq-site.xsl">
+            Arqueosítios (XSL version) </deliverable>
+
+        <deliverable link="/Users/etiennecosta/Desktop/GitHub/Mestrado/PRI2020/TP4/arqsite">
+            Arqueosítios (WebPages) </deliverable>
+
+        <deliverable link="/Users/etiennecosta/Desktop/GitHub/Mestrado/PRI2020/TP4/arqserver.js">
+            Servidor (Nodejs version) </deliverable>
+
+    </deliverables>
+
+
+</pr>
