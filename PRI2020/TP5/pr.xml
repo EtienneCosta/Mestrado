@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+
+    <metadados>
+
+        <keyname> PLC_PRI2021 </keyname>
+
+        <title> Servidor Node + Json Server </title>
+
+        <bdate>9 Novembro 2020</bdate>
+
+        <edate>16 Novembro 2020</edate>
+
+        <supervisor name="José Carlos Ramalho">
+
+            <email> jcr@di.uminho.pt</email>
+
+            <href link="http://www4.di.uminho.pt/~jcr/"> WebPage </href>
+
+        </supervisor>
+
+    </metadados>
+
+
+    <workteam>
+
+        <person identifier="a76089">
+            <name> Etienne da Silva Filipe Amado da Costa </name>
+
+            <email> a76089@alunos.uminho.pt </email>
+
+        </person>
+
+    </workteam>
+
+
+    <abstract>
+
+        <paragraph> Este trabalho prático consiste na implementação de um servidor node 
+                à escuta na porta 3001, com o propósito de fazer os pedidos dentro do servidor node ao
+                servidor json , apresentando uma lista de alunos,cursos e instrumentos bem com os seus 
+                atributos de uma escola de música.
+                
+       </paragraph>
+
+
+    
+    </abstract>
+
+
+    <deliverables>
+
+        <deliverable link="/Users/etiennecosta/Desktop/GitHub/Mestrado/PRI2020/TP5/pr.xml"> Project
+            Record (XML version) </deliverable>
+
+        <deliverable link="/Users/etiennecosta/Desktop/GitHub/Mestrado/PRI2020/TP5/escola.json">
+            DataSet (JSON version) </deliverable>
+
+        <deliverable link="/Users/etiennecosta/Desktop/GitHub/Mestrado/PRI2020/TP5/escola.js">
+            Servidor Node (JS version) </deliverable>
+
+
+    </deliverables>
+
+
+</pr>
