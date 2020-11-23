@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 2px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: white;
+        }
+    </style>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+
+
+<body style="background-color:wheat; font-family: 'Courier New', Courier, monospace; color:black;">
+    <h1 style="text-align: center;"> To do List <%= kindofDay %>!</h1>
+
+    <br>
+    <div style="padding-left: 30%;">
+        <form action="" class="" method="POST">
+            <label for="description">Descrição:</label>
+            <input required type="text" name="description" size="50"><br><br>
+
+
+            <label for="responsible">Escolha uma pessoa:</label>
+            <select name="person">
+                <option value="Etienne">Etienne</option>
+
+            </select>
+            <br><br>
+
+            <label for="data">Data Limite:</label>
+            <input required step="color:black;" type="date" name="data">
+
+
+
+            <button type="submit" class="btn btn-primary">Registar</button>
+
+
+        </form>
+    </div>
+
+    <hr style=" border-top: 1px solid black;">
+
+
+    <h1 style="text-align: center;"> Tarefas Pendentes </h1>
+
+    <table style="width:80%;">
+        <tr>
+            <th style="text-align: center;">Descrição</th>
+            <th style="text-align: center;">Responsável</th>
+            <th style="text-align: center;">Data Limite</th>
+
+        </tr>
+
+
+        <% for(var i =0;i<tasksofDay.length;i++){ %>
+
+        <tr>
+
+            <td> <%= tasksofDay[i].description %></td>
+            <td> <%= tasksofDay[i].person %></td>
+            <td> <%= tasksofDay[i].data %></td>
+
+
+
+
+        </tr>
+        <%  } %>
+
+    </table>
+
+
+
+
+
+    <hr style=" border-top: 1px solid black;">
+
+    <br><br>
+
+    <table style="width: 100%; border: 1px solid black; border-collapse: collapse;">
+        <tr>
+            <th style="text-align: center;">Resolvidas</th>
+            <th style="text-align: center;">Concluídas</th>
+        </tr>
+       
+    </table>
+
+
+
+
+
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
