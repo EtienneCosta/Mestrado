@@ -15,6 +15,13 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
  
 **Gramáticas na Compreensão de Software**
 
+- [Article](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/Article)- Grammar article.
+- [Expr](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/Expr)- Grammar about mathematical expressions .
+- [Invoice](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/Faturas)- Invoice grammar.
+- [List](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/List)- List grammar.
+- [Mixed List](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/ListasMistas)- Mixed list grammar.
+- [Class](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/Turma)- Class grammar.
+
 
 
 # Métodos Formais em Engenharia de Software
