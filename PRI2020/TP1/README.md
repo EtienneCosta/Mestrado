@@ -5,11 +5,11 @@ Ballpoint sales webpage
 ```
 
 ## Display
-
+```sh
 ![alt text](https://github.com/EtienneCosta/Mestrado/blob/main/PRI2020/TP1/index.png)
+```
 
-
-
-![alt text](https://github.com/EtienneCosta/Mestrado/new/main/PRI2020/TP1/sales.png?raw=true)
-
+```sh
+![alt text](https://github.com/EtienneCosta/Mestrado/blob/main/PRI2020/TP1/sales.png)
+```
 
