@@ -115,7 +115,7 @@ Or
 ```sh
 $ antlr4 ListasMistas.g4
 $ javac *.java
-$ grun ListasMistas listas ListasMistas.txt
+$ grun ListasMistas listas ListasMistas.txt -gui
 
 ^D
 ```
