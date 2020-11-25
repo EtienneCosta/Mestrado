@@ -23,6 +23,8 @@ pred inv1 {
 
 pred inv2 {
   // Only junctions can have more than one predecessor track
+	
+       all t : Track - Junction | lone prox.t
 
 }
 
@@ -30,6 +32,6 @@ pred inv2 {
 
 pred inv3 {
   // All tracks that meet at a junction must have a signal
-
+        all j : Junction , t : prox.j | some t.signal
 }
 
