@@ -1,0 +1,330 @@
+Feature Optimism successfully added.
+
+Feature Determination successfully added.
+
+Feature Resilience successfully added.
+
+Feature Autodidact successfully added.
+
+Feature Responsibility successfully added.
+
+Feature Attention successfully added.
+
+Feature Deficit successfully added.
+
+Feature Motivation successfully added.
+
+Student Etienne Costa successfully added.
+
+Feature Hyperactivity successfully added.
+
+Feature Courage successfully added.
+
+Feature Determination successfully added.
+
+Feature Attention Deficit successfully added.
+
+Student Mauricio Salgado successfully added.
+
+Feature Patience successfully added.
+
+Feature Creativity successfully added.
+
+Feature Autodidact successfully added.
+
+Feature Self Confidence successfully added.
+
+Feature Humility successfully added.
+
+Student Rui Azevedo successfully added.
+
+Feature Integrity successfully added.
+
+Feature Hyperactivity successfully added.
+
+Feature Responsibility successfully added.
+
+Feature Determination successfully added.
+
+Feature Self Confidence successfully added.
+
+Student Joana Cruz successfully added.
+
+Feature Optimism successfully added.
+
+Feature Focus successfully added.
+
+Feature Responsibility successfully added.
+
+Feature Determination successfully added.
+
+Feature Autodidact successfully added.
+
+Student Pedro Costa successfully added.
+
+Feature Autodidact successfully added.
+
+Feature Persistence successfully added.
+
+Feature Determination successfully added.
+
+Feature Humility successfully added.
+
+Feature Responsibility successfully added.
+
+Student Miguel Quaresma successfully added.
+
+Language Java successfully added.
+
+Language C successfully added.
+
+Language Cplusplus successfully added.
+
+Language CSharp successfully added.
+
+Language Python successfully added.
+
+Language JavaScript successfully added.
+
+Language Perl successfully added.
+
+Language Assembly successfully added.
+
+Language pHp successfully added.
+
+Language Ruby successfully added.
+
+Language Go successfully added.
+
+Language Swift successfully added.
+
+Language SQL successfully added.
+
+Language Prolog successfully added.
+
+Language Haskell successfully added.
+
+Feature Focus successfully added.
+
+Feature Optimism successfully added.
+
+Feature Persistence successfully added.
+
+Feature Creativity successfully added.
+
+Feature Determination successfully added.
+
+Feature Pair{x='Syntax', y='codecombat.com'} successfully added.
+Feature Pair{x='Data Types', y='codecombat.com'} successfully added.
+Feature Pair{x='Switch', y='codecombat.com'} successfully added.
+Feature Pair{x='Methods', y='www'} successfully added.
+Feature Pair{x='Scope', y='www'} successfully added.
+Feature Pair{x='Encapsulation', y='www'} successfully added.
+Feature Pair{x='Inheritance', y='www'} successfully added.
+Feature Pair{x='Threads', y='www'} successfully added.
+Feature Pair{x='Regex', y='www'} successfully added.
+Content Java successfully added.
+Feature Pair{x='Functions', y='www'} successfully added.
+Feature Pair{x='Function Composition', y='www'} successfully added.
+Feature Pair{x='Modules', y='www'} successfully added.
+Feature Pair{x='IO', y='www'} successfully added.
+Feature Pair{x='Functor', y='www'} successfully added.
+Feature Pair{x='Monads', y='www'} successfully added.
+Feature Pair{x='Zippers', y='www'} successfully added.
+Content Haskell successfully added.
+Feature Pair{x='Clauses and Predicates', y='www'} successfully added.
+Feature Pair{x='Satisfying Goals', y='www'} successfully added.
+Feature Pair{x='Operations and Arithmetic', y='www'} successfully added.
+Feature Pair{x='Backtracking', y='www'} successfully added.
+Feature Pair{x='Functor', y='www'} successfully added.
+Feature Pair{x='Loops', y='www'} successfully added.
+Content Prolog successfully added.
+Feature Pair{x='Decision Control Structures', y='www'} successfully added.
+Feature Pair{x='Loop Control Structures', y='www'} successfully added.
+Feature Pair{x='Functions', y='www'} successfully added.
+Feature Pair{x='Arrays', y='www'} successfully added.
+Feature Pair{x='Pointers', y='www'} successfully added.
+Content C successfully added.
+Feature Patience successfully added.
+
+Feature Attention successfully added.
+
+Feature Focus successfully added.
+
+Feature Persistence successfully added.
+
+Feature Pair{x='File Handling', y='www'} successfully added.
+Feature Pair{x='Structure and Union', y='www'} successfully added.
+Feature Pair{x='Pointers', y='www'} successfully added.
+Feature Pair{x='Arrays and Strings', y='www'} successfully added.
+Feature Pair{x='Functions', y='www'} successfully added.
+Content C successfully added.
+Feature Pair{x='Select', y='www'} successfully added.
+Feature Pair{x='Where', y='www'} successfully added.
+Feature Pair{x='Count', y='www'} successfully added.
+Feature Pair{x='Avg', y='www'} successfully added.
+Feature Pair{x='Sum', y='www'} successfully added.
+Feature Pair{x='Joins', y='www'} successfully added.
+Feature Pair{x='Keys', y='www'} successfully added.
+Feature Pair{x='CRUD', y='www'} successfully added.
+Content SQL successfully added.
+Feature Pair{x='Syntax', y='www'} successfully added.
+Feature Pair{x='Comments', y='www'} successfully added.
+Feature Pair{x='Variables', y='www'} successfully added.
+Feature Pair{x='Casting', y='www'} successfully added.
+Feature Pair{x='Lists', y='www'} successfully added.
+Feature Pair{x='Dictionaries', y='www'} successfully added.
+Feature Pair{x='Functions', y='www'} successfully added.
+Feature Pair{x='Lambda', y='www'} successfully added.
+Feature Pair{x='Iterators', y='www'} successfully added.
+Content Python successfully added.
+Feature Pair{x='Statements', y='www'} successfully added.
+Feature Pair{x='Variables', y='www'} successfully added.
+Feature Pair{x='Operators', y='www'} successfully added.
+Feature Pair{x='Objects', y='www'} successfully added.
+Feature Pair{x='For Loop', y='www'} successfully added.
+Feature Pair{x='this', y='www'} successfully added.
+Content JavaScript successfully added.
+Feature Resilience successfully added.
+
+Feature Responsibility successfully added.
+
+Feature Determination successfully added.
+
+Feature Focus successfully added.
+
+Feature Pair{x='Syntax', y='www'} successfully added.
+Feature Pair{x='Memory Segments', y='www'} successfully added.
+Feature Pair{x='Registers', y='www'} successfully added.
+Feature Pair{x='System Calls', y='www'} successfully added.
+Feature Pair{x='Conditions', y='www'} successfully added.
+Feature Pair{x='Loops', y='www'} successfully added.
+Content Assembly successfully added.
+Feature Pair{x='Syntax', y='www'} successfully added.
+Feature Pair{x='Data Types', y='www'} successfully added.
+Feature Pair{x='Variables', y='www'} successfully added.
+Feature Pair{x='Tuples', y='www'} successfully added.
+Feature Pair{x='Dictionaries', y='www'} successfully added.
+Feature Pair{x='Functions', y='www'} successfully added.
+Feature Pair{x='Structures', y='www'} successfully added.
+Content Swift successfully added.
+Feature Pair{x='Syntax', y='www'} successfully added.
+Feature Pair{x='Data Types', y='www'} successfully added.
+Feature Pair{x='Scalars', y='www'} successfully added.
+Feature Pair{x='Arrays', y='www'} successfully added.
+Feature Pair{x='Directories', y='www'} successfully added.
+Feature Pair{x='File IO', y='www'} successfully added.
+Feature Pair{x='Regex', y='www'} successfully added.
+Content Perl successfully added.
+Feature Pair{x='File Handling', y='www'} successfully added.
+Feature Pair{x='Structure and Union', y='www'} successfully added.
+Feature Pair{x='Pointers', y='www'} successfully added.
+Feature Pair{x='Arrays and Strings', y='www'} successfully added.
+Feature Pair{x='Functions', y='www'} successfully added.
+Content C successfully added.
+Feature Determination successfully added.
+
+Feature Autodidact successfully added.
+
+Feature Responsibility successfully added.
+
+Feature Patience successfully added.
+
+Feature Focus successfully added.
+
+Feature Pair{x='All concepts of the language', y='www'} successfully added.
+Content Haskell successfully added.
+Feature Pair{x='All concepts of the language', y='www'} successfully added.
+Content pHp successfully added.
+Feature Pair{x='All concepts of the language', y='www'} successfully added.
+Content Python successfully added.
+Feature Pair{x='All concepts of the language', y='www'} successfully added.
+Content Ruby successfully added.
+Feature Creativity successfully added.
+
+Feature Hyperactivity successfully added.
+
+Feature Focus successfully added.
+
+Feature Pair{x='Certain concepts of the  programming languages', y='www'} successfully added.
+Content Python successfully added.
+Feature Pair{x='Certain concepts of the  programming languages', y='www'} successfully added.
+Content Swift successfully added.
+Feature Pair{x='Certain concepts of the  programming languages', y='www'} successfully added.
+Content JavaScript successfully added.
+Feature Self Confidence successfully added.
+
+Feature Determination successfully added.
+
+Feature Resilience successfully added.
+
+Feature Patience successfully added.
+
+Feature Focus successfully added.
+
+Feature Autodidact successfully added.
+
+Feature Hyperactivity successfully added.
+
+Feature Pair{x='Certain concepts of the  programming languages', y='www'} successfully added.
+Content Python successfully added.
+Feature Pair{x='Certain concepts of the  programming languages', y='www'} successfully added.
+Content Java successfully added.
+Feature Pair{x='Certain concepts of the  programming languages', y='www'} successfully added.
+Content pHp successfully added.
+Feature Pair{x='Certain concepts of the  programming languages', y='www'} successfully added.
+Content SQL successfully added.
+Feature Optimism successfully added.
+
+Feature Determination successfully added.
+
+Feature Resilience successfully added.
+
+Feature Autodidact successfully added.
+
+Feature Responsibility successfully added.
+
+Feature Attention successfully added.
+
+Feature Deficit successfully added.
+
+Feature Motivation successfully added.
+
+Feature Pair{x='Certain concepts of the  programming languages', y='www'} successfully added.
+Content Haskell successfully added.
+Feature Pair{x='Certain concepts of the  programming languages', y='www'} successfully added.
+Content C successfully added.
+------------------------------------------- Students List -----------------------------------------
+Student{id=1, name='Etienne Costa', age=26, characteristics=[Optimism, Determination, Resilience, Autodidact, Responsibility, Attention, Deficit, Motivation], resources=[Resource{id=1, name='Games', lower bound=8, upper bound=30, description='Learning Through Play Using Games to Educate', characteristics=[Focus, Optimism, Persistence, Creativity, Determination], contents={Java=[Pair{x='Syntax', y='codecombat.com'}, Pair{x='Data Types', y='codecombat.com'}, Pair{x='Switch', y='codecombat.com'}, Pair{x='Methods', y='www'}, Pair{x='Scope', y='www'}, Pair{x='Encapsulation', y='www'}, Pair{x='Inheritance', y='www'}, Pair{x='Threads', y='www'}, Pair{x='Regex', y='www'}], C=[Pair{x='Decision Control Structures', y='www'}, Pair{x='Loop Control Structures', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Pointers', y='www'}], Haskell=[Pair{x='Functions', y='www'}, Pair{x='Function Composition', y='www'}, Pair{x='Modules', y='www'}, Pair{x='IO', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Monads', y='www'}, Pair{x='Zippers', y='www'}], Prolog=[Pair{x='Clauses and Predicates', y='www'}, Pair{x='Satisfying Goals', y='www'}, Pair{x='Operations and Arithmetic', y='www'}, Pair{x='Backtracking', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Loops', y='www'}]}, rate=40.0}, Resource{id=2, name='Youtube', lower bound=9, upper bound=40, description='Using Video Content to Amplify Learning', characteristics=[Patience, Attention, Focus, Persistence], contents={C=[Pair{x='File Handling', y='www'}, Pair{x='Structure and Union', y='www'}, Pair{x='Pointers', y='www'}, Pair{x='Arrays and Strings', y='www'}, Pair{x='Functions', y='www'}], JavaScript=[Pair{x='Statements', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Operators', y='www'}, Pair{x='Objects', y='www'}, Pair{x='For Loop', y='www'}, Pair{x='this', y='www'}], SQL=[Pair{x='Select', y='www'}, Pair{x='Where', y='www'}, Pair{x='Count', y='www'}, Pair{x='Avg', y='www'}, Pair{x='Sum', y='www'}, Pair{x='Joins', y='www'}, Pair{x='Keys', y='www'}, Pair{x='CRUD', y='www'}], Python=[Pair{x='Syntax', y='www'}, Pair{x='Comments', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Casting', y='www'}, Pair{x='Lists', y='www'}, Pair{x='Dictionaries', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Lambda', y='www'}, Pair{x='Iterators', y='www'}]}, rate=25.0}, Resource{id=3, name='SlideShare', lower bound=8, upper bound=50, description='Share and Discover Knowledge on SlideShare', characteristics=[Resilience, Responsibility, Determination, Focus], contents={C=[Pair{x='File Handling', y='www'}, Pair{x='Structure and Union', y='www'}, Pair{x='Pointers', y='www'}, Pair{x='Arrays and Strings', y='www'}, Pair{x='Functions', y='www'}], Swift=[Pair{x='Syntax', y='www'}, Pair{x='Data Types', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Tuples', y='www'}, Pair{x='Dictionaries', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Structures', y='www'}], Perl=[Pair{x='Syntax', y='www'}, Pair{x='Data Types', y='www'}, Pair{x='Scalars', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Directories', y='www'}, Pair{x='File IO', y='www'}, Pair{x='Regex', y='www'}], Assembly=[Pair{x='Syntax', y='www'}, Pair{x='Memory Segments', y='www'}, Pair{x='Registers', y='www'}, Pair{x='System Calls', y='www'}, Pair{x='Conditions', y='www'}, Pair{x='Loops', y='www'}]}, rate=50.0}, Resource{id=4, name='Books', lower bound=7, upper bound=70, description='The man who does not read good books has no advantage over the man who does not know how to read', characteristics=[Determination, Autodidact, Responsibility, Patience, Focus], contents={Haskell=[Pair{x='All concepts of the language', y='www'}], pHp=[Pair{x='All concepts of the language', y='www'}], Ruby=[Pair{x='All concepts of the language', y='www'}], Python=[Pair{x='All concepts of the language', y='www'}]}, rate=60.0}, Resource{id=6, name='Quiz', lower bound=10, upper bound=50, description='Test your Knowledge', characteristics=[Self Confidence, Determination, Resilience, Patience, Focus, Autodidact, Hyperactivity], contents={Java=[Pair{x='Certain concepts of the  programming languages', y='www'}], pHp=[Pair{x='Certain concepts of the  programming languages', y='www'}], Python=[Pair{x='Certain concepts of the  programming languages', y='www'}], SQL=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=28.57}, Resource{id=7, name='CodeBoard', lower bound=10, upper bound=50, description='A web based IDE to teach programming in the classroom.', characteristics=[Optimism, Determination, Resilience, Autodidact, Responsibility, Attention, Deficit, Motivation], contents={C=[Pair{x='Certain concepts of the  programming languages', y='www'}], Haskell=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=37.5}]}
+Student{id=2, name='Mauricio Salgado', age=25, characteristics=[Hyperactivity, Courage, Determination, Attention Deficit], resources=[Resource{id=1, name='Games', lower bound=8, upper bound=30, description='Learning Through Play Using Games to Educate', characteristics=[Focus, Optimism, Persistence, Creativity, Determination], contents={Java=[Pair{x='Syntax', y='codecombat.com'}, Pair{x='Data Types', y='codecombat.com'}, Pair{x='Switch', y='codecombat.com'}, Pair{x='Methods', y='www'}, Pair{x='Scope', y='www'}, Pair{x='Encapsulation', y='www'}, Pair{x='Inheritance', y='www'}, Pair{x='Threads', y='www'}, Pair{x='Regex', y='www'}], C=[Pair{x='Decision Control Structures', y='www'}, Pair{x='Loop Control Structures', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Pointers', y='www'}], Haskell=[Pair{x='Functions', y='www'}, Pair{x='Function Composition', y='www'}, Pair{x='Modules', y='www'}, Pair{x='IO', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Monads', y='www'}, Pair{x='Zippers', y='www'}], Prolog=[Pair{x='Clauses and Predicates', y='www'}, Pair{x='Satisfying Goals', y='www'}, Pair{x='Operations and Arithmetic', y='www'}, Pair{x='Backtracking', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Loops', y='www'}]}, rate=40.0}, Resource{id=3, name='SlideShare', lower bound=8, upper bound=50, description='Share and Discover Knowledge on SlideShare', characteristics=[Resilience, Responsibility, Determination, Focus], contents={C=[Pair{x='File Handling', y='www'}, Pair{x='Structure and Union', y='www'}, Pair{x='Pointers', y='www'}, Pair{x='Arrays and Strings', y='www'}, Pair{x='Functions', y='www'}], Swift=[Pair{x='Syntax', y='www'}, Pair{x='Data Types', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Tuples', y='www'}, Pair{x='Dictionaries', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Structures', y='www'}], Perl=[Pair{x='Syntax', y='www'}, Pair{x='Data Types', y='www'}, Pair{x='Scalars', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Directories', y='www'}, Pair{x='File IO', y='www'}, Pair{x='Regex', y='www'}], Assembly=[Pair{x='Syntax', y='www'}, Pair{x='Memory Segments', y='www'}, Pair{x='Registers', y='www'}, Pair{x='System Calls', y='www'}, Pair{x='Conditions', y='www'}, Pair{x='Loops', y='www'}]}, rate=50.0}, Resource{id=4, name='Books', lower bound=7, upper bound=70, description='The man who does not read good books has no advantage over the man who does not know how to read', characteristics=[Determination, Autodidact, Responsibility, Patience, Focus], contents={Haskell=[Pair{x='All concepts of the language', y='www'}], pHp=[Pair{x='All concepts of the language', y='www'}], Ruby=[Pair{x='All concepts of the language', y='www'}], Python=[Pair{x='All concepts of the language', y='www'}]}, rate=60.0}, Resource{id=5, name='Podcast', lower bound=15, upper bound=50, description='Podcasting in education takes learning beyond the limits of the classroom', characteristics=[Creativity, Hyperactivity, Focus], contents={JavaScript=[Pair{x='Certain concepts of the  programming languages', y='www'}], Swift=[Pair{x='Certain concepts of the  programming languages', y='www'}], Python=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=33.33}, Resource{id=6, name='Quiz', lower bound=10, upper bound=50, description='Test your Knowledge', characteristics=[Self Confidence, Determination, Resilience, Patience, Focus, Autodidact, Hyperactivity], contents={Java=[Pair{x='Certain concepts of the  programming languages', y='www'}], pHp=[Pair{x='Certain concepts of the  programming languages', y='www'}], Python=[Pair{x='Certain concepts of the  programming languages', y='www'}], SQL=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=28.57}, Resource{id=7, name='CodeBoard', lower bound=10, upper bound=50, description='A web based IDE to teach programming in the classroom.', characteristics=[Optimism, Determination, Resilience, Autodidact, Responsibility, Attention, Deficit, Motivation], contents={C=[Pair{x='Certain concepts of the  programming languages', y='www'}], Haskell=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=37.5}]}
+Student{id=3, name='Rui Azevedo', age=25, characteristics=[Patience, Creativity, Autodidact, Self Confidence, Humility], resources=[Resource{id=1, name='Games', lower bound=8, upper bound=30, description='Learning Through Play Using Games to Educate', characteristics=[Focus, Optimism, Persistence, Creativity, Determination], contents={Java=[Pair{x='Syntax', y='codecombat.com'}, Pair{x='Data Types', y='codecombat.com'}, Pair{x='Switch', y='codecombat.com'}, Pair{x='Methods', y='www'}, Pair{x='Scope', y='www'}, Pair{x='Encapsulation', y='www'}, Pair{x='Inheritance', y='www'}, Pair{x='Threads', y='www'}, Pair{x='Regex', y='www'}], C=[Pair{x='Decision Control Structures', y='www'}, Pair{x='Loop Control Structures', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Pointers', y='www'}], Haskell=[Pair{x='Functions', y='www'}, Pair{x='Function Composition', y='www'}, Pair{x='Modules', y='www'}, Pair{x='IO', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Monads', y='www'}, Pair{x='Zippers', y='www'}], Prolog=[Pair{x='Clauses and Predicates', y='www'}, Pair{x='Satisfying Goals', y='www'}, Pair{x='Operations and Arithmetic', y='www'}, Pair{x='Backtracking', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Loops', y='www'}]}, rate=40.0}, Resource{id=2, name='Youtube', lower bound=9, upper bound=40, description='Using Video Content to Amplify Learning', characteristics=[Patience, Attention, Focus, Persistence], contents={C=[Pair{x='File Handling', y='www'}, Pair{x='Structure and Union', y='www'}, Pair{x='Pointers', y='www'}, Pair{x='Arrays and Strings', y='www'}, Pair{x='Functions', y='www'}], JavaScript=[Pair{x='Statements', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Operators', y='www'}, Pair{x='Objects', y='www'}, Pair{x='For Loop', y='www'}, Pair{x='this', y='www'}], SQL=[Pair{x='Select', y='www'}, Pair{x='Where', y='www'}, Pair{x='Count', y='www'}, Pair{x='Avg', y='www'}, Pair{x='Sum', y='www'}, Pair{x='Joins', y='www'}, Pair{x='Keys', y='www'}, Pair{x='CRUD', y='www'}], Python=[Pair{x='Syntax', y='www'}, Pair{x='Comments', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Casting', y='www'}, Pair{x='Lists', y='www'}, Pair{x='Dictionaries', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Lambda', y='www'}, Pair{x='Iterators', y='www'}]}, rate=25.0}, Resource{id=4, name='Books', lower bound=7, upper bound=70, description='The man who does not read good books has no advantage over the man who does not know how to read', characteristics=[Determination, Autodidact, Responsibility, Patience, Focus], contents={Haskell=[Pair{x='All concepts of the language', y='www'}], pHp=[Pair{x='All concepts of the language', y='www'}], Ruby=[Pair{x='All concepts of the language', y='www'}], Python=[Pair{x='All concepts of the language', y='www'}]}, rate=60.0}, Resource{id=5, name='Podcast', lower bound=15, upper bound=50, description='Podcasting in education takes learning beyond the limits of the classroom', characteristics=[Creativity, Hyperactivity, Focus], contents={JavaScript=[Pair{x='Certain concepts of the  programming languages', y='www'}], Swift=[Pair{x='Certain concepts of the  programming languages', y='www'}], Python=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=33.33}, Resource{id=6, name='Quiz', lower bound=10, upper bound=50, description='Test your Knowledge', characteristics=[Self Confidence, Determination, Resilience, Patience, Focus, Autodidact, Hyperactivity], contents={Java=[Pair{x='Certain concepts of the  programming languages', y='www'}], pHp=[Pair{x='Certain concepts of the  programming languages', y='www'}], Python=[Pair{x='Certain concepts of the  programming languages', y='www'}], SQL=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=28.57}, Resource{id=7, name='CodeBoard', lower bound=10, upper bound=50, description='A web based IDE to teach programming in the classroom.', characteristics=[Optimism, Determination, Resilience, Autodidact, Responsibility, Attention, Deficit, Motivation], contents={C=[Pair{x='Certain concepts of the  programming languages', y='www'}], Haskell=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=37.5}]}
+Student{id=4, name='Joana Cruz', age=26, characteristics=[Integrity, Hyperactivity, Responsibility, Determination, Self Confidence], resources=[Resource{id=1, name='Games', lower bound=8, upper bound=30, description='Learning Through Play Using Games to Educate', characteristics=[Focus, Optimism, Persistence, Creativity, Determination], contents={Java=[Pair{x='Syntax', y='codecombat.com'}, Pair{x='Data Types', y='codecombat.com'}, Pair{x='Switch', y='codecombat.com'}, Pair{x='Methods', y='www'}, Pair{x='Scope', y='www'}, Pair{x='Encapsulation', y='www'}, Pair{x='Inheritance', y='www'}, Pair{x='Threads', y='www'}, Pair{x='Regex', y='www'}], C=[Pair{x='Decision Control Structures', y='www'}, Pair{x='Loop Control Structures', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Pointers', y='www'}], Haskell=[Pair{x='Functions', y='www'}, Pair{x='Function Composition', y='www'}, Pair{x='Modules', y='www'}, Pair{x='IO', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Monads', y='www'}, Pair{x='Zippers', y='www'}], Prolog=[Pair{x='Clauses and Predicates', y='www'}, Pair{x='Satisfying Goals', y='www'}, Pair{x='Operations and Arithmetic', y='www'}, Pair{x='Backtracking', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Loops', y='www'}]}, rate=40.0}, Resource{id=3, name='SlideShare', lower bound=8, upper bound=50, description='Share and Discover Knowledge on SlideShare', characteristics=[Resilience, Responsibility, Determination, Focus], contents={C=[Pair{x='File Handling', y='www'}, Pair{x='Structure and Union', y='www'}, Pair{x='Pointers', y='www'}, Pair{x='Arrays and Strings', y='www'}, Pair{x='Functions', y='www'}], Swift=[Pair{x='Syntax', y='www'}, Pair{x='Data Types', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Tuples', y='www'}, Pair{x='Dictionaries', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Structures', y='www'}], Perl=[Pair{x='Syntax', y='www'}, Pair{x='Data Types', y='www'}, Pair{x='Scalars', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Directories', y='www'}, Pair{x='File IO', y='www'}, Pair{x='Regex', y='www'}], Assembly=[Pair{x='Syntax', y='www'}, Pair{x='Memory Segments', y='www'}, Pair{x='Registers', y='www'}, Pair{x='System Calls', y='www'}, Pair{x='Conditions', y='www'}, Pair{x='Loops', y='www'}]}, rate=50.0}, Resource{id=4, name='Books', lower bound=7, upper bound=70, description='The man who does not read good books has no advantage over the man who does not know how to read', characteristics=[Determination, Autodidact, Responsibility, Patience, Focus], contents={Haskell=[Pair{x='All concepts of the language', y='www'}], pHp=[Pair{x='All concepts of the language', y='www'}], Ruby=[Pair{x='All concepts of the language', y='www'}], Python=[Pair{x='All concepts of the language', y='www'}]}, rate=60.0}, Resource{id=5, name='Podcast', lower bound=15, upper bound=50, description='Podcasting in education takes learning beyond the limits of the classroom', characteristics=[Creativity, Hyperactivity, Focus], contents={JavaScript=[Pair{x='Certain concepts of the  programming languages', y='www'}], Swift=[Pair{x='Certain concepts of the  programming languages', y='www'}], Python=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=33.33}, Resource{id=6, name='Quiz', lower bound=10, upper bound=50, description='Test your Knowledge', characteristics=[Self Confidence, Determination, Resilience, Patience, Focus, Autodidact, Hyperactivity], contents={Java=[Pair{x='Certain concepts of the  programming languages', y='www'}], pHp=[Pair{x='Certain concepts of the  programming languages', y='www'}], Python=[Pair{x='Certain concepts of the  programming languages', y='www'}], SQL=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=28.57}, Resource{id=7, name='CodeBoard', lower bound=10, upper bound=50, description='A web based IDE to teach programming in the classroom.', characteristics=[Optimism, Determination, Resilience, Autodidact, Responsibility, Attention, Deficit, Motivation], contents={C=[Pair{x='Certain concepts of the  programming languages', y='www'}], Haskell=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=37.5}]}
+Student{id=5, name='Pedro Costa', age=22, characteristics=[Optimism, Focus, Responsibility, Determination, Autodidact], resources=[Resource{id=1, name='Games', lower bound=8, upper bound=30, description='Learning Through Play Using Games to Educate', characteristics=[Focus, Optimism, Persistence, Creativity, Determination], contents={Java=[Pair{x='Syntax', y='codecombat.com'}, Pair{x='Data Types', y='codecombat.com'}, Pair{x='Switch', y='codecombat.com'}, Pair{x='Methods', y='www'}, Pair{x='Scope', y='www'}, Pair{x='Encapsulation', y='www'}, Pair{x='Inheritance', y='www'}, Pair{x='Threads', y='www'}, Pair{x='Regex', y='www'}], C=[Pair{x='Decision Control Structures', y='www'}, Pair{x='Loop Control Structures', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Pointers', y='www'}], Haskell=[Pair{x='Functions', y='www'}, Pair{x='Function Composition', y='www'}, Pair{x='Modules', y='www'}, Pair{x='IO', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Monads', y='www'}, Pair{x='Zippers', y='www'}], Prolog=[Pair{x='Clauses and Predicates', y='www'}, Pair{x='Satisfying Goals', y='www'}, Pair{x='Operations and Arithmetic', y='www'}, Pair{x='Backtracking', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Loops', y='www'}]}, rate=40.0}, Resource{id=2, name='Youtube', lower bound=9, upper bound=40, description='Using Video Content to Amplify Learning', characteristics=[Patience, Attention, Focus, Persistence], contents={C=[Pair{x='File Handling', y='www'}, Pair{x='Structure and Union', y='www'}, Pair{x='Pointers', y='www'}, Pair{x='Arrays and Strings', y='www'}, Pair{x='Functions', y='www'}], JavaScript=[Pair{x='Statements', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Operators', y='www'}, Pair{x='Objects', y='www'}, Pair{x='For Loop', y='www'}, Pair{x='this', y='www'}], SQL=[Pair{x='Select', y='www'}, Pair{x='Where', y='www'}, Pair{x='Count', y='www'}, Pair{x='Avg', y='www'}, Pair{x='Sum', y='www'}, Pair{x='Joins', y='www'}, Pair{x='Keys', y='www'}, Pair{x='CRUD', y='www'}], Python=[Pair{x='Syntax', y='www'}, Pair{x='Comments', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Casting', y='www'}, Pair{x='Lists', y='www'}, Pair{x='Dictionaries', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Lambda', y='www'}, Pair{x='Iterators', y='www'}]}, rate=25.0}, Resource{id=3, name='SlideShare', lower bound=8, upper bound=50, description='Share and Discover Knowledge on SlideShare', characteristics=[Resilience, Responsibility, Determination, Focus], contents={C=[Pair{x='File Handling', y='www'}, Pair{x='Structure and Union', y='www'}, Pair{x='Pointers', y='www'}, Pair{x='Arrays and Strings', y='www'}, Pair{x='Functions', y='www'}], Swift=[Pair{x='Syntax', y='www'}, Pair{x='Data Types', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Tuples', y='www'}, Pair{x='Dictionaries', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Structures', y='www'}], Perl=[Pair{x='Syntax', y='www'}, Pair{x='Data Types', y='www'}, Pair{x='Scalars', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Directories', y='www'}, Pair{x='File IO', y='www'}, Pair{x='Regex', y='www'}], Assembly=[Pair{x='Syntax', y='www'}, Pair{x='Memory Segments', y='www'}, Pair{x='Registers', y='www'}, Pair{x='System Calls', y='www'}, Pair{x='Conditions', y='www'}, Pair{x='Loops', y='www'}]}, rate=50.0}, Resource{id=4, name='Books', lower bound=7, upper bound=70, description='The man who does not read good books has no advantage over the man who does not know how to read', characteristics=[Determination, Autodidact, Responsibility, Patience, Focus], contents={Haskell=[Pair{x='All concepts of the language', y='www'}], pHp=[Pair{x='All concepts of the language', y='www'}], Ruby=[Pair{x='All concepts of the language', y='www'}], Python=[Pair{x='All concepts of the language', y='www'}]}, rate=60.0}, Resource{id=5, name='Podcast', lower bound=15, upper bound=50, description='Podcasting in education takes learning beyond the limits of the classroom', characteristics=[Creativity, Hyperactivity, Focus], contents={JavaScript=[Pair{x='Certain concepts of the  programming languages', y='www'}], Swift=[Pair{x='Certain concepts of the  programming languages', y='www'}], Python=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=33.33}, Resource{id=6, name='Quiz', lower bound=10, upper bound=50, description='Test your Knowledge', characteristics=[Self Confidence, Determination, Resilience, Patience, Focus, Autodidact, Hyperactivity], contents={Java=[Pair{x='Certain concepts of the  programming languages', y='www'}], pHp=[Pair{x='Certain concepts of the  programming languages', y='www'}], Python=[Pair{x='Certain concepts of the  programming languages', y='www'}], SQL=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=28.57}, Resource{id=7, name='CodeBoard', lower bound=10, upper bound=50, description='A web based IDE to teach programming in the classroom.', characteristics=[Optimism, Determination, Resilience, Autodidact, Responsibility, Attention, Deficit, Motivation], contents={C=[Pair{x='Certain concepts of the  programming languages', y='www'}], Haskell=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=37.5}]}
+Student{id=6, name='Miguel Quaresma', age=23, characteristics=[Autodidact, Persistence, Determination, Humility, Responsibility], resources=[Resource{id=1, name='Games', lower bound=8, upper bound=30, description='Learning Through Play Using Games to Educate', characteristics=[Focus, Optimism, Persistence, Creativity, Determination], contents={Java=[Pair{x='Syntax', y='codecombat.com'}, Pair{x='Data Types', y='codecombat.com'}, Pair{x='Switch', y='codecombat.com'}, Pair{x='Methods', y='www'}, Pair{x='Scope', y='www'}, Pair{x='Encapsulation', y='www'}, Pair{x='Inheritance', y='www'}, Pair{x='Threads', y='www'}, Pair{x='Regex', y='www'}], C=[Pair{x='Decision Control Structures', y='www'}, Pair{x='Loop Control Structures', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Pointers', y='www'}], Haskell=[Pair{x='Functions', y='www'}, Pair{x='Function Composition', y='www'}, Pair{x='Modules', y='www'}, Pair{x='IO', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Monads', y='www'}, Pair{x='Zippers', y='www'}], Prolog=[Pair{x='Clauses and Predicates', y='www'}, Pair{x='Satisfying Goals', y='www'}, Pair{x='Operations and Arithmetic', y='www'}, Pair{x='Backtracking', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Loops', y='www'}]}, rate=40.0}, Resource{id=2, name='Youtube', lower bound=9, upper bound=40, description='Using Video Content to Amplify Learning', characteristics=[Patience, Attention, Focus, Persistence], contents={C=[Pair{x='File Handling', y='www'}, Pair{x='Structure and Union', y='www'}, Pair{x='Pointers', y='www'}, Pair{x='Arrays and Strings', y='www'}, Pair{x='Functions', y='www'}], JavaScript=[Pair{x='Statements', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Operators', y='www'}, Pair{x='Objects', y='www'}, Pair{x='For Loop', y='www'}, Pair{x='this', y='www'}], SQL=[Pair{x='Select', y='www'}, Pair{x='Where', y='www'}, Pair{x='Count', y='www'}, Pair{x='Avg', y='www'}, Pair{x='Sum', y='www'}, Pair{x='Joins', y='www'}, Pair{x='Keys', y='www'}, Pair{x='CRUD', y='www'}], Python=[Pair{x='Syntax', y='www'}, Pair{x='Comments', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Casting', y='www'}, Pair{x='Lists', y='www'}, Pair{x='Dictionaries', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Lambda', y='www'}, Pair{x='Iterators', y='www'}]}, rate=25.0}, Resource{id=3, name='SlideShare', lower bound=8, upper bound=50, description='Share and Discover Knowledge on SlideShare', characteristics=[Resilience, Responsibility, Determination, Focus], contents={C=[Pair{x='File Handling', y='www'}, Pair{x='Structure and Union', y='www'}, Pair{x='Pointers', y='www'}, Pair{x='Arrays and Strings', y='www'}, Pair{x='Functions', y='www'}], Swift=[Pair{x='Syntax', y='www'}, Pair{x='Data Types', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Tuples', y='www'}, Pair{x='Dictionaries', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Structures', y='www'}], Perl=[Pair{x='Syntax', y='www'}, Pair{x='Data Types', y='www'}, Pair{x='Scalars', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Directories', y='www'}, Pair{x='File IO', y='www'}, Pair{x='Regex', y='www'}], Assembly=[Pair{x='Syntax', y='www'}, Pair{x='Memory Segments', y='www'}, Pair{x='Registers', y='www'}, Pair{x='System Calls', y='www'}, Pair{x='Conditions', y='www'}, Pair{x='Loops', y='www'}]}, rate=50.0}, Resource{id=4, name='Books', lower bound=7, upper bound=70, description='The man who does not read good books has no advantage over the man who does not know how to read', characteristics=[Determination, Autodidact, Responsibility, Patience, Focus], contents={Haskell=[Pair{x='All concepts of the language', y='www'}], pHp=[Pair{x='All concepts of the language', y='www'}], Ruby=[Pair{x='All concepts of the language', y='www'}], Python=[Pair{x='All concepts of the language', y='www'}]}, rate=60.0}, Resource{id=6, name='Quiz', lower bound=10, upper bound=50, description='Test your Knowledge', characteristics=[Self Confidence, Determination, Resilience, Patience, Focus, Autodidact, Hyperactivity], contents={Java=[Pair{x='Certain concepts of the  programming languages', y='www'}], pHp=[Pair{x='Certain concepts of the  programming languages', y='www'}], Python=[Pair{x='Certain concepts of the  programming languages', y='www'}], SQL=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=28.57}, Resource{id=7, name='CodeBoard', lower bound=10, upper bound=50, description='A web based IDE to teach programming in the classroom.', characteristics=[Optimism, Determination, Resilience, Autodidact, Responsibility, Attention, Deficit, Motivation], contents={C=[Pair{x='Certain concepts of the  programming languages', y='www'}], Haskell=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=37.5}]}
+---------------------------------------------------------------------------------------------------
+------------ Languages List -------------
+Language{id=1, name='Java'}
+Language{id=2, name='C'}
+Language{id=3, name='Cplusplus'}
+Language{id=4, name='CSharp'}
+Language{id=5, name='Python'}
+Language{id=6, name='JavaScript'}
+Language{id=7, name='Perl'}
+Language{id=8, name='Assembly'}
+Language{id=9, name='pHp'}
+Language{id=10, name='Ruby'}
+Language{id=11, name='Go'}
+Language{id=12, name='Swift'}
+Language{id=13, name='SQL'}
+Language{id=14, name='Prolog'}
+Language{id=15, name='Haskell'}
+-----------------------------------------
+------------ Resources List -------------
+Resource{id=1, name='Games', lower bound=8, upper bound=30, description='Learning Through Play Using Games to Educate', characteristics=[Focus, Optimism, Persistence, Creativity, Determination], contents={Java=[Pair{x='Syntax', y='codecombat.com'}, Pair{x='Data Types', y='codecombat.com'}, Pair{x='Switch', y='codecombat.com'}, Pair{x='Methods', y='www'}, Pair{x='Scope', y='www'}, Pair{x='Encapsulation', y='www'}, Pair{x='Inheritance', y='www'}, Pair{x='Threads', y='www'}, Pair{x='Regex', y='www'}], C=[Pair{x='Decision Control Structures', y='www'}, Pair{x='Loop Control Structures', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Pointers', y='www'}], Haskell=[Pair{x='Functions', y='www'}, Pair{x='Function Composition', y='www'}, Pair{x='Modules', y='www'}, Pair{x='IO', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Monads', y='www'}, Pair{x='Zippers', y='www'}], Prolog=[Pair{x='Clauses and Predicates', y='www'}, Pair{x='Satisfying Goals', y='www'}, Pair{x='Operations and Arithmetic', y='www'}, Pair{x='Backtracking', y='www'}, Pair{x='Functor', y='www'}, Pair{x='Loops', y='www'}]}, rate=40.0}
+Resource{id=2, name='Youtube', lower bound=9, upper bound=40, description='Using Video Content to Amplify Learning', characteristics=[Patience, Attention, Focus, Persistence], contents={C=[Pair{x='File Handling', y='www'}, Pair{x='Structure and Union', y='www'}, Pair{x='Pointers', y='www'}, Pair{x='Arrays and Strings', y='www'}, Pair{x='Functions', y='www'}], JavaScript=[Pair{x='Statements', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Operators', y='www'}, Pair{x='Objects', y='www'}, Pair{x='For Loop', y='www'}, Pair{x='this', y='www'}], SQL=[Pair{x='Select', y='www'}, Pair{x='Where', y='www'}, Pair{x='Count', y='www'}, Pair{x='Avg', y='www'}, Pair{x='Sum', y='www'}, Pair{x='Joins', y='www'}, Pair{x='Keys', y='www'}, Pair{x='CRUD', y='www'}], Python=[Pair{x='Syntax', y='www'}, Pair{x='Comments', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Casting', y='www'}, Pair{x='Lists', y='www'}, Pair{x='Dictionaries', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Lambda', y='www'}, Pair{x='Iterators', y='www'}]}, rate=25.0}
+Resource{id=3, name='SlideShare', lower bound=8, upper bound=50, description='Share and Discover Knowledge on SlideShare', characteristics=[Resilience, Responsibility, Determination, Focus], contents={C=[Pair{x='File Handling', y='www'}, Pair{x='Structure and Union', y='www'}, Pair{x='Pointers', y='www'}, Pair{x='Arrays and Strings', y='www'}, Pair{x='Functions', y='www'}], Swift=[Pair{x='Syntax', y='www'}, Pair{x='Data Types', y='www'}, Pair{x='Variables', y='www'}, Pair{x='Tuples', y='www'}, Pair{x='Dictionaries', y='www'}, Pair{x='Functions', y='www'}, Pair{x='Structures', y='www'}], Perl=[Pair{x='Syntax', y='www'}, Pair{x='Data Types', y='www'}, Pair{x='Scalars', y='www'}, Pair{x='Arrays', y='www'}, Pair{x='Directories', y='www'}, Pair{x='File IO', y='www'}, Pair{x='Regex', y='www'}], Assembly=[Pair{x='Syntax', y='www'}, Pair{x='Memory Segments', y='www'}, Pair{x='Registers', y='www'}, Pair{x='System Calls', y='www'}, Pair{x='Conditions', y='www'}, Pair{x='Loops', y='www'}]}, rate=50.0}
+Resource{id=4, name='Books', lower bound=7, upper bound=70, description='The man who does not read good books has no advantage over the man who does not know how to read', characteristics=[Determination, Autodidact, Responsibility, Patience, Focus], contents={Haskell=[Pair{x='All concepts of the language', y='www'}], pHp=[Pair{x='All concepts of the language', y='www'}], Ruby=[Pair{x='All concepts of the language', y='www'}], Python=[Pair{x='All concepts of the language', y='www'}]}, rate=60.0}
+Resource{id=5, name='Podcast', lower bound=15, upper bound=50, description='Podcasting in education takes learning beyond the limits of the classroom', characteristics=[Creativity, Hyperactivity, Focus], contents={JavaScript=[Pair{x='Certain concepts of the  programming languages', y='www'}], Swift=[Pair{x='Certain concepts of the  programming languages', y='www'}], Python=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=33.33}
+Resource{id=6, name='Quiz', lower bound=10, upper bound=50, description='Test your Knowledge', characteristics=[Self Confidence, Determination, Resilience, Patience, Focus, Autodidact, Hyperactivity], contents={Java=[Pair{x='Certain concepts of the  programming languages', y='www'}], pHp=[Pair{x='Certain concepts of the  programming languages', y='www'}], Python=[Pair{x='Certain concepts of the  programming languages', y='www'}], SQL=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=28.57}
+Resource{id=7, name='CodeBoard', lower bound=10, upper bound=50, description='A web based IDE to teach programming in the classroom.', characteristics=[Optimism, Determination, Resilience, Autodidact, Responsibility, Attention, Deficit, Motivation], contents={C=[Pair{x='Certain concepts of the  programming languages', y='www'}], Haskell=[Pair{x='Certain concepts of the  programming languages', y='www'}]}, rate=37.5}
+-----------------------------------------
