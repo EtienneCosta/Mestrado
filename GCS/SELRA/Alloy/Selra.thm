@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view>
+
+<defaultnode/>
+
+<defaultedge/>
+
+<node>
+   <type name="Int"/>
+   <type name="univ"/>
+   <type name="seq/Int"/>
+</node>
+
+<node color="Gray">
+   <type name="Language"/>
+</node>
+
+<node shape="Ellipse" color="Gray">
+   <type name="Resource"/>
+</node>
+
+<node shape="Lined Circle" color="White">
+   <type name="Student"/>
+</node>
+
+<node shape="Lined Square" color="Black">
+   <type name="Url"/>
+</node>
+
+<node shape="Lined Square" color="Blue">
+   <type name="Concept"/>
+</node>
+
+<node style="Dotted" color="Black">
+   <type name="String"/>
+</node>
+
+</view>
+
+</alloy>
