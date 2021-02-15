@@ -34,7 +34,7 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 
 **Especificação e Modelação**
 
-- [Lamport Mutex](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/ParserCombinators) - Distributed mutual exclusion algorithm .
+- [Lamport Mutex](https://github.com/EtienneCosta/Mestrado/tree/main/EM/Project/LamportMutex) - Distributed mutual exclusion algorithm .
 
 
 
