@@ -41,12 +41,8 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 
 # Base de Dados NoSQL
 
+- [Relational vs Non-Relational Databases](https://github.com/EtienneCosta/Mestrado/tree/main/BDNoSql/Trabalho%20Pr%C3%A1tico) - Oracle,Mongo and Neo4j.
 
-
-
-
-  
-  
 
 
 ## Contributors
