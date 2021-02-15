@@ -1,0 +1,391 @@
+open util/ordering[Clock] as C
+open util/ordering[Process] as P
+
+
+/** --------------------------------------------------------------------------
+|  Lamport's Logical Clocks                                                            
+------------------------------------------------------------------------------- */
+
+sig Clock{}
+
+/** ----------------------------------------------------------------------------	 
+|-> Processes 									       	 
+|	Fixed collection of processes which share a single resource 	 
+|       											 
+|	<$> clock : each process as its own logical clock		 
+|	<$> requests : set of sent and delivered requests			 
+| 	<$> acks :  acknowledgements received by 			 
+| ---------------------------------------------------------------------------- */
+
+sig Process{
+	var clock : one Clock,
+	var requests: set Req, 
+	var acks : set Process
+}
+
+/** ------------------------------------------------------------------------------- 
+|-> Critical Section 								         
+|	Set of processes in the critical section					    
+|       											    
+|	<$> process : each process as its own logical clock	        	    
+| ------------------------------------------------------------------------------- */
+
+one sig CriticalSection{
+	var critical: lone Process
+}
+
+/** ------------------------------------------------------------------------------- 
+|-> Message 									       	    
+|	Messages sent between processes, it can be Request,                 
+|    Acknowloedgement or Release                                         	    
+|       											    
+|	<$> from : message sender		 		            
+|	<$> to : message receiver 					    
+| 	<$> timeStamp : Process clock at the time of message creation 
+| ------------------------------------------------------------------------------- */
+
+var abstract sig Message{
+	var from: one Process,
+	var timeStamp: one Clock
+}
+
+var sig Req, Ack, Rel extends Message {}
+
+/** ----------------------------------------------------------------------------	 
+|-> Network 									       	 
+|	Stores messages that were sent but not yet delivered     	 
+|       											 
+|	<$> inbox : for each tuple of processes exists one queue	 
+| ---------------------------------------------------------------------------- */
+
+one sig Network{
+	inbox: Process -> Process -> Queue
+}
+
+/** ----------------------------------------------------------------------------	 
+|-> Queue 									       	         
+|	Used to store messages in the Network  	                         
+|       											 
+|	<$> messages : messages sent by one process to another	 
+| ---------------------------------------------------------------------------- */
+
+sig Queue{
+	var messages: seq Message
+}
+
+/** --- Functions ----------------------------------------------------------- */
+
+// Returns the network queue of two processes, similar to network[p][q]
+fun box[p, q : Process]: Queue {
+	q.(p.(Network.inbox))
+}
+
+// returns the set os messages that are on the network queue
+// messages in queue have green color in the visualizer
+fun requestsQueue[]: set Message{
+	Queue.messages.elems
+}
+
+fun acksNotInQueue[]: set Ack{
+	Ack - Queue.messages.elems
+}
+
+/** --- Asserts  ----------------------------------------------------------- */
+
+// No channel ever contains more than three messages. 
+// In fact, no channel ever contains more than one message of the same type
+assert boundedNetwork{
+	always (all disj p,q : Process | #box[p][q] <= 3)
+}
+
+// safety : No two processes are in the critical section at the same time
+assert safety{
+	always (all p,q : Process | p in CriticalSection.critical and q in CriticalSection.critical => p = q)
+}
+
+// liveness : eventually there will be a process in the critical section
+assert liveness{
+	eventually some CriticalSection.critical
+}
+
+check boundedNetwork
+check safety
+check liveness
+
+/** --- Facts ------------------------------------------------------- */
+
+// initial state
+fact Init{
+	/* --- Process --- */
+	all p : Process | p.clock = first.next
+	no requests
+	/* there no acks */
+	no acks
+	/* --- Critical Section --- */
+	/* initially there are no processes in the critical section */
+	no critical
+	/* --- Messages --- */
+	/* There are no ack and no rel messages */
+	no Req + Ack + Rel
+	/* --- Network --- */
+	/* There is not queue in the network which the sender and the receiver is the same process */
+	no Network.inbox.Queue & iden  // irreflexive 
+	all disj p, p1 : Process | {
+		/* There is exactly one box for each pair of processes */
+		one box[p,p1]
+		/* The queues are empty */
+		box[p,p1].messages.isEmpty
+		/* Each pair of processes have their own queue */
+		all disj p2, p3 : Process |  box[p, p1] = box[p2, p3] implies p = p2 and p1 = p3
+	}
+	/* The number of queues is exactly the one that is needed to assure comunication between two processes, this is 
+	     there are not unused queues */
+	Queue in Process.(Process.(Network.inbox))
+}
+
+// next state 
+fact progress {
+	always (
+		nop or
+		some p: Process | request[p]  or enter[p] or exit[p] or
+		some disj q,q1 : Process |  receiveRequest[q,q1] or receiveAck[q,q1] or receiveRelease[p,q]
+	)
+}
+
+fact fairness {
+
+}
+
+/** --- Preds ------------------------------------------------------- */
+
+pred nop {
+	/* Process */
+	clock' = clock
+	requests' = requests
+	acks' = acks
+	/* CriticalSection */
+	critical' = critical
+	/* Message */
+	Message' = Message 
+	Req' = Req 
+	Ack' = Ack
+	Rel' = Rel
+	from' = from
+	timeStamp' = timeStamp
+	/* Network*/
+	messages' = messages
+}
+
+/** ---------------------------------------------------------------------------- 
+	beats(p,q) is true if process p believes that its request has higher    
+	priority than q's request. This is true if either p has not received a  
+	request from q or p's request has a smaller clock value than q's.       
+	If there is a tie, the numerical process ID decides.  
+--------------------------------------------------------------------------------- **/
+
+pred beats[p,q : Process]{
+	let mp = (p.requests <: from), msgp = mp.p, msgq = mp.q | {
+		/* p as not requests from q */
+		Req->p not in mp or
+		/* p request's time stamp must be less than q request's timestamp */
+		lt[msgp.timeStamp, msgq.timeStamp] or
+		/* if the time stamps are the same, p's process id must be less than q's process id */
+		(msgp.timeStamp = msgq.timeStamp and lt[p,q])
+	}
+}
+
+/** ------------------------------------------------------------------------------|
+	|-> Broadcasts messsage m to every process
+------------------------------------------------------------------------------- **/
+
+pred broadcast(s : Process, m : Message){
+	/* appends the message in all channels */
+	all r  : Process - s | box[s,r].messages' = box[s,r].messages.add[m]
+	/* all other channels remain the same */
+	all disj p,q : Process | p != s => box[p,q].messages' = box[p,q].messages
+}
+
+/** ------------------------------------------------------------------------------|
+	|-> Process p requests access to critical section.                   
+ ------------------------------------------------------------------------------ **/
+
+pred request[p: Process]{
+	one disj m,m1 : Req' | {
+		/* create message */
+		m not in Message and m1 not in Message
+		m->p + m1->p in from' and from' - m->p - m1->p = from
+		m->p.clock + m1->p.clock in timeStamp' and timeStamp' - m->p.clock - m1->p.clock = timeStamp
+		/* places request in request[p], all other requests remain the same */
+		m in p.requests'
+		requests' - p->m = requests
+		/* Messages remain the same */
+		Message' - m - m1 = Message
+		/* broadcasts message to all other processes */
+		broadcast[p,m1]
+	}
+	/* sends an ack to itself */
+	p.acks' = p.acks + p
+	acks' - p->p = acks
+	/* unchanged */
+	clock' = clock
+	critical' = critical
+	Ack' = Ack
+	Rel' = Rel
+}
+
+/** --------------------------------------------------------------------------|
+	|-> Process p receives a request from q and acknowledges it.        
+ --------------------------------------------------------------------------- **/
+
+pred receiveRequest(p,q : Process){
+	/* there must be a request to receive */
+	not box[q,p].messages.isEmpty
+	let m = box[q,p].messages.first, c = m.timeStamp | {
+		/* Message creation */
+		m in Req
+		one a : Ack' {
+			/* adds message in the channel to process requests */
+			requests' = requests + p->m
+			/* Lamports' clock implementation rule IRII(b) from his papper */
+			gt[c, p.clock] => p.clock' = c.next else p.clock' = (p.clock).next 
+			/* remove the head of p->q queue */
+			box[q,p].messages' = box[q,p].messages.rest
+			/* Creation of ack message  */
+			a not in Message
+			a.from' = p
+			a.timeStamp' = p.clock
+			/* sends ack */
+			box[p,q].messages' = box[p,q].messages.add[a]
+			/* Messages remain the same */
+			Message' = Message + a
+			Message' - a = Message
+			from' - a->p = from
+			timeStamp' - a->p.clock  = timeStamp
+		}
+	}
+	/* all channels except p->q & q->p remain the same */
+	let b = Network.inbox - p->q->Queue - q -> p -> Queue | b.messages' = b.messages
+	/* unchanged */
+	(Process - p).clock' = (Process - p).clock
+	acks' = acks
+	critical' = critical 
+	Rel' = Rel
+}
+
+/** ------------------------------------------------------------------------------------------
+	|-> Process p receives an acknowledgement from q.       
+ ---------------------------------------------------------------------------------------------- **/
+
+pred receiveAck(p,q : Process){
+	/* the channel must contain a message */
+	not box[q,p].messages.isEmpty
+	let m = box[q,p].messages.first | {
+		/* the message in the channel must be an Ack */
+		m in Ack
+		/* adds the ack to the set of acks */
+		acks' = acks + p->q
+		/* removes the message from the channel, leaving the rest of messages the same */
+		box[q,p].messages' = box[q,p].messages.rest
+		let b = Network.inbox - q -> p -> Queue | b.messages' = b.messages
+	}
+	/* unchanged */
+	clock' = clock
+	requests' = requests
+	critical' = critical
+	Message' = Message
+	from' = from
+	timeStamp' = timeStamp
+	Req' = Req
+	Rel' = Rel
+	Ack' = Ack
+}
+
+/** ------------------------------------------------------------------------------------------
+	|-> Process p enters the critical section.  
+ ---------------------------------------------------------------------------------------------- **/
+
+pred enter(p : Process){
+	/* process p must have received an ack from all other processes */
+	Process in p.acks
+	/* decide if p beats q */
+	all q : Process - p | beats[p,q]
+	/* there must be no processes in the critical section */
+	no CriticalSection.critical 
+	/* process p will be granted the critical section in the next state */
+	CriticalSection.critical' = p
+	/* unchanged */
+	clock' = clock
+	requests' = requests
+	acks' = acks
+	Message' = Message
+	Req' + Ack' + Rel' = Req + Ack + Rel
+	from' = from and timeStamp' = timeStamp
+	messages' = messages
+}
+
+/** ------------------------------------------------------------------------------------------
+	Process p exits the critical section and notifies other processes.
+ ---------------------------------------------------------------------------------------------- **/
+
+pred exit(p : Process){
+	/* p must be in the critical section in the current state & critical section is empty in the next state */
+	p in CriticalSection.critical and no CriticalSection.critical'
+	/* process p removes all the acks received */
+	no p.acks' and (Process - p).acks' = (Process - p).acks
+	/* p removes from his request list all requests sent by itself */
+	let pReq = p.requests <: from, msgp = pReq.p | {
+		Req' = Req - msgp
+		requests' = requests - p->msgp
+	}
+	/* creates a release message and broadcasts it */
+	one m : Rel' | {
+		Rel' - m = Rel
+		m not in Message
+		m.from' = p
+//		m->p in from' and from' - m->p = from
+//		m->p.clock in timeStamp' and timeStamp' - m->p.clock = timeStamp
+		broadcast[p,m]
+	}
+	/* unchanged */
+	clock' = clock
+	Ack' = Ack
+}
+
+/** ------------------------------------------------------------------------------------------
+	|-> Process p receives a release notification from q. 
+ ---------------------------------------------------------------------------------------------- **/
+
+pred receiveRelease(p,q : Process){
+	/* the channel must have messages */
+	not box[q,p].messages.isEmpty
+	/* the message must be a release message */
+	box[q,p].messages.first in Rel
+	/* removes the message from the channel */
+	box[q,p].messages' = box[q,p].messages.rest
+	let b = Network.inbox - q -> p -> Queue | b.messages' = b.messages
+	/* process p removes all requests sent by process q */
+	let m = (p.requests <: from).q | {
+		m not in p.requests'
+		requests' = requests - p->m
+//		m->Clock not in timeStamp' and timeStamp' = timeStamp - m->Clock
+//		Req' = Req - m	
+	}
+	/* unchanged */
+	clock' = clock
+	acks' = acks
+	critical' = critical
+	Ack' = Ack
+	timeStamp' = timeStamp
+	from' = from
+}
+
+/** ------------------------------------------------------------------------------------------
+	|-> Runs
+ ---------------------------------------------------------------------------------------------- **/
+
+run {
+	eventually some disj p,q : Process | receiveRelease[p,q]
+	//eventually all p : Process | some p.requests
+	//eventually some p : Process | Process in p.acks
+	
+} for 10 but exactly 2 Process
