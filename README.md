@@ -51,4 +51,17 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 
 ## Contributors
 * [Etienne Costa](https://github.com/EtienneCosta)
+* [Rui Azevedo](https://github.com/ruiAzevedo19)
+* [Gonçalo Pinto](https://github.com/GRP99)
+* [Luís Ribeiro](https://github.com/luis1ribeiro)
+* [André Morais](https://github.com/Demorales1998)
+* [Maurício Salgado](https://github.com/MauricioSalgado)
+
+
+
+
+
+
+
+
 
