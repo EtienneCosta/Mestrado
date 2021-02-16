@@ -21,8 +21,7 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 - [List](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/List)- List grammar.
 - [Mixed List](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/ListasMistas)- Mixed list grammar.
 - [Class](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/Turma)- Class grammar.
-
-
+- [SELRA](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/SELRA)- Selection of learning resources .
 
 # Métodos Formais em Engenharia de Software
 
