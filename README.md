@@ -40,7 +40,7 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 
 **Cálculo de Sistemas de Informação**
 
-- [Wiki] (https://haslab.github.io/MFES/CSI/2021/index) 
+- [Wiki](https://haslab.github.io/MFES/CSI/2021/index) 
 
 
 
