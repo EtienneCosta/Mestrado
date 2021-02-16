@@ -28,6 +28,20 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 **Análise e Teste de Software**
 
 - [Parser Combinators](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/ParserCombinators) - GIC made in haskell.
+- [Code Smells](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/Code%20Smells) - Code Smells.
+- [EvoSuite](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/EvoSuite) - Evosuite.
+- [JUnit](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/JUNIT) - JUnit.
+- [POM](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/POM) - POM XML TEMPLATE.
+- [RAPL](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/RAPL) - Running Average Power Limit.
+- [Refactoring](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/Refactoring)- Refactoring .
+- [Software Metrics](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/SoftwareMetrics) - Software Metrics.
+- [Java Code Analizer]() - 
+
+
+
+
+
+
 
 
 
@@ -51,12 +65,14 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 
 
 ## Contributors
+* [André Morais](https://github.com/Demorales1998)
 * [Etienne Costa](https://github.com/EtienneCosta)
-* [Rui Azevedo](https://github.com/ruiAzevedo19)
 * [Gonçalo Pinto](https://github.com/GRP99)
 * [Luís Ribeiro](https://github.com/luis1ribeiro)
-* [André Morais](https://github.com/Demorales1998)
 * [Maurício Salgado](https://github.com/MauricioSalgado)
+* [Rui Azevedo](https://github.com/ruiAzevedo19)⭐️
+
+
 
 
 
