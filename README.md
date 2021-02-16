@@ -21,41 +21,58 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 - [List](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/List)- List grammar.
 - [Mixed List](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/ListasMistas)- Mixed list grammar.
 - [Class](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/Turma)- Class grammar.
-
-
+- [SELRA](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/SELRA)- Selection of learning resources .
 
 # Métodos Formais em Engenharia de Software
 
 **Análise e Teste de Software**
 
 - [Parser Combinators](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/ParserCombinators) - GIC made in haskell.
+- [Code Smells](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/Code%20Smells) - Code Smells.
+- [EvoSuite](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/EvoSuite) - Evosuite.
+- [JUnit](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/JUNIT) - JUnit.
+- [POM](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/POM) - POM XML TEMPLATE.
+- [RAPL](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/RAPL) - Running Average Power Limit.
+- [Refactoring](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/Refactoring)- Refactoring .
+- [Software Metrics](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/SoftwareMetrics) - Software Metrics.
+- [Java Code Analizer]() - 
+
+
+
+
+
+
 
 
 
 **Especificação e Modelação**
 
+- [Lamport Mutex](https://github.com/EtienneCosta/Mestrado/tree/main/EM/Project/LamportMutex) - Distributed mutual exclusion algorithm .
+
+
+
 
 **Cálculo de Sistemas de Informação**
+
+- [Wiki](https://haslab.github.io/MFES/CSI/2021/index) 
 
 
 
 # Base de Dados NoSQL
 
+- [Relational vs Non-Relational Databases](https://github.com/EtienneCosta/Mestrado/tree/main/BDNoSql/Trabalho%20Pr%C3%A1tico) - Oracle,Mongo and Neo4j.
 
-
-
-
-  
-  
 
 
 ## Contributors
+* [André Morais](https://github.com/Demorales1998)
 * [Etienne Costa](https://github.com/EtienneCosta)
-* [Rui Azevedo](https://github.com/ruiAzevedo19)
 * [Gonçalo Pinto](https://github.com/GRP99)
 * [Luís Ribeiro](https://github.com/luis1ribeiro)
-* [André Morais](https://github.com/Demorales1998)
 * [Maurício Salgado](https://github.com/MauricioSalgado)
+* [Rui Azevedo](https://github.com/ruiAzevedo19) ⭐️
+
+
 
 
 
