@@ -70,7 +70,7 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 * [Gonçalo Pinto](https://github.com/GRP99)
 * [Luís Ribeiro](https://github.com/luis1ribeiro)
 * [Maurício Salgado](https://github.com/MauricioSalgado)
-* [Rui Azevedo](https://github.com/ruiAzevedo19)⭐️
+* [Rui Azevedo](https://github.com/ruiAzevedo19) ⭐️
 
 
 
