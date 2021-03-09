@@ -1,0 +1,49 @@
+#################################################################
+#    Individuals
+#################################################################
+
+
+#################################################################
+#    Aluno Structure
+#################################################################
+
+:etiennecosta     rdf:type    owl:NamedIndividual,
+                        :Aluno ;
+            :frequenta  :prc ,
+                        :spln ,
+                        :vf ,
+                        :a&c ;
+ 
+            :éAlunoDe   :jcr ,
+                        :jsp ,
+                        :lsb ,
+                        :jj ;  
+            :nome "Etienne Costa"  .
+
+#################################################################
+#    Professor Structure
+#################################################################
+:jcr       rdf:type     owl:NamedIndividual,
+                        :Professor;
+           :ensina  :prc ;
+
+           :éProfessorDe : ecosta,
+                         : msalgado;
+
+           :nome "José Ramalho" .
+
+#################################################################
+#    UnidadeCurricular Structure
+#################################################################
+
+:spln      rdf:type     owl:NamedIndividual
+                        :UnidadeCurricular;
+           
+           :éEnsinadaPor :jj ;
+           
+           :éFrequentadaPor : etiennecosta,
+                            : mauriciosalgado;
+
+           :anoLectivo   "2020/2021" ;
+           :designação   "Scripting no Processamento de Linguagem Natural" .
+

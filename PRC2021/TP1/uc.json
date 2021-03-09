@@ -1,0 +1,5051 @@
+[
+  {
+    "_id": "603c437e030d97758c202774",
+    "nome":{
+      "primeiro":"José",
+      "último":"João"
+    },
+    "ensina":{
+      "código":"SPLN",
+      "designação":"Scripting no Processamento de Linguagem Natural",
+      "anoLectivo":"2020/2021"
+    }
+  },
+  {
+    "_id": "603c437e030d97758c202775",
+    "nome":{
+      "primeiro":"José",
+      "último":"Ramalho"
+    },
+    "ensina":{
+      "código":"PRC",
+      "designação":"Processamento e Representação de Informação",
+      "anoLectivo":"2020/2021"
+    }
+  },
+  {
+    "_id": "603c437e030d97758c202776",
+    "nome":{
+      "primeiro":"Jorge",
+      "último":"Pinto"
+    },
+    "ensina":{
+      "código":"VF",
+      "designação":"Verificação Formal",
+      "anoLectivo":"2020/2021"
+    }
+  },
+  {
+    "_id": "603c437e030d97758c202777",
+    "nome":{
+      "primeiro":"Luís",
+      "último":"Barbosa"
+    },
+    "ensina":{
+      "código":"A&C",
+      "designação":"Arquitetura e Cálculo",
+      "anoLectivo":"2020/2021"
+    }
+  },
+
+  {
+    "_id": "603c437e030d97758c20277c",
+    "nome": {
+      "primeiro": "Jaime",
+      "último": "Witt"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ee46a3c461c508077",
+    "nome": {
+      "primeiro": "Jones",
+      "último": "Grimes"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ef7978c3f2f339334",
+    "nome": {
+      "primeiro": "Josefina",
+      "último": "Farley"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ec55c0ad5a8c6132f",
+    "nome": {
+      "primeiro": "Lillie",
+      "último": "Sharpe"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e181cbd4a65c7f8ba",
+    "nome": {
+      "primeiro": "Marylou",
+      "último": "Holder"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437eb144b4fb0234171c",
+    "nome": {
+      "primeiro": "Brittney",
+      "último": "Franks"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e1da6ce02413c45e3",
+    "nome": {
+      "primeiro": "Sharlene",
+      "último": "Harper"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e94f264d765e6bf3d",
+    "nome": {
+      "primeiro": "Rosie",
+      "último": "Richardson"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ebb8df436b53614bb",
+    "nome": {
+      "primeiro": "Carissa",
+      "último": "Rose"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437eba40480192f91f47",
+    "nome": {
+      "primeiro": "Rosalinda",
+      "último": "Horton"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e61f3568155576580",
+    "nome": {
+      "primeiro": "Noble",
+      "último": "Ford"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e2c19949e79cc9f7d",
+    "nome": {
+      "primeiro": "Gilmore",
+      "último": "Barr"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e51abd585de2c5e04",
+    "nome": {
+      "primeiro": "Hale",
+      "último": "Suarez"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e9da226f5a59221fd",
+    "nome": {
+      "primeiro": "Branch",
+      "último": "Michael"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ee9fe40e23753eed0",
+    "nome": {
+      "primeiro": "Tessa",
+      "último": "Oliver"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e482a0c4bc9bb66f9",
+    "nome": {
+      "primeiro": "Delacruz",
+      "último": "Clarke"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e7f657e719c824017",
+    "nome": {
+      "primeiro": "Floyd",
+      "último": "Young"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ef80143b29649a093",
+    "nome": {
+      "primeiro": "Merrill",
+      "último": "Melton"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e5bb583fbdebeda73",
+    "nome": {
+      "primeiro": "Barry",
+      "último": "Cobb"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e33722157e6e9795c",
+    "nome": {
+      "primeiro": "Perkins",
+      "último": "Luna"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ed369f3201cef79b9",
+    "nome": {
+      "primeiro": "Hampton",
+      "último": "Kinney"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e34b079848421824f",
+    "nome": {
+      "primeiro": "Fitzgerald",
+      "último": "Slater"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ee50556631f31d077",
+    "nome": {
+      "primeiro": "Aida",
+      "último": "Pitts"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e68b463554b0c4725",
+    "nome": {
+      "primeiro": "Rosario",
+      "último": "Chan"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e89fd679e8a4df9e4",
+    "nome": {
+      "primeiro": "Tammy",
+      "último": "Sandoval"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e7c992215814d6cec",
+    "nome": {
+      "primeiro": "Hays",
+      "último": "Lang"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ee859d134fc8e558e",
+    "nome": {
+      "primeiro": "Dillon",
+      "último": "Bean"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e97ac0a49f1664488",
+    "nome": {
+      "primeiro": "Terrell",
+      "último": "Collins"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e3a4569232750522d",
+    "nome": {
+      "primeiro": "Hammond",
+      "último": "Schultz"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437eee1754a9ec25fd85",
+    "nome": {
+      "primeiro": "Isabella",
+      "último": "Holcomb"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e8f016e71b7f57eb9",
+    "nome": {
+      "primeiro": "Blake",
+      "último": "Hull"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e6c445c466ef65b5e",
+    "nome": {
+      "primeiro": "Wanda",
+      "último": "Hall"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ee188ca85c17e656b",
+    "nome": {
+      "primeiro": "Alma",
+      "último": "Keller"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e235f35e657d209ae",
+    "nome": {
+      "primeiro": "Geraldine",
+      "último": "Giles"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ea3a0c77196b33436",
+    "nome": {
+      "primeiro": "Romero",
+      "último": "Goodman"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ed13b08a4fd6cb8f5",
+    "nome": {
+      "primeiro": "Cooke",
+      "último": "Bartlett"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ee5b5bc60163b299d",
+    "nome": {
+      "primeiro": "Chrystal",
+      "último": "Howe"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ec882c3eb6b61e6c9",
+    "nome": {
+      "primeiro": "Deanne",
+      "último": "Anthony"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437edc1142880b7db8cf",
+    "nome": {
+      "primeiro": "Dudley",
+      "último": "Howard"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e6fe911e913fac646",
+    "nome": {
+      "primeiro": "Lawanda",
+      "último": "Kirby"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e8cbdafe8aa330483",
+    "nome": {
+      "primeiro": "Wendy",
+      "último": "Herman"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e8d653591087d4258",
+    "nome": {
+      "primeiro": "Herman",
+      "último": "Hodges"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e699b68628ae5642a",
+    "nome": {
+      "primeiro": "Barlow",
+      "último": "Garrett"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e6b7a9989d944fd36",
+    "nome": {
+      "primeiro": "Ila",
+      "último": "Stokes"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437eecb168212442fd09",
+    "nome": {
+      "primeiro": "Wells",
+      "último": "Holland"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ed1c1b6224c742ab7",
+    "nome": {
+      "primeiro": "Franco",
+      "último": "Sutton"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e42c2e63d407f1e33",
+    "nome": {
+      "primeiro": "Maxine",
+      "último": "Klein"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e8b81d0337623b90d",
+    "nome": {
+      "primeiro": "Butler",
+      "último": "Lawson"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ef75eed305830e77c",
+    "nome": {
+      "primeiro": "Gray",
+      "último": "Rollins"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e1738ede3ced17ef1",
+    "nome": {
+      "primeiro": "Ofelia",
+      "último": "Romero"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437efef94f6bd74983ec",
+    "nome": {
+      "primeiro": "Kris",
+      "último": "Dillard"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437eb9afdddaf326b4fc",
+    "nome": {
+      "primeiro": "Hodge",
+      "último": "Franklin"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437eac31a01436e00d50",
+    "nome": {
+      "primeiro": "Abigail",
+      "último": "Cook"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e7028bb12e5366fed",
+    "nome": {
+      "primeiro": "Corina",
+      "último": "Chang"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e604e740d96de7960",
+    "nome": {
+      "primeiro": "Shannon",
+      "último": "Frazier"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e2195aa001f46680d",
+    "nome": {
+      "primeiro": "Cannon",
+      "último": "Zamora"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ed400fa55b78a9352",
+    "nome": {
+      "primeiro": "Dianna",
+      "último": "Harris"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e58060a54d425b75c",
+    "nome": {
+      "primeiro": "Jacqueline",
+      "último": "Kidd"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e84b5fd4452c40ce2",
+    "nome": {
+      "primeiro": "Eleanor",
+      "último": "Beasley"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437eb9b0f9903ea0a392",
+    "nome": {
+      "primeiro": "Delores",
+      "último": "Avery"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437eb83ba6e81eb5bdf3",
+    "nome": {
+      "primeiro": "Riggs",
+      "último": "Espinoza"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e908791df43a6046c",
+    "nome": {
+      "primeiro": "Kimberley",
+      "último": "Mccray"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e2b965c83ad6f8583",
+    "nome": {
+      "primeiro": "Calhoun",
+      "último": "Rhodes"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437eb31b50f908eade14",
+    "nome": {
+      "primeiro": "Deann",
+      "último": "Gates"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e5ca835ad1cb3f4ea",
+    "nome": {
+      "primeiro": "Tania",
+      "último": "Hobbs"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e890e14485a1622b1",
+    "nome": {
+      "primeiro": "Ware",
+      "último": "Conner"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e0d56ed1f552110a7",
+    "nome": {
+      "primeiro": "Minerva",
+      "último": "Delgado"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e1151a87e890b3173",
+    "nome": {
+      "primeiro": "Sondra",
+      "último": "Wall"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ea203f77121c472e1",
+    "nome": {
+      "primeiro": "Corrine",
+      "último": "Bowman"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e75136832d5d3e4ab",
+    "nome": {
+      "primeiro": "Ophelia",
+      "último": "Boyer"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437efd13fe25ce25bd97",
+    "nome": {
+      "primeiro": "Stuart",
+      "último": "English"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ec44bf923c58f0a3e",
+    "nome": {
+      "primeiro": "Chavez",
+      "último": "Cannon"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ef6341b2aa53f09e5",
+    "nome": {
+      "primeiro": "Keisha",
+      "último": "Nelson"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e3993979807654a86",
+    "nome": {
+      "primeiro": "Ebony",
+      "último": "Tran"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e401ef3fd931e1319",
+    "nome": {
+      "primeiro": "Fern",
+      "último": "Hess"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e0091ceba0d9b0fe2",
+    "nome": {
+      "primeiro": "Hickman",
+      "último": "Elliott"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e305f91f03ad96cf1",
+    "nome": {
+      "primeiro": "Stanley",
+      "último": "Ortiz"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e4b34e3f4797eb084",
+    "nome": {
+      "primeiro": "Katharine",
+      "último": "Vega"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e622af3bbf3c86eea",
+    "nome": {
+      "primeiro": "Alvarado",
+      "último": "Pope"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437edbbb487cc76be3a2",
+    "nome": {
+      "primeiro": "Renee",
+      "último": "Alston"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ecca6260f0ee5e2ec",
+    "nome": {
+      "primeiro": "Belinda",
+      "último": "Bernard"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e86fad9148894cec9",
+    "nome": {
+      "primeiro": "Florine",
+      "último": "Jarvis"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ea7594bf8ef33f27d",
+    "nome": {
+      "primeiro": "Merle",
+      "último": "Mcdowell"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437eb49d31e93dff55d0",
+    "nome": {
+      "primeiro": "Mai",
+      "último": "Kemp"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e520032cbf860fec8",
+    "nome": {
+      "primeiro": "Abbott",
+      "último": "Chandler"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437efa68654f45f86da8",
+    "nome": {
+      "primeiro": "Myrna",
+      "último": "Harvey"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e7a96c353a0711f7e",
+    "nome": {
+      "primeiro": "Sheena",
+      "último": "Sargent"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ecdff10569c771003",
+    "nome": {
+      "primeiro": "Rhonda",
+      "último": "Alvarado"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e352b11b29368f93d",
+    "nome": {
+      "primeiro": "Alejandra",
+      "último": "Armstrong"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e28fd3b1467d3f1f1",
+    "nome": {
+      "primeiro": "Joanne",
+      "último": "Stone"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e4c8dbc0fd8fe69b5",
+    "nome": {
+      "primeiro": "Lindsey",
+      "último": "Barnes"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437ef1597be6c3fa8021",
+    "nome": {
+      "primeiro": "Lula",
+      "último": "Cooley"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e1d4b6050b606dfdb",
+    "nome": {
+      "primeiro": "Vivian",
+      "último": "York"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e175c2cdc8e894103",
+    "nome": {
+      "primeiro": "Velma",
+      "último": "Ward"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e3ecdb622584dbbd1",
+    "nome": {
+      "primeiro": "Shari",
+      "último": "Valencia"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e2f9b7bffb7bd774b",
+    "nome": {
+      "primeiro": "Lea",
+      "último": "House"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e2b5175eefdefffcf",
+    "nome": {
+      "primeiro": "Courtney",
+      "último": "Alexander"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e95427c48a6629fd0",
+    "nome": {
+      "primeiro": "Tyler",
+      "último": "Best"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e0cb8abf50c85e790",
+    "nome": {
+      "primeiro": "Mable",
+      "último": "Gallagher"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c437e7269cda8a267856b",
+    "nome": {
+      "primeiro": "Carolina",
+      "último": "Graves"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6f94cfa073946fc81",
+    "nome": {
+      "primeiro": "Amelia",
+      "último": "Hunter"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e62e603c94616951f6",
+    "nome": {
+      "primeiro": "Cooke",
+      "último": "Larsen"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e64c9c67a871fb9791",
+    "nome": {
+      "primeiro": "Byers",
+      "último": "Fisher"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6dca31359316bd737",
+    "nome": {
+      "primeiro": "Sandra",
+      "último": "Benson"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6d73345882d247343",
+    "nome": {
+      "primeiro": "Curry",
+      "último": "Parsons"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e65c2cd69b45e1fa5d",
+    "nome": {
+      "primeiro": "Juana",
+      "último": "Mann"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e677bec23a4b8c67a2",
+    "nome": {
+      "primeiro": "Mayo",
+      "último": "Bradley"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6398c8a7bd80e8d43",
+    "nome": {
+      "primeiro": "Beryl",
+      "último": "Stephens"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6636152380fe8c430",
+    "nome": {
+      "primeiro": "Shawn",
+      "último": "Bolton"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e60f3d4775de32a6ab",
+    "nome": {
+      "primeiro": "Rhea",
+      "último": "Booth"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6c2617d8a0c86af96",
+    "nome": {
+      "primeiro": "Matilda",
+      "último": "Carroll"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e613a917c52ad2b539",
+    "nome": {
+      "primeiro": "Morin",
+      "último": "Hays"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6afe0be838910736e",
+    "nome": {
+      "primeiro": "Leona",
+      "último": "Gutierrez"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6b421c69cab7cf5d0",
+    "nome": {
+      "primeiro": "Kerr",
+      "último": "Deleon"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e69ebaeaead0a8034a",
+    "nome": {
+      "primeiro": "Guerrero",
+      "último": "Figueroa"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6d082b710ac8e77e5",
+    "nome": {
+      "primeiro": "Elvia",
+      "último": "Brooks"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6d887e8b1d648245d",
+    "nome": {
+      "primeiro": "Murphy",
+      "último": "Jones"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6cf49b6972105ec07",
+    "nome": {
+      "primeiro": "Combs",
+      "último": "Elliott"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6ae009ae67b0e93f9",
+    "nome": {
+      "primeiro": "Elnora",
+      "último": "Thompson"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6c675f0e1fc9f9fe1",
+    "nome": {
+      "primeiro": "Howard",
+      "último": "Davis"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6d4cf8f0ba31ea5c0",
+    "nome": {
+      "primeiro": "Snyder",
+      "último": "Spears"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e64eea313584a38bc9",
+    "nome": {
+      "primeiro": "Michael",
+      "último": "Griffith"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6b70a3bb6af1d6aaa",
+    "nome": {
+      "primeiro": "Flores",
+      "último": "Bender"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e64bcd087d05893c58",
+    "nome": {
+      "primeiro": "Joanne",
+      "último": "Abbott"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6039c8984976dce18",
+    "nome": {
+      "primeiro": "Wanda",
+      "último": "Stout"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e690cd1174c6a6f2e6",
+    "nome": {
+      "primeiro": "Medina",
+      "último": "Mack"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6c89bccf96a70a56c",
+    "nome": {
+      "primeiro": "Maryanne",
+      "último": "Marsh"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e681bde8da59cf74ce",
+    "nome": {
+      "primeiro": "Sherman",
+      "último": "Knox"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e65ec970471bf082f3",
+    "nome": {
+      "primeiro": "Mercer",
+      "último": "Lawrence"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e651801f8170662e77",
+    "nome": {
+      "primeiro": "Lidia",
+      "último": "Talley"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e620466e067ac16179",
+    "nome": {
+      "primeiro": "Arnold",
+      "último": "Jenkins"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e60579645071c92921",
+    "nome": {
+      "primeiro": "Bailey",
+      "último": "Ratliff"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e632f889c38e78ad6b",
+    "nome": {
+      "primeiro": "Phelps",
+      "último": "Vance"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e60f395ba84b4f04d3",
+    "nome": {
+      "primeiro": "Tucker",
+      "último": "Carver"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6b3e24c27b1b0a988",
+    "nome": {
+      "primeiro": "Valerie",
+      "último": "Randall"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e65e099541aa833c8a",
+    "nome": {
+      "primeiro": "Duke",
+      "último": "Mullen"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e62c6fc7c083f309e3",
+    "nome": {
+      "primeiro": "Cohen",
+      "último": "Guzman"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6b8a6690f2521d72a",
+    "nome": {
+      "primeiro": "Greta",
+      "último": "Valdez"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6340ec8c3945f8872",
+    "nome": {
+      "primeiro": "Jeanette",
+      "último": "Roach"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6444a6c277b8befb4",
+    "nome": {
+      "primeiro": "Shelby",
+      "último": "Henson"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e66eef96f1e328fdef",
+    "nome": {
+      "primeiro": "Weber",
+      "último": "Berger"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e635815cc58ee93cc7",
+    "nome": {
+      "primeiro": "Tabatha",
+      "último": "Lloyd"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6db5a8288bfd8cd1b",
+    "nome": {
+      "primeiro": "Blankenship",
+      "último": "Terry"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6a7a0348578444d91",
+    "nome": {
+      "primeiro": "Ladonna",
+      "último": "Moran"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6fa088108684afe13",
+    "nome": {
+      "primeiro": "Stacey",
+      "último": "Giles"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e69921cdd09e92ad87",
+    "nome": {
+      "primeiro": "Hurley",
+      "último": "Long"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6599a866ca88b494e",
+    "nome": {
+      "primeiro": "Herring",
+      "último": "Chavez"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e66fd8e5be970f92e1",
+    "nome": {
+      "primeiro": "Roxanne",
+      "último": "Golden"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e60cd1f99107dcc376",
+    "nome": {
+      "primeiro": "Nadine",
+      "último": "Rodriguez"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e69e5e15f4bdc63808",
+    "nome": {
+      "primeiro": "Castaneda",
+      "último": "Wade"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e62d3be6f3083bbadf",
+    "nome": {
+      "primeiro": "Norton",
+      "último": "Vincent"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6bd2548312e22ede1",
+    "nome": {
+      "primeiro": "Daphne",
+      "último": "Lambert"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e67f3491220011e050",
+    "nome": {
+      "primeiro": "Wiley",
+      "último": "Powell"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6679721d8830ec79f",
+    "nome": {
+      "primeiro": "Maureen",
+      "último": "Cabrera"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6630e6fe9883fd3f7",
+    "nome": {
+      "primeiro": "Antoinette",
+      "último": "Burnett"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6488719c7b0853324",
+    "nome": {
+      "primeiro": "Singleton",
+      "último": "Keller"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6b220bf352c402de5",
+    "nome": {
+      "primeiro": "Emilia",
+      "último": "Mccarty"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e667d7e7e4c59b05db",
+    "nome": {
+      "primeiro": "Bean",
+      "último": "Ryan"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e66d5479e4e11b4254",
+    "nome": {
+      "primeiro": "Allie",
+      "último": "Preston"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e63cc8b7030bce0243",
+    "nome": {
+      "primeiro": "Sharp",
+      "último": "Mcbride"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6786088cd112398fe",
+    "nome": {
+      "primeiro": "Crane",
+      "último": "Montoya"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6b01277fafd91106c",
+    "nome": {
+      "primeiro": "Alston",
+      "último": "Castaneda"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6a562d255c11a2051",
+    "nome": {
+      "primeiro": "Copeland",
+      "último": "Olsen"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e659c6fdf6d27a8d95",
+    "nome": {
+      "primeiro": "Lindsay",
+      "último": "Acevedo"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e66d05a568287e7d82",
+    "nome": {
+      "primeiro": "Toni",
+      "último": "Bright"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6eb0af23269d6b7dd",
+    "nome": {
+      "primeiro": "Fernandez",
+      "último": "Vinson"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e61e367d0b54c293cd",
+    "nome": {
+      "primeiro": "Marks",
+      "último": "Blackwell"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e61910e0d8de4d888f",
+    "nome": {
+      "primeiro": "Dillon",
+      "último": "Chang"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6fee04386219f3b5d",
+    "nome": {
+      "primeiro": "Katelyn",
+      "último": "Kirby"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e656b42b9473a06e86",
+    "nome": {
+      "primeiro": "Salazar",
+      "último": "Kirkland"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e698af987c31bbe9c0",
+    "nome": {
+      "primeiro": "Herman",
+      "último": "Meadows"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6f3304056b6e1bc0e",
+    "nome": {
+      "primeiro": "Julianne",
+      "último": "Charles"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e60a1fa32e902e51ff",
+    "nome": {
+      "primeiro": "Burks",
+      "último": "Lowe"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e67360031e6057fb28",
+    "nome": {
+      "primeiro": "Cornelia",
+      "último": "Harrison"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e61ca5c44d163e010d",
+    "nome": {
+      "primeiro": "Arlene",
+      "último": "Baxter"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6b17b86726f288e0e",
+    "nome": {
+      "primeiro": "Colleen",
+      "último": "Simmons"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6dd7094ec132e6b95",
+    "nome": {
+      "primeiro": "Jenkins",
+      "último": "Witt"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e69b2ac7a0e9a20b17",
+    "nome": {
+      "primeiro": "Monique",
+      "último": "Fitzgerald"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e65c03e62aa508749d",
+    "nome": {
+      "primeiro": "Daisy",
+      "último": "Pratt"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6ebc846815c55a710",
+    "nome": {
+      "primeiro": "Rebekah",
+      "último": "Chapman"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6576b165db7b8fb73",
+    "nome": {
+      "primeiro": "Maryann",
+      "último": "Odom"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e61f98d205bcbd0424",
+    "nome": {
+      "primeiro": "Althea",
+      "último": "Frye"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e68949466ce2f706d4",
+    "nome": {
+      "primeiro": "Wilkerson",
+      "último": "Hill"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e68c564897b8f0df3f",
+    "nome": {
+      "primeiro": "Rivers",
+      "último": "Carpenter"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6b5f953114ac6ea93",
+    "nome": {
+      "primeiro": "Fay",
+      "último": "Perry"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6811e77dbb78cd52c",
+    "nome": {
+      "primeiro": "Latoya",
+      "último": "Hall"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6b6258cb2a750afa8",
+    "nome": {
+      "primeiro": "Sullivan",
+      "último": "Caldwell"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6f887668c28f82ab9",
+    "nome": {
+      "primeiro": "Eva",
+      "último": "Washington"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e62da1835f4c7adc73",
+    "nome": {
+      "primeiro": "Gilda",
+      "último": "Bates"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6a165ebb49c906243",
+    "nome": {
+      "primeiro": "Juliette",
+      "último": "Herman"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6e514ef8760cf4276",
+    "nome": {
+      "primeiro": "Frost",
+      "último": "Stuart"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e61393ed9c5efe496e",
+    "nome": {
+      "primeiro": "Baldwin",
+      "último": "Rosario"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6cdd6ae9a427c2d66",
+    "nome": {
+      "primeiro": "Myrtle",
+      "último": "Branch"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6a0088b4c75b649bb",
+    "nome": {
+      "primeiro": "Terry",
+      "último": "Farmer"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e61158d4d4a8511c27",
+    "nome": {
+      "primeiro": "Dorsey",
+      "último": "Whitfield"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e64bf4029516f267b3",
+    "nome": {
+      "primeiro": "Becky",
+      "último": "Levy"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6a1b6db261b64eff6",
+    "nome": {
+      "primeiro": "Case",
+      "último": "Mcknight"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e629d07081486bdac6",
+    "nome": {
+      "primeiro": "Frances",
+      "último": "Dennis"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e6281660cb56b4ca29",
+    "nome": {
+      "primeiro": "Patrick",
+      "último": "Bowers"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  },
+  {
+    "_id": "603c43e66bdcfd287a298178",
+    "nome": {
+      "primeiro": "Hazel",
+      "último": "Joyce"
+    },
+    "frequenta": [
+      {
+        "designação": "Arquitetura e Cálculo",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Verificação Formal",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Processamento e Representação de Conhecimento",
+        "anoLectivo": "2020/2021"
+      },
+      {
+        "designação": "Scripting no Processamento de Linguagem Natural",
+        "anoLectivo": "2020/2021"
+      }
+    ]
+  }
+]

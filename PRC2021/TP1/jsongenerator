@@ -1,0 +1,15 @@
+ {
+    alunos:[
+      {
+    
+    'repeat(100, 100)': {
+      nome: {
+        primeiro: '{{firstName()}}',
+        último: '{{surname()}}'
+      }
+      
+    }
+      }
+    
+    ]
+  }
