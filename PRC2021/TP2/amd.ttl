@@ -1,0 +1,239 @@
+@prefix : <http://www.di.uminho.pt/prc2021/amd#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/amd> .
+
+<http://www.di.uminho.pt/prc2021/amd> rdf:type owl:Ontology ;
+                                       owl:versionIRI <http://www.di.uminho.pt/prc2021/amd/v1> ;
+                                       rdfs:comment "Uma ontologia para arquivo de musica digital" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/amd#arranjou
+:arranjou rdf:type owl:ObjectProperty ;
+          owl:inverseOf :foiArranjada ;
+          rdfs:domain :Compositor ;
+          rdfs:range :Obra .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#compôs
+:compôs rdf:type owl:ObjectProperty ;
+        owl:inverseOf :foiComposta ;
+        rdfs:domain :Compositor ;
+        rdfs:range :Obra .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#editou
+:editou rdf:type owl:ObjectProperty ;
+        owl:inverseOf :foiEditada .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#foiArranjada
+:foiArranjada rdf:type owl:ObjectProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#foiComposta
+:foiComposta rdf:type owl:ObjectProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#foiEditada
+:foiEditada rdf:type owl:ObjectProperty ;
+            rdfs:domain :Obra ;
+            rdfs:range :Compositor .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#temAssociado
+:temAssociado rdf:type owl:ObjectProperty ;
+              owl:inverseOf :éReferente .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#usa
+:usa rdf:type owl:ObjectProperty ;
+     owl:inverseOf :éUsado .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#éReferente
+:éReferente rdf:type owl:ObjectProperty ;
+            rdfs:domain :Partitura ;
+            rdfs:range :Instrumento .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#éUsado
+:éUsado rdf:type owl:ObjectProperty ;
+        rdfs:domain :Instrumento ;
+        rdfs:range :Obra .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/amd#afinação
+:afinação rdf:type owl:DatatypeProperty ;
+          rdfs:range xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#clave
+:clave rdf:type owl:DatatypeProperty ;
+       rdfs:range xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#designação
+:designação rdf:type owl:DatatypeProperty ;
+            rdfs:range xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#href
+:href rdf:type owl:DatatypeProperty ;
+      rdfs:range xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#path
+:path rdf:type owl:DatatypeProperty ;
+      rdfs:range xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#tipo
+:tipo rdf:type owl:DatatypeProperty ;
+      rdfs:range xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#type
+:type rdf:type owl:DatatypeProperty ;
+      rdfs:range xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#título
+:título rdf:type owl:DatatypeProperty ;
+        rdfs:range xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#voz
+:voz rdf:type owl:DatatypeProperty ;
+     rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/amd#Compositor
+:Compositor rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                  owl:onProperty :compôs ;
+                                  owl:someValuesFrom :Obra
+                                ] .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#Instrumento
+:Instrumento rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :éUsado ;
+                                   owl:someValuesFrom :Obra
+                                 ] .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#Obra
+:Obra rdf:type owl:Class ;
+      owl:equivalentClass [ rdf:type owl:Restriction ;
+                            owl:onProperty :foiComposta ;
+                            owl:someValuesFrom :Compositor
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :usa ;
+                            owl:someValuesFrom :Instrumento
+                          ] .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#Partitura
+:Partitura rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty :éReferente ;
+                                 owl:someValuesFrom :Instrumento
+                               ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/amd#Bombo
+:Bombo rdf:type owl:NamedIndividual ,
+                :Instrumento ;
+       :éUsado :m5 ;
+       :designação "Bombo" .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#Clarinete
+:Clarinete rdf:type owl:NamedIndividual ,
+                    :Instrumento ;
+           :éUsado :m5 ;
+           :designação "Clarinete" .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#HolidayRio-bombo.pdf
+:HolidayRio-bombo.pdf rdf:type owl:NamedIndividual ,
+                               :Partitura ;
+                      :éReferente :Bombo ;
+                      :path "HolidayRio-bombo.pdf" ;
+                      :type "PDF" .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#HolidayRio-clarinete-A.pdf
+:HolidayRio-clarinete-A.pdf rdf:type owl:NamedIndividual ,
+                                     :Partitura ;
+                            :éReferente :Clarinete ;
+                            :afinação "Mib" ;
+                            :path "HolidayRio-clarinete1-B.pdf" ;
+                            :type "PDF" ;
+                            :voz "Ib" .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#HolidayRio-tuba-sol.pdf
+:HolidayRio-tuba-sol.pdf rdf:type owl:NamedIndividual ,
+                                  :Partitura ;
+                         :éReferente :Tuba ;
+                         :clave "Sol" ;
+                         :path "HolidayRio-tuba-sol.pdf" ;
+                         :type "PDF" .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#S._MacMillan
+:S._MacMillan rdf:type owl:NamedIndividual ,
+                       :Compositor ;
+              :arranjou :m5 .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#Tuba
+:Tuba rdf:type owl:NamedIndividual ,
+               :Instrumento ;
+      :éUsado :m5 ;
+      :designação "Tuba" .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#W._Scneider_-_Argenbuhl
+:W._Scneider_-_Argenbuhl rdf:type owl:NamedIndividual ,
+                                  :Compositor ;
+                         :compôs :m5 .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#m5
+:m5 rdf:type owl:NamedIndividual ,
+             :Obra ;
+    :título "Holiday in Rio" ;
+    :href "https://www.youtube.com/watch?v=jgyPWvaYaKM" ;
+    :tipo "Marcha de Concerto/Pasodoble" .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#Óscar_Gonçalves
+:Óscar_Gonçalves rdf:type owl:NamedIndividual ,
+                          :Compositor ;
+                 :editou :m5 .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
