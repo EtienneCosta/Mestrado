@@ -1,0 +1,24 @@
+extends layout 
+block content 
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3 Propriedades do Indivíduo
+        if individual.length > 0
+            .w3-container
+                table(class="w3-table-all")
+                    tr
+                        th Informação  
+                        th Valor
+                    each i in individual  
+                      tr 
+                        td= i.p
+                        td= i.o
+
+        else 
+            .w3-container
+              p Indivíduo sem propriedades ... 
+        footer(class="w3-container w3-teal")
+            address Gerado por galuno :: 2021-Março, Etienne Costa
+                  a(href='/repositorio/'+repo)  [Voltar] 
+
+            
