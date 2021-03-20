@@ -58,7 +58,7 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 
 **Verificação Formal**
 
-- [SAT](https://github.com/EtienneCosta/Mestrado/tree/main/VF/Mini-Sat) - Boolean Satisfiability Problem .
+- [SAT](https://github.com/EtienneCosta/Mestrado/tree/main/VF/MiniSat) - Boolean Satisfiability Problem .
 
 - [SMT](https://github.com/EtienneCosta/Mestrado/tree/main/VF/SMT) - Satisfiability Modulo Theories .
 
