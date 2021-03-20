@@ -1,0 +1,82 @@
+c Placement of Guests 
+c
+c 3 Cadeiras  ( Left,Middle,Right)
+c 3 Pessoas   ( Anne,Susan,Peter)
+c
+c Regras :
+c  - Anne does not want to sit near Peter.
+c  - Anne does not want to sit in the left chair.
+c  - Susas does not want to sit to the right of Peter.
+c
+c Anne = 1   Susan  = 2  Peter = 3 
+c Left = 1   Middle = 2  Right = 3 
+c
+c xij = 1 sse a pessoa i se senta na cadeira j , para i € {1,2,3} e j € {1,2,3} 
+c
+c Variáveis : 3 x 3 = 9
+c 
+c Todas as pessoas devem estar sentadas numa cadeira
+c ( x11 V x12 V x13) /\ (x21 V x22 V x23) /\ (x31 V x32 V x33)
+c
+c 3 cláusulas ...
+c 
+c Não se poderá sentar mais do que uma pessoa em cada cadeira
+c (~ x11 V ~ x21) /\
+c (~ x11 V ~ x31) /\
+c (~ x12 V ~ x22) /\
+c (~ x12 V ~ x32) /\
+c (~ x13 V ~ x23) /\
+c (~ x13 V ~ x33) /\
+c (~ x21 V ~ x31) /\
+c (~ x22 V ~ x32) /\
+c (~ x23 V ~ x33) 
+c
+c 9 cláusulas ... 
+
+c Restrições de preferências das 3 pessoas .
+c
+c  - Anne does not want to sit near Peter.
+c  ((x11 V x13)  => ~x32) /\ (x12 => (~x31 /\ ~x33))  <=>   ( ~ (x11 V x13 ) V ~x32 ) /\ ( ~x12 V (~x31 /\ ~x33))
+c                                                     <=>   ( (~x11 /\ ~x13) V ~x32 ) /\ ( (~x12 V ~x31) /\ (~x12 V ~x33))
+c                                                     <=>   ( ~x32 V (~x11 /\ ~x13))  /\ ( (~x12 V ~x31) /\ (~x12 V ~x33))
+c                                                     <=>   (~x32 V ~x11) /\ (~x32 V ~x13) /\ (~x12 V ~x31) /\ (~x12 V ~x33)
+c 4 cláusulas ... 
+c    
+c
+c
+c  - Anne does not want to sit in the left chair.
+c  ~x11 
+c 
+c 1 cláusula ...
+c
+c
+c  - Susas does not want to sit to the right of Peter.
+c  (x31 => ~x22) /\ (x32 => ~x23) <=> (~x31 V ~x22) /\ (~x32 V ~x23)
+c
+c 2 cláusulas ... 
+
+p cnf 9 19 
+c Todas as pessoas devem estar sentadas numa cadeira
+11 12 13 0 
+21 22 23 0  
+31 32 33 0
+c Não se poderá sentar mais do que uma pessoa em cada cadeira
+-11 -21 0 
+-11 -31 0 
+-12 -22 0 
+-12 -32 0 
+-13 -23 0 
+-13 -33 0 
+-21 -31 0 
+-22 -32 0 
+-23 -33 0 
+c Anne does not want to sit near Peter.
+-32 -11 0 
+-32 -13 0  
+-12 -31 0 
+-12 -33 0
+c Anne does not want to sit in the left chair.
+-11 0 
+c Susas does not want to sit to the right of Peter.
+-31 -22 0 
+-32 -23 0

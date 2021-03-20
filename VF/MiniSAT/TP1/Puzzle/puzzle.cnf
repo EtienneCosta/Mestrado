@@ -1,0 +1,75 @@
+c A "Associação Recreativa do Paraíso" tem o seguinte conjunto de regras:
+c
+c - Os sócios loiros não podem ir ao Sábado.
+c
+c - Quem não for adulto tem que usar chapéu.
+c
+c - Cada sócio usa anel ou não usa chapéu.
+c
+c - Um sócio vai ao Sábado se e só se é adulto.
+c
+c - Todos os sócios adultos têm que usar anel.
+c
+c - Quem usa anel tem que ser loiro.
+c
+c 1 loiro
+c 2 sábado
+c 3 adulto
+c 4 chapéu
+c 5 anel
+c
+c
+c Regras :
+c
+c  (loiro => ~sabado) <=> (~loiro V ~sabado)
+c                     <=> 1 clausúla ...
+c
+c (~adulto => chapeu) <=> ( adulto V chapeu) 
+c                     <=> 1 clausúla ...
+c
+c ( anel V ~chapeu)
+c                   1 clausúla ...
+c
+c ( sabado <=> adulto)  <=> ( ~sabado V adulto) /\ ( sabado V ~adulto)  
+c                       <=> 2  clausúlas ...
+c
+c ( adulto => anel)  <=> ( ~adulto V anel) 
+c                    <=>  1 clausúla ...
+c
+c (anel => loiro) <=> (~anel V loiro) 
+c                  <=> 1 clausúla ...
+
+
+p cnf 5 7
+-1 -2 0
+3 4 0
+5 -4 0
+-2 3 0
+2 -3 0
+-3 5 0
+-5 1 0
+
+c A afirmação "Quem usa anel não pode ir ao Sábado." é correcta ? 
+c R : Verdadeira. returns UNSAT.
+c É verdade que quem usa anel não pode ir ao Sábado !
+c
+c ~( anel => ~sábado)  <=> ~(~anel V ~sábado)
+c                      <=> ~~anel /\ ~~sábado
+c                      <=> anel /\ sábado 
+c 5 0 
+c 2 0
+c
+c
+c Pode um sócio de chapéu ser loiro ? 
+c R : Sim.
+c 
+c loiro /\ (~sábado) /\ (~adulto) /\ chapéu /\ anel 
+c 
+c Com base na valoração obtida na solução inicial , podes afirma que                  
+c é possível um sócio de chapéu ser loiro .
+c
+c A afirmação "Afinal a associação não pode ter sócios adultos." é correcta?
+c R : Verdadeira . returns UNSAT.
+c É verdade que a associação não pode ter sócios adultos. 
+c ~~adulto <=> adulto
+c 3 0 

@@ -1,0 +1,8 @@
+s SATISFIABLE
+v -1 -2 -3 4 -5 0
+
+
+(Wed = 0)  /\  (Mon = 0 V Wed = 0 V Thu = 1) /\  (Fri = 0) /\  (Thu = 0 V Tue = 0)
+
+
+The meeting could take place on Thursday.

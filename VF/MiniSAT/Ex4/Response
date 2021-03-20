@@ -1,0 +1,15 @@
+1 mythical
+2 immortal
+3 mammal
+4 horned
+5 magical 
+
+
+s SATISFIABLE
+v -1 -2 3 4 5 0
+
+
+Conclusion : 
+  The unicorn is a mortal mammal , horned and magical .
+
+(~mythical) /\ (~immortal) /\ mammal /\ horned /\ magical

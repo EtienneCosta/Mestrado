@@ -1,0 +1,14 @@
+Notas:
+
+- Constantes, funções, proposições e predicados são todos declarados da mesma forma, com declare-fun.  Apenas o tipo varia.
+
+- As restrições do problema são declaradas com assert.
+
+- O comando(check-sat) testa a satisfazibilidade das restrições.
+
+- Finalmente,(get-model) imprime o modelo obtido caso a resposta seja SAT.
+
+- Se desejarmos podemos, em vez de imprimir o modelo na sua totalidade, imprimir apenas
+algumas variáveis, substituindo(get-model), por exemplo, por(get-value (x y)).
+
+- O ; é o início de uma linha de comentário.

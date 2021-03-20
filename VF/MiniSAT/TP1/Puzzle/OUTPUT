@@ -1,0 +1,39 @@
+c 1 loiro
+c 2 sábado
+c 3 adulto
+c 4 chapéu
+c 5 anel
+c
+c
+c Rules :
+c
+c  (loiro => ~sabado) <=> (~loiro V ~sabado)
+c                     <=> 1 clause ...
+c
+c (~adulto => chapeu) <=> ( adulto V chapeu)
+c                     <=> 1 clause ...
+c
+c ( anel V ~chapeu)
+c                   1 clause ...
+c
+c ( sabado <=> adulto)  <=> ( ~sabado V adulto) /\ ( sabado V ~adulto)
+c                       <=> 2 clauses ...
+c
+c ( adulto => anel)  <=> ( ~adulto V anel)
+c                    <=> 1 clause ...
+c
+c (anel => loiro) <=> (~anel V loiro)
+c                  <=> 1 clause ...
+
+s SATISFIABLE
+v 1 -2 -3 4 5 0
+
+loiro = 1 
+sábado = 0
+adulto = 0
+chapéu = 1 
+anel = 1 
+
+loiro /\ (~sábado) /\ (~adulto) /\ chapéu /\ anel .
+
+

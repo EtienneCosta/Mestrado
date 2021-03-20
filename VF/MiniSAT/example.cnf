@@ -1,0 +1,7 @@
+c Here is a comment.
+c "The p cnf" line means that this SAT problem in cnf format with 5 variables and 3 clauses.
+c The first line after it is the first clause, meaning x1 | -x5 | x4 .
+p cnf 5 3
+1 -5 4 0
+-1 5 3 4 0
+-3 -4 0

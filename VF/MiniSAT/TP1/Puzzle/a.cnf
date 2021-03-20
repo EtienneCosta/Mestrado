@@ -1,0 +1,21 @@
+c A afirmação ” Quem usa anel não pode ir ao Sábado.” é correcta ?
+c Para responder a isso foi feita a negação da fórmula proposicional obtendo o
+c seguinte :
+c Fórmula proposicional : ¬(anel ⇒ ¬sábado)
+c Forma normal conjuntiva : (anel∧sábado)
+c N úmero de cláusulas : 2
+c Adicionando as duas novas cláusulas ao modelo:
+
+p cnf 5 9 
+-1 -2 0
+3 4 0 
+5 -4 0
+-2 3 0
+2 -3 0
+-3 5 0 
+-5 1 0
+5 0 
+2 0
+
+c Obtem − se como resposta UNSATISFIABLE, com base nisso podemos afirmar que
+c a afirmação é VERDADEIRA.

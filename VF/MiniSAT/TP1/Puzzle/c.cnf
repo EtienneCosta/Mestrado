@@ -1,0 +1,18 @@
+c A afirmação ” Afinal a associação não pode ter sócios adultos. ” é correcta ?
+c Para responder a isso foi feita a negação da fórmula proposicional obtendo o
+c seguinte :
+c Fórmula proposicional : ¬(¬adulto)
+c Forma normal conjuntiva : adulto
+c N úmero de cláusulas : 1
+c Adicionando a nova cláusula ao modelo:
+
+p cnf 5 8 
+-1 -2 0
+3 4 0 
+5 -4 0
+-2 3 0 
+2 -3 0
+-3 5 0 
+-5 1 0
+3 0
+c Obtem − se como resposta UNSATISFIABLE, com base nisso podemos afirmar que a afirmação é VERDADEIRA.
