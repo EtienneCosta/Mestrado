@@ -56,12 +56,12 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 
 - [Wiki](https://haslab.github.io/MFES/CSI/2021/index) 
 
+
 **Verificação Formal**
 
-- [SAT](https://github.com/EtienneCosta/Mestrado/tree/main/VF/MiniSat) - Boolean Satisfiability Problem .
-
-- [SMT](https://github.com/EtienneCosta/Mestrado/tree/main/VF/SMT) - Satisfiability Modulo Theories .
-
+- [SAT](https://github.com/EtienneCosta/Mestrado/tree/main/VF/MiniSat) - Boolean Satisfiability Problem.
+- [SMT](https://github.com/EtienneCosta/Mestrado/tree/main/VF/SMT) - Satisfiability Modulo Theories.
+- [Why3]() - Coming Soon.
 
 
 # Base de Dados NoSQL
