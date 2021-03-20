@@ -63,6 +63,8 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 - [SMT](https://github.com/EtienneCosta/Mestrado/tree/main/VF/SMT) - Satisfiability Modulo Theories.
 - [Why3]() - Coming Soon.
 
+**Arquitetura e Cálculo**
+
 
 # Base de Dados NoSQL
 
