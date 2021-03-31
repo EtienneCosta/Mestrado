@@ -1,0 +1,418 @@
+@prefix : <http://www.di.uminho.pt/prc2021/76089-TP5#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/76089-TP5> .
+
+<http://www.di.uminho.pt/prc2021/76089-TP5> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#edited
+<http://www.di.uminho.pt/prc2021/publicacoes#edited> rdf:type owl:ObjectProperty ;
+                                                     owl:inverseOf <http://www.di.uminho.pt/prc2021/publicacoes#editedBy> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#editedBy
+<http://www.di.uminho.pt/prc2021/publicacoes#editedBy> rdf:type owl:ObjectProperty ;
+                                                       rdfs:domain <http://www.di.uminho.pt/prc2021/publicacoes#Publication> ;
+                                                       rdfs:range <http://www.di.uminho.pt/prc2021/publicacoes#Person> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#wrote
+<http://www.di.uminho.pt/prc2021/publicacoes#wrote> rdf:type owl:ObjectProperty ;
+                                                    owl:inverseOf <http://www.di.uminho.pt/prc2021/publicacoes#wrotedBy> ;
+                                                    rdfs:domain <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                    rdfs:range <http://www.di.uminho.pt/prc2021/publicacoes#Publication> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#wrotedBy
+<http://www.di.uminho.pt/prc2021/publicacoes#wrotedBy> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#address
+<http://www.di.uminho.pt/prc2021/publicacoes#address> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#booktitle
+<http://www.di.uminho.pt/prc2021/publicacoes#booktitle> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#chapter
+<http://www.di.uminho.pt/prc2021/publicacoes#chapter> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#doi
+<http://www.di.uminho.pt/prc2021/publicacoes#doi> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#howpublished
+<http://www.di.uminho.pt/prc2021/publicacoes#howpublished> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#isbn
+<http://www.di.uminho.pt/prc2021/publicacoes#isbn> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#issn
+<http://www.di.uminho.pt/prc2021/publicacoes#issn> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#journal
+<http://www.di.uminho.pt/prc2021/publicacoes#journal> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#month
+<http://www.di.uminho.pt/prc2021/publicacoes#month> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#name
+<http://www.di.uminho.pt/prc2021/publicacoes#name> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#pages
+<http://www.di.uminho.pt/prc2021/publicacoes#pages> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#publisher
+<http://www.di.uminho.pt/prc2021/publicacoes#publisher> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#school
+<http://www.di.uminho.pt/prc2021/publicacoes#school> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#title
+<http://www.di.uminho.pt/prc2021/publicacoes#title> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#year
+<http://www.di.uminho.pt/prc2021/publicacoes#year> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Article
+<http://www.di.uminho.pt/prc2021/publicacoes#Article> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.di.uminho.pt/prc2021/publicacoes#Publication> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Author
+<http://www.di.uminho.pt/prc2021/publicacoes#Author> rdf:type owl:Class ;
+                                                     owl:equivalentClass [ owl:intersectionOf ( <http://www.di.uminho.pt/prc2021/publicacoes#Person>
+                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                  owl:onProperty <http://www.di.uminho.pt/prc2021/publicacoes#wrote> ;
+                                                                                                  owl:someValuesFrom <http://www.di.uminho.pt/prc2021/publicacoes#Publication>
+                                                                                                ]
+                                                                                              ) ;
+                                                                           rdf:type owl:Class
+                                                                         ] ;
+                                                     rdfs:subClassOf <http://www.di.uminho.pt/prc2021/publicacoes#Person> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Book
+<http://www.di.uminho.pt/prc2021/publicacoes#Book> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.di.uminho.pt/prc2021/publicacoes#Publication> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Editor
+<http://www.di.uminho.pt/prc2021/publicacoes#Editor> rdf:type owl:Class ;
+                                                     owl:equivalentClass [ owl:intersectionOf ( <http://www.di.uminho.pt/prc2021/publicacoes#Person>
+                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                  owl:onProperty <http://www.di.uminho.pt/prc2021/publicacoes#edited> ;
+                                                                                                  owl:someValuesFrom <http://www.di.uminho.pt/prc2021/publicacoes#Publication>
+                                                                                                ]
+                                                                                              ) ;
+                                                                           rdf:type owl:Class
+                                                                         ] ;
+                                                     rdfs:subClassOf <http://www.di.uminho.pt/prc2021/publicacoes#Person> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Inbook
+<http://www.di.uminho.pt/prc2021/publicacoes#Inbook> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.di.uminho.pt/prc2021/publicacoes#Publication> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Inproceedings
+<http://www.di.uminho.pt/prc2021/publicacoes#Inproceedings> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://www.di.uminho.pt/prc2021/publicacoes#Publication> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Mastherthesis
+<http://www.di.uminho.pt/prc2021/publicacoes#Mastherthesis> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://www.di.uminho.pt/prc2021/publicacoes#Publication> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Misc
+<http://www.di.uminho.pt/prc2021/publicacoes#Misc> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.di.uminho.pt/prc2021/publicacoes#Publication> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Person
+<http://www.di.uminho.pt/prc2021/publicacoes#Person> rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Phdthesis
+<http://www.di.uminho.pt/prc2021/publicacoes#Phdthesis> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.di.uminho.pt/prc2021/publicacoes#Publication> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Proceedings
+<http://www.di.uminho.pt/prc2021/publicacoes#Proceedings> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.di.uminho.pt/prc2021/publicacoes#Publication> .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Publication
+<http://www.di.uminho.pt/prc2021/publicacoes#Publication> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#GARH09
+<http://www.di.uminho.pt/prc2021/publicacoes#GARH09> rdf:type owl:NamedIndividual ,
+                                                              <http://www.di.uminho.pt/prc2021/publicacoes#Article> ,
+                                                              <http://www.di.uminho.pt/prc2021/publicacoes#Publication> ;
+                                                     <http://www.di.uminho.pt/prc2021/publicacoes#wrotedBy> <http://www.di.uminho.pt/prc2021/publicacoes#jcr> ,
+                                                                                                            <http://www.di.uminho.pt/prc2021/publicacoes#prh> ,
+                                                                                                            <http://www.di.uminho.pt/prc2021/publicacoes#rpa> ;
+                                                     <http://www.di.uminho.pt/prc2021/publicacoes#doi> "http://hdl.handle.net/1822/9741"^^xsd:string ;
+                                                     <http://www.di.uminho.pt/prc2021/publicacoes#issn> "1755-0556. 1:3-4 (2009) 173 - 181"^^xsd:string ;
+                                                     <http://www.di.uminho.pt/prc2021/publicacoes#journal> "International Journal of Reasoning-based Intelligent Systems"^^xsd:string ;
+                                                     <http://www.di.uminho.pt/prc2021/publicacoes#publisher> "Inderscience"^^xsd:string ;
+                                                     <http://www.di.uminho.pt/prc2021/publicacoes#title> "Topic maps constraint languages : understanding and comparing"^^xsd:string ;
+                                                     <http://www.di.uminho.pt/prc2021/publicacoes#year> "2009"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#IGI2013
+<http://www.di.uminho.pt/prc2021/publicacoes#IGI2013> rdf:type owl:NamedIndividual ,
+                                                               <http://www.di.uminho.pt/prc2021/publicacoes#Inbook> ,
+                                                               <http://www.di.uminho.pt/prc2021/publicacoes#Publication> ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#editedBy> <http://www.di.uminho.pt/prc2021/publicacoes#albie> ,
+                                                                                                             <http://www.di.uminho.pt/prc2021/publicacoes#jcr-e> ,
+                                                                                                             <http://www.di.uminho.pt/prc2021/publicacoes#rq> ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#wrotedBy> <http://www.di.uminho.pt/prc2021/publicacoes#jcr> ,
+                                                                                                             <http://www.di.uminho.pt/prc2021/publicacoes#rf> ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#chapter> "New Dimension in Relational Database Preservation: Using Ontologies"^^xsd:string ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#doi> "10.4018/978-1-4666-2669-0.ch009"^^xsd:string ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#month> "06"^^xsd:string ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#pages> "160-173"^^xsd:string ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#publisher> "IGI Global"^^xsd:string ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#title> "Innovations in XML Applications and Metadata Management: Advancing Technologies"^^xsd:string ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#year> "2013"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#RFCFBC06
+<http://www.di.uminho.pt/prc2021/publicacoes#RFCFBC06> rdf:type owl:NamedIndividual ,
+                                                                <http://www.di.uminho.pt/prc2021/publicacoes#Misc> ,
+                                                                <http://www.di.uminho.pt/prc2021/publicacoes#Publication> ;
+                                                       <http://www.di.uminho.pt/prc2021/publicacoes#wrotedBy> <http://www.di.uminho.pt/prc2021/publicacoes#jcr> ,
+                                                                                                              <http://www.di.uminho.pt/prc2021/publicacoes#lf> ,
+                                                                                                              <http://www.di.uminho.pt/prc2021/publicacoes#mf> ;
+                                                       <http://www.di.uminho.pt/prc2021/publicacoes#doi> "http://hdl.handle.net/1822/6420"^^xsd:string ;
+                                                       <http://www.di.uminho.pt/prc2021/publicacoes#howpublished> "Apresentação efectuada no Encontro Sofware Livre na Administração Pública, Torre do Tombo, Lisboa - Portugal, em 29 de Novembro de 2006."^^xsd:string ;
+                                                       <http://www.di.uminho.pt/prc2021/publicacoes#title> "RODA - Desenvolvimento de uma plataforma tecnológica para suporte de Arquivos Digitais"^^xsd:string ;
+                                                       <http://www.di.uminho.pt/prc2021/publicacoes#year> "2006"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#RL05
+<http://www.di.uminho.pt/prc2021/publicacoes#RL05> rdf:type owl:NamedIndividual ,
+                                                            <http://www.di.uminho.pt/prc2021/publicacoes#Book> ,
+                                                            <http://www.di.uminho.pt/prc2021/publicacoes#Publication> ;
+                                                   <http://www.di.uminho.pt/prc2021/publicacoes#wrotedBy> <http://www.di.uminho.pt/prc2021/publicacoes#cajo> ,
+                                                                                                          <http://www.di.uminho.pt/prc2021/publicacoes#jcr> ;
+                                                   <http://www.di.uminho.pt/prc2021/publicacoes#address> "FCA - Editora de Informática"^^xsd:string ;
+                                                   <http://www.di.uminho.pt/prc2021/publicacoes#isbn> "972-722-421-0"^^xsd:string ;
+                                                   <http://www.di.uminho.pt/prc2021/publicacoes#month> "03"^^xsd:string ;
+                                                   <http://www.di.uminho.pt/prc2021/publicacoes#publisher> "Colecção Web Pro"^^xsd:string ;
+                                                   <http://www.di.uminho.pt/prc2021/publicacoes#title> "Web Services: Aplicações Distribuídas sobre Protocolos Internet"^^xsd:string ;
+                                                   <http://www.di.uminho.pt/prc2021/publicacoes#year> "2005"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#RLC07
+<http://www.di.uminho.pt/prc2021/publicacoes#RLC07> rdf:type owl:NamedIndividual ,
+                                                             <http://www.di.uminho.pt/prc2021/publicacoes#Proceedings> ,
+                                                             <http://www.di.uminho.pt/prc2021/publicacoes#Publication> ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#editedBy> <http://www.di.uminho.pt/prc2021/publicacoes#jcl> ,
+                                                                                                           <http://www.di.uminho.pt/prc2021/publicacoes#jcr-e> ,
+                                                                                                           <http://www.di.uminho.pt/prc2021/publicacoes#lc> ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#address> "Faculdade de Ciências - Universidade de Lisboa, Lisboa - Portugal"^^xsd:string ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#doi> "http://hdl.handle.net/1822/6234"^^xsd:string ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#isbn> "978-972-99166-4-9"^^xsd:string ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#month> "02.14-15"^^xsd:string ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#title> "XATA2007 (5ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"^^xsd:string ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#year> "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Ram2000
+<http://www.di.uminho.pt/prc2021/publicacoes#Ram2000> rdf:type owl:NamedIndividual ,
+                                                               <http://www.di.uminho.pt/prc2021/publicacoes#Phdthesis> ,
+                                                               <http://www.di.uminho.pt/prc2021/publicacoes#Publication> ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#wrotedBy> <http://www.di.uminho.pt/prc2021/publicacoes#jcr> ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#address> "Universidade do Minho"^^xsd:string ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#doi> "http://hdl.handle.net/1822/5625"^^xsd:string ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#month> "07"^^xsd:string ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#school> "Tese de Doutoramento"^^xsd:string ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#title> "Anotação Estrutural de Documentos e sua Semântica"^^xsd:string ;
+                                                      <http://www.di.uminho.pt/prc2021/publicacoes#year> "2000"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#Ram93
+<http://www.di.uminho.pt/prc2021/publicacoes#Ram93> rdf:type owl:NamedIndividual ,
+                                                             <http://www.di.uminho.pt/prc2021/publicacoes#Mastherthesis> ,
+                                                             <http://www.di.uminho.pt/prc2021/publicacoes#Publication> ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#wrotedBy> <http://www.di.uminho.pt/prc2021/publicacoes#jcr> ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#month> "10"^^xsd:string ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#school> "Escola de Engenharia - Universidade do Minho"^^xsd:string ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#title> "Um Compilador para o GLiTCH"^^xsd:string ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#year> "1993"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#albie
+<http://www.di.uminho.pt/prc2021/publicacoes#albie> rdf:type owl:NamedIndividual ,
+                                                             <http://www.di.uminho.pt/prc2021/publicacoes#Editor> ,
+                                                             <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#edited> <http://www.di.uminho.pt/prc2021/publicacoes#IGI2013> ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#name> "Alberto Simões"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#ap
+<http://www.di.uminho.pt/prc2021/publicacoes#ap> rdf:type owl:NamedIndividual ,
+                                                          <http://www.di.uminho.pt/prc2021/publicacoes#Author> ,
+                                                          <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                 <http://www.di.uminho.pt/prc2021/publicacoes#wrote> <http://www.di.uminho.pt/prc2021/publicacoes#cisti2017> ;
+                                                 <http://www.di.uminho.pt/prc2021/publicacoes#name> "André Pereira"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#cajo
+<http://www.di.uminho.pt/prc2021/publicacoes#cajo> rdf:type owl:NamedIndividual ,
+                                                            <http://www.di.uminho.pt/prc2021/publicacoes#Author> ,
+                                                            <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                   <http://www.di.uminho.pt/prc2021/publicacoes#wrote> <http://www.di.uminho.pt/prc2021/publicacoes#RL05> ;
+                                                   <http://www.di.uminho.pt/prc2021/publicacoes#name> "Carlos J. Feijó Lopes"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#cisti2017
+<http://www.di.uminho.pt/prc2021/publicacoes#cisti2017> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.di.uminho.pt/prc2021/publicacoes#Inproceedings> ,
+                                                                 <http://www.di.uminho.pt/prc2021/publicacoes#Publication> ;
+                                                        <http://www.di.uminho.pt/prc2021/publicacoes#wrotedBy> <http://www.di.uminho.pt/prc2021/publicacoes#ap> ,
+                                                                                                               <http://www.di.uminho.pt/prc2021/publicacoes#jcr> ,
+                                                                                                               <http://www.di.uminho.pt/prc2021/publicacoes#lf> ,
+                                                                                                               <http://www.di.uminho.pt/prc2021/publicacoes#mf> ;
+                                                        <http://www.di.uminho.pt/prc2021/publicacoes#address> "SCTE, Lisboa, Portugal"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/publicacoes#booktitle> "12th Iberian Conference on Information Systems and Technologies (CISTI),"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/publicacoes#doi> "http://hdl.handle.net/1822/46093"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/publicacoes#month> "06.24"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/publicacoes#title> "RODA-in: A generic tool for the mass creation of Submission Information Packages"^^xsd:string ;
+                                                        <http://www.di.uminho.pt/prc2021/publicacoes#year> "2017"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#grl
+<http://www.di.uminho.pt/prc2021/publicacoes#grl> rdf:type owl:NamedIndividual ,
+                                                           <http://www.di.uminho.pt/prc2021/publicacoes#Author> ,
+                                                           <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                  <http://www.di.uminho.pt/prc2021/publicacoes#name> "Giovani Rubert Librelotto"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#jcl
+<http://www.di.uminho.pt/prc2021/publicacoes#jcl> rdf:type owl:NamedIndividual ,
+                                                           <http://www.di.uminho.pt/prc2021/publicacoes#Editor> ,
+                                                           <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                  <http://www.di.uminho.pt/prc2021/publicacoes#edited> <http://www.di.uminho.pt/prc2021/publicacoes#RLC07> ;
+                                                  <http://www.di.uminho.pt/prc2021/publicacoes#name> "João Correia Lopes"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#jcr
+<http://www.di.uminho.pt/prc2021/publicacoes#jcr> rdf:type owl:NamedIndividual ,
+                                                           <http://www.di.uminho.pt/prc2021/publicacoes#Author> ,
+                                                           <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                  <http://www.di.uminho.pt/prc2021/publicacoes#wrote> <http://www.di.uminho.pt/prc2021/publicacoes#GARH09> ,
+                                                                                                      <http://www.di.uminho.pt/prc2021/publicacoes#IGI2013> ,
+                                                                                                      <http://www.di.uminho.pt/prc2021/publicacoes#RFCFBC06> ,
+                                                                                                      <http://www.di.uminho.pt/prc2021/publicacoes#RL05> ,
+                                                                                                      <http://www.di.uminho.pt/prc2021/publicacoes#Ram2000> ,
+                                                                                                      <http://www.di.uminho.pt/prc2021/publicacoes#Ram93> ,
+                                                                                                      <http://www.di.uminho.pt/prc2021/publicacoes#cisti2017> ;
+                                                  <http://www.di.uminho.pt/prc2021/publicacoes#name> "José Carlos Ramalho"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#jcr-e
+<http://www.di.uminho.pt/prc2021/publicacoes#jcr-e> rdf:type owl:NamedIndividual ,
+                                                             <http://www.di.uminho.pt/prc2021/publicacoes#Editor> ,
+                                                             <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#edited> <http://www.di.uminho.pt/prc2021/publicacoes#IGI2013> ,
+                                                                                                         <http://www.di.uminho.pt/prc2021/publicacoes#RLC07> ;
+                                                    <http://www.di.uminho.pt/prc2021/publicacoes#name> "José Carlos Ramalho"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#lc
+<http://www.di.uminho.pt/prc2021/publicacoes#lc> rdf:type owl:NamedIndividual ,
+                                                          <http://www.di.uminho.pt/prc2021/publicacoes#Editor> ,
+                                                          <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                 <http://www.di.uminho.pt/prc2021/publicacoes#edited> <http://www.di.uminho.pt/prc2021/publicacoes#RLC07> ;
+                                                 <http://www.di.uminho.pt/prc2021/publicacoes#name> "Luis Carriço"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#lf
+<http://www.di.uminho.pt/prc2021/publicacoes#lf> rdf:type owl:NamedIndividual ,
+                                                          <http://www.di.uminho.pt/prc2021/publicacoes#Author> ,
+                                                          <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                 <http://www.di.uminho.pt/prc2021/publicacoes#wrote> <http://www.di.uminho.pt/prc2021/publicacoes#RFCFBC06> ,
+                                                                                                     <http://www.di.uminho.pt/prc2021/publicacoes#cisti2017> ;
+                                                 <http://www.di.uminho.pt/prc2021/publicacoes#name> "Luis Faria"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#mf
+<http://www.di.uminho.pt/prc2021/publicacoes#mf> rdf:type owl:NamedIndividual ,
+                                                          <http://www.di.uminho.pt/prc2021/publicacoes#Author> ,
+                                                          <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                 <http://www.di.uminho.pt/prc2021/publicacoes#wrote> <http://www.di.uminho.pt/prc2021/publicacoes#RFCFBC06> ,
+                                                                                                     <http://www.di.uminho.pt/prc2021/publicacoes#cisti2017> ;
+                                                 <http://www.di.uminho.pt/prc2021/publicacoes#name> "Miguel Ferreira"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#prh
+<http://www.di.uminho.pt/prc2021/publicacoes#prh> rdf:type owl:NamedIndividual ,
+                                                           <http://www.di.uminho.pt/prc2021/publicacoes#Author> ,
+                                                           <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                  <http://www.di.uminho.pt/prc2021/publicacoes#wrote> <http://www.di.uminho.pt/prc2021/publicacoes#GARH09> ;
+                                                  <http://www.di.uminho.pt/prc2021/publicacoes#name> "Pedro Rangel Henriques"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#rf
+<http://www.di.uminho.pt/prc2021/publicacoes#rf> rdf:type owl:NamedIndividual ,
+                                                          <http://www.di.uminho.pt/prc2021/publicacoes#Author> ,
+                                                          <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                 <http://www.di.uminho.pt/prc2021/publicacoes#wrote> <http://www.di.uminho.pt/prc2021/publicacoes#IGI2013> ;
+                                                 <http://www.di.uminho.pt/prc2021/publicacoes#name> "Ricardo Freitas"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#rpa
+<http://www.di.uminho.pt/prc2021/publicacoes#rpa> rdf:type owl:NamedIndividual ,
+                                                           <http://www.di.uminho.pt/prc2021/publicacoes#Author> ,
+                                                           <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                  <http://www.di.uminho.pt/prc2021/publicacoes#wrote> <http://www.di.uminho.pt/prc2021/publicacoes#GARH09> ;
+                                                  <http://www.di.uminho.pt/prc2021/publicacoes#name> "Renato Preigschadt de Azevedo"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/publicacoes#rq
+<http://www.di.uminho.pt/prc2021/publicacoes#rq> rdf:type owl:NamedIndividual ,
+                                                          <http://www.di.uminho.pt/prc2021/publicacoes#Editor> ,
+                                                          <http://www.di.uminho.pt/prc2021/publicacoes#Person> ;
+                                                 <http://www.di.uminho.pt/prc2021/publicacoes#edited> <http://www.di.uminho.pt/prc2021/publicacoes#IGI2013> ;
+                                                 <http://www.di.uminho.pt/prc2021/publicacoes#name> "Ricardo Queirós"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
