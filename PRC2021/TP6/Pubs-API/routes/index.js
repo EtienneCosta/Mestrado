@@ -11,11 +11,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
 `
 
-/* GET home page. */
-router.get('/pubs', function (req, res, next) {
+/* 
+  http://localhost:7777/pubs
 
+  Devolve a lista de publicações com os seguintes campos :
+      - id
+      - type
+      - title
+      - year 
+*/
+router.get('/pubs', function (req, res, next) {
   if (!req.query.type) {
-    var query = `select   ?s ?title  ?year ?type where {
+    var query = `select  ?s ?title  ?year ?type where {
                                   ?s a :Publication;
               	                  :title ?title ;
                                   :year  ?year;
@@ -47,6 +54,19 @@ router.get('/pubs', function (req, res, next) {
 
 
   else {
+
+    /* 
+        http://localhost:7777/pubs?type=Inproceedings
+
+        Devolve a lista de publicações com os seguintes campos :
+        - id
+        - type
+        - title
+        - year 
+    
+    
+    
+    */
 
     var type = req.query.type
     var query = `select ?s ?title where {

@@ -1,4 +1,4 @@
-// Generated from /Users/etiennecosta/Desktop/Mestrado/PLC/GCS/Antlr4/Faturas/Faturas.g4 by ANTLR 4.8
+// Generated from /Users/etiennecosta/Desktop/GitHub/Mestrado/GCS/GT/Faturas/Faturas.g4 by ANTLR 4.8
  
 import java.util.* ;
 
