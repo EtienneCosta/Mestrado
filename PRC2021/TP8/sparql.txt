@@ -1,0 +1,77 @@
+Mapa Virtural de Portugal
+================================================
+1) Quantos triplos existem na ontologia ?
+
+select (count (*) as ?Triples)  where { 
+	?s ?p ?o .
+} 
+================================================
+
+================================================
+2) Que classes estão definidas ?
+
+select (?s as ?Classes)  where { 
+	?s a owl:Class .
+}  
+
+================================================
+
+================================================
+3) Que propriedades tem a classe "cidade"?
+
+select distinct ?p where { 
+	?s a :cidade ;
+    ?p ?o .
+}  
+=====================================================
+=====================================================
+4) Quantas cidades aparecem na ontologia ?
+
+select (count (?s) as ?Cidades)  where { 
+	?s a :cidade .
+}  
+
+=====================================================
+=====================================================
+
+5) Calcula uma tabela das cidades com o seu Identificador, Nome , População e Distrito .
+
+select (?s as ?Id) ?Nome ?População ?Distrito  where { 
+	  ?s a :cidade ;
+      :nome ?Nome;
+      :população ?População ;
+      :distrito ?Distrito .
+}  
+
+=====================================================
+
+=====================================================
+
+6) Quantos artigos referem "José Sócrates"? Lista os seus identificadores, títulos e datas de publicação;
+
+select (?s as ?Id) ?Title ?Date where { 
+	?s a :Article ;
+      :dataPub ?Date;
+      :title   ?Title;
+      :referesPerson :person-José_Sócrates .
+}  
+
+=====================================================
+
+=====================================================
+
+7) Quais as ligações entre cidades e as suas distâncias ?
+
+select ?Origem ?Destino ?Distância where { 
+    ?s1 a :ligação;
+      :temOrigem ?origem;
+      :temDestino ?destino;
+      :distância ?Distância.
+   ?origem :nome ?Origem .
+   ?destino :nome ?Destino.
+       
+}  
+Order by ?Origem
+=====================================================
+
+=====================================================
