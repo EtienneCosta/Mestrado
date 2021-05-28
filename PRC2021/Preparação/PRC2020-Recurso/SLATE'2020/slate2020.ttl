@@ -1,0 +1,406 @@
+@prefix : <http://www.di.uminho.pt/prc2021/slate2020#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/slate2020> .
+
+<http://www.di.uminho.pt/prc2021/slate2020> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/slate2020#autorDe
+:autorDe rdf:type owl:ObjectProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#chairDe
+:chairDe rdf:type owl:ObjectProperty ;
+         rdfs:domain :Moderador ;
+         rdfs:range :Sessão .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#organizada
+:organizada rdf:type owl:ObjectProperty ;
+            rdfs:domain :Apresentação ;
+            rdfs:range :Sessão .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#pertence
+:pertence rdf:type owl:ObjectProperty ;
+          rdfs:domain :Apresentação ;
+          rdfs:range :Conferência .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#pertenceConvidada
+:pertenceConvidada rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Convidada ;
+                   rdfs:range :Conferência .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Data
+:Data rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Descrição
+:Descrição rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Dia
+:Dia rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Hora
+:Hora rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Local
+:Local rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Nome
+:Nome rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Resumo
+:Resumo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Título
+:Título rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Apresentação
+:Apresentação rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Autor
+:Autor rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Conferência
+:Conferência rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Convidada
+:Convidada rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Moderador
+:Moderador rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Sessão
+:Sessão rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Assessing_Factoid_Question-Answer_Generation_for_Portuguese
+:Assessing_Factoid_Question-Answer_Generation_for_Portuguese rdf:type owl:NamedIndividual ,
+                                                                      :Apresentação ;
+                                                             :organizada :session_I ;
+                                                             :pertence :slate2020 ;
+                                                             :Título "Assessing Factoid Question-Answer Generation for Portuguese" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Behavior_Trees_Specification_and_Processing
+:Behavior_Trees_Specification_and_Processing rdf:type owl:NamedIndividual ,
+                                                      :Apresentação ;
+                                             :organizada :session_I ;
+                                             :pertence :slate2020 ;
+                                             :Título "Behavior Trees Specification and Processing" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#DAOLOT_a_Semantic_Browser
+:DAOLOT_a_Semantic_Browser rdf:type owl:NamedIndividual ,
+                                    :Apresentação ;
+                           :organizada :session_I ;
+                           :pertence :slate2020 ;
+                           :Título "DAOLOT: a Semantic Browser" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Detection_of_Vulnerabilities_in_Smart_Contracts_Specifications_in_Ethereum_Platforms
+:Detection_of_Vulnerabilities_in_Smart_Contracts_Specifications_in_Ethereum_Platforms rdf:type owl:NamedIndividual ,
+                                                                                               :Apresentação ;
+                                                                                      :organizada :session_II ;
+                                                                                      :pertence :slate2020 ;
+                                                                                      :Título "Detection of Vulnerabilities in Smart Contracts Specifications in Ethereum Platforms" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Integrating_multi-source_data_into_HandSpy
+:Integrating_multi-source_data_into_HandSpy rdf:type owl:NamedIndividual ,
+                                                     :Apresentação ;
+                                            :organizada :session_II ;
+                                            :pertence :slate2020 ;
+                                            :Título "Integrating multi-source data into HandSpy" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Keynote_I_How_humans_succeed_while_failing_to_communicate
+:Keynote_I_How_humans_succeed_while_failing_to_communicate rdf:type owl:NamedIndividual ,
+                                                                    :Convidada ;
+                                                           :pertenceConvidada :slate2020 ;
+                                                           :Resumo "Humans are remarkably fault-tolerant language processing machines. They usually have entirely different ideas about what was communicated and agreed upon. Still, this high level of misunderstanding does not lead to a complete breakdown of our strongly language-driven societies. How is this possible? And can insight in this strange phenomenon helpt us make better human-machine interfaces?" ;
+                                                           :Título "Keynote I: How humans succeed while failing to communicate" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Musikla_Language_for_Generating_Musical_Events
+:Musikla_Language_for_Generating_Musical_Events rdf:type owl:NamedIndividual ,
+                                                         :Apresentação ;
+                                                :organizada :session_II ;
+                                                :pertence :slate2020 ;
+                                                :Título "Musikla: Language for Generating Musical Events" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Yet_Another_Programming_Exercises_Interoperability_Language
+:Yet_Another_Programming_Exercises_Interoperability_Language rdf:type owl:NamedIndividual ,
+                                                                      :Apresentação ;
+                                                             :organizada :session_II ;
+                                                             :pertence :slate2020 ;
+                                                             :Título "Yet Another Programming Exercises Interoperability Language" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#alberto_simoes
+:alberto_simoes rdf:type owl:NamedIndividual ;
+                :chairDe :session_I ;
+                :Nome "Alberto Simões" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#andre_santos
+:andre_santos rdf:type owl:NamedIndividual ,
+                       :Autor ;
+              :autorDe :DAOLOT_a_Semantic_Browser ;
+              :Nome "André Santos" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#hristo_valkanov
+:hristo_valkanov rdf:type owl:NamedIndividual ,
+                          :Autor ;
+                 :autorDe :Integrating_multi-source_data_into_HandSpy ;
+                 :Nome "Hristo Valkanov" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#hugo_goncalo_oliveira
+:hugo_goncalo_oliveira rdf:type owl:NamedIndividual ,
+                                :Autor ,
+                                :Moderador ;
+                       :autorDe :Assessing_Factoid_Question-Answer_Generation_for_Portuguese ;
+                       :chairDe :session_II ;
+                       :Nome "Hugo Gonçalo Oliveira" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#jakub_swacha
+:jakub_swacha rdf:type owl:NamedIndividual ,
+                       :Autor ;
+              :autorDe :Yet_Another_Programming_Exercises_Interoperability_Language ;
+              :Nome "Jakub Swacha" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#jang_f_m_graat
+:jang_f_m_graat rdf:type owl:NamedIndividual ,
+                         :Autor ;
+                :autorDe :Keynote_I_How_humans_succeed_while_failing_to_communicate ;
+                :Nome "Jang F M Graat" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#joao_ferreira
+:joao_ferreira rdf:type owl:NamedIndividual ,
+                        :Autor ;
+               :autorDe :Assessing_Factoid_Question-Answer_Generation_for_Portuguese ;
+               :Nome "João Ferreira" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#joao_silva
+:joao_silva rdf:type owl:NamedIndividual ,
+                     :Autor ;
+            :autorDe :DAOLOT_a_Semantic_Browser ;
+            :Nome "João Silva" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#jorge_baptista
+:jorge_baptista rdf:type owl:NamedIndividual ,
+                         :Autor ;
+                :autorDe :Syntactic_Transformations_in_Rule-based_Parsing_of_Support_Verb_Constructions:_Examples_from_European_Portuguese ;
+                :Nome "Jorge Baptista" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#jose_carlos_paiva
+:jose_carlos_paiva rdf:type owl:NamedIndividual ,
+                            :Autor ;
+                   :autorDe :Yet_Another_Programming_Exercises_Interoperability_Language ;
+                   :Nome "Jose Carlos Paiva" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#jose_joao_almeida
+:jose_joao_almeida rdf:type owl:NamedIndividual ,
+                            :Autor ;
+                   :autorDe :Behavior_Trees_Specification_and_Processing ,
+                            :Musikla_Language_for_Generating_Musical_Events ;
+                   :Nome "José João Almeida" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#jose_leal
+:jose_leal rdf:type owl:NamedIndividual ,
+                    :Autor ;
+           :autorDe :DAOLOT_a_Semantic_Browser ;
+           :Nome "José Leal" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#jose_paulo_leal
+:jose_paulo_leal rdf:type owl:NamedIndividual ,
+                          :Autor ;
+                 :autorDe :Integrating_multi-source_data_into_HandSpy ,
+                          :Yet_Another_Programming_Exercises_Interoperability_Language ;
+                 :Nome "José Paulo Leal" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#maria_joao_varanda_pereira
+:maria_joao_varanda_pereira rdf:type owl:NamedIndividual ,
+                                     :Autor ;
+                            :autorDe <http://www.di.uminho.pt/prc2021/slate2020#Development_of_Q&A_Systems_using_AcQA> ;
+                            :Nome "Maria João Varanda Pereira" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#maria_varanda_pereira
+:maria_varanda_pereira rdf:type owl:NamedIndividual ,
+                                :Autor ;
+                       :autorDe :Detection_of_Vulnerabilities_in_Smart_Contracts_Specifications_in_Ethereum_Platforms ;
+                       :Nome "Maria Varanda Pereira" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#mario_beron
+:mario_beron rdf:type owl:NamedIndividual ,
+                      :Autor ;
+             :autorDe :Detection_of_Vulnerabilities_in_Smart_Contracts_Specifications_in_Ethereum_Platforms ;
+             :Nome "Mario Beron" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#mauro_arganaraz
+:mauro_arganaraz rdf:type owl:NamedIndividual ,
+                          :Autor ;
+                 :autorDe :Detection_of_Vulnerabilities_in_Smart_Contracts_Specifications_in_Ethereum_Platforms ;
+                 :Nome "Mauro Arganaraz" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#miguel_oliveira
+:miguel_oliveira rdf:type owl:NamedIndividual ,
+                          :Autor ;
+                 :autorDe :Behavior_Trees_Specification_and_Processing ;
+                 :Nome "Miguel Oliveira" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#nuno_mamede
+:nuno_mamede rdf:type owl:NamedIndividual ,
+                      :Autor ;
+             :autorDe :Syntactic_Transformations_in_Rule-based_Parsing_of_Support_Verb_Constructions:_Examples_from_European_Portuguese ;
+             :Nome "Nuno Mamede" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#pedro_henriques
+:pedro_henriques rdf:type owl:NamedIndividual ,
+                          :Autor ;
+                 :autorDe :Detection_of_Vulnerabilities_in_Smart_Contracts_Specifications_in_Ethereum_Platforms ;
+                 :Nome "Pedro Henriques" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#pedro_m_silva
+:pedro_m_silva rdf:type owl:NamedIndividual ,
+                        :Autor ;
+               :autorDe :Musikla_Language_for_Generating_Musical_Events ;
+               :Nome "Pedro M Silva" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#pedro_moura
+:pedro_moura rdf:type owl:NamedIndividual ,
+                      :Autor ;
+             :autorDe :Behavior_Trees_Specification_and_Processing ;
+             :Nome "Pedro Moura" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#pedro_rangel_henriques
+:pedro_rangel_henriques rdf:type owl:NamedIndividual ,
+                                 :Autor ;
+                        :autorDe :Behavior_Trees_Specification_and_Processing ,
+                                 <http://www.di.uminho.pt/prc2021/slate2020#Development_of_Q&A_Systems_using_AcQA> ;
+                        :Nome "Pedro Rangel Henriques" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#pedro_silva
+:pedro_silva rdf:type owl:NamedIndividual ,
+                      :Autor ;
+             :autorDe :Behavior_Trees_Specification_and_Processing ;
+             :Nome "Pedro Silva" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#reanto_preigschadt_de_azevedo
+:reanto_preigschadt_de_azevedo rdf:type owl:NamedIndividual ,
+                                        :Autor ;
+                               :autorDe <http://www.di.uminho.pt/prc2021/slate2020#Development_of_Q&A_Systems_using_AcQA> ;
+                               :Nome "Renato Preigschadt de Azevedo" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#ricardo_queiros
+:ricardo_queiros rdf:type owl:NamedIndividual ,
+                          :Autor ;
+                 :autorDe :Yet_Another_Programming_Exercises_Interoperability_Language ;
+                 :Nome "Ricardo Queiros" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#ricardo_rodrigues
+:ricardo_rodrigues rdf:type owl:NamedIndividual ,
+                            :Autor ;
+                   :autorDe :Assessing_Factoid_Question-Answer_Generation_for_Portuguese ;
+                   :Nome "Ricardo Rogrigues" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#session_I
+:session_I rdf:type owl:NamedIndividual ,
+                    :Sessão ;
+           :Dia "Monday, 13th July" ;
+           :Hora "10:05" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#session_II
+:session_II rdf:type owl:NamedIndividual ,
+                     :Sessão ;
+            :Dia "Monday, 13th July" ;
+            :Hora "14:30" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#slate2020
+:slate2020 rdf:type owl:NamedIndividual ,
+                    :Conferência ;
+           :Data "13th July, 2020" ;
+           :Descrição "We often use languages. First, to communicate between ourselves. Later, to communicate with computers. And more recently, with the advent of networks, we found a way to make computers communicate between themselves. All these different forms of communication use languages, different languages, but that still share many similarities. In SLATE we are interested in discussing these languages." ;
+           :Local "Barcelos, Portugal" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Development_of_Q&A_Systems_using_AcQA
+<http://www.di.uminho.pt/prc2021/slate2020#Development_of_Q&A_Systems_using_AcQA> rdf:type owl:NamedIndividual ,
+                                                                                           :Apresentação ;
+                                                                                  :organizada :session_I ;
+                                                                                  :pertence :slate2020 ;
+                                                                                  :Título "Development of Q&A Systems using AcQA" .
+
+
+###  http://www.di.uminho.pt/prc2021/slate2020#Syntactic_Transformations_in_Rule-based_Parsing_of_Support_Verb_Constructions:_Examples_from_European_Portuguese
+:Syntactic_Transformations_in_Rule-based_Parsing_of_Support_Verb_Constructions:_Examples_from_European_Portuguese rdf:type owl:NamedIndividual ,
+                                                                                                                           :Apresentação ;
+                                                                                                                  :organizada :session_II ;
+                                                                                                                  :pertence :slate2020 ;
+                                                                                                                  :Título "Syntactic Transformations in Rule-based Parsing of Support Verb Constructions: Examples from European Portuguese" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,1032 @@
+
+###  http://www.di.uminho.pt/prc2021/UltraTrail#mario_pires
+:mario_pires rdf:type owl:NamedIndividual ;
+             :pertence :individual ;
+             :realiza :ultra_trail ;
+             :DataNascimento "04/04/59 " ;
+             :DataSituação "30/01/14 " ;
+             :Email "mgpires@netcabo.pt" ;
+             :Escalão "M50 " ;
+             :Morada "RUA CÂNDIDO DOS REIS   nº 86   2º   " ;
+             :NIF "138087130 " ;
+             :Nome "MARIO PIRES " ;
+             :NumParticipanteEvento "1 " ;
+             :NumParticipanteTipo "1 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "969370898 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#francisco_neto_silva
+:francisco_neto_silva rdf:type owl:NamedIndividual ;
+             :pertence :individual ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "22/04/89 " ;
+             :DataSituação "30/01/14 " ;
+             :Email "netosilva.francisco@gmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua da Ermida  235 " ;
+             :NIF " " ;
+             :Nome "Francisco Neto Silva " ;
+             :NumParticipanteEvento "2 " ;
+             :NumParticipanteTipo "501 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt "M " ;
+             :Telefone "919777166 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#luis_santos_poeira
+:luis_santos_poeira rdf:type owl:NamedIndividual ;
+             :pertence :porto_runners ;
+             :realiza :ultra_trail ;
+             :DataNascimento "01/05/66 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "lspoeira@gmail.com" ;
+             :Escalão "M40 " ;
+             :Morada "R. Soc. Nacional Fósforos  160 - 1º Andar Hab. 6  4150 Porto " ;
+             :NIF " " ;
+             :Nome "Luis Santos Poeira " ;
+             :NumParticipanteEvento "8 " ;
+             :NumParticipanteTipo "5 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "963036120 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#jose_moura_de_sousa
+:jose_moura_de_sousa rdf:type owl:NamedIndividual ;
+             :pertence :os_barriguitas ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "24/01/54 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "jomogoso@gmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "rua joaquim da silva torres  261  4470-312 maia " ;
+             :NIF " " ;
+             :Nome "jose moura de sousa " ;
+             :NumParticipanteEvento "3 " ;
+             :NumParticipanteTipo "502 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt "XL " ;
+             :Telefone "912302111 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#fernando_jorge_mendes_carneiro
+:fernando_jorge_mendes_carneiro rdf:type owl:NamedIndividual ;
+             :pertence :nast ;
+             :realiza :ultra_trail ;
+             :DataNascimento "17/09/82 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "nando_1982_sts@hotmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Estrada Nacional 105 - n.º 571 - Carreira - Santo Tirso " ;
+             :NIF " " ;
+             :Nome "FERNANDO JORGE MENDES CARNEIRO " ;
+             :NumParticipanteEvento "4 " ;
+             :NumParticipanteTipo "2 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "917306682 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#carlos_alberto_da_silva_cardoso
+:carlos_alberto_da_silva_cardoso rdf:type owl:NamedIndividual ;
+             :pertence :clube_atletismo_de_lamas ;
+             :realiza :ultra_trail ;
+             :DataNascimento "08/02/73 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "casc1972@hotmail.com" ;
+             :Escalão "M40 " ;
+             :Morada "Rua 25 Abril Nr.193 " ;
+             :NIF " " ;
+             :Nome "Carlos Alberto da Silva Cardoso " ;
+             :NumParticipanteEvento "5 " ;
+             :NumParticipanteTipo "3 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "917569332 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#ricardo_salgueiro
+:ricardo_salgueiro rdf:type owl:NamedIndividual ;
+             :pertence :cães_da_avenida ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "22/11/63 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "rs@selcofootwear.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua de Gondarém nr 765-5 A 4150-378 Porto " ;
+             :NIF "180348531 " ;
+             :Nome "Ricardo Salgueiro " ;
+             :NumParticipanteEvento "6 " ;
+             :NumParticipanteTipo "503 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt "M " ;
+             :Telefone "936107476 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#rui_gilberto_santos_correia
+:rui_gilberto_santos_correia rdf:type owl:NamedIndividual ;
+             :pertence :clube_atletismo_de_lamas ;
+             :realiza :ultra_trail ;
+             :DataNascimento "23/02/74 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "gilcorreia@yahoo.com" ;
+             :Escalão "M40 " ;
+             :Morada "Rua Jorge Barradas nr6 " ;
+             :NIF "201709520 " ;
+             :Nome "Rui Gilberto Santos Correia " ;
+             :NumParticipanteEvento "7 " ;
+             :NumParticipanteTipo "4 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "913036566 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#josé_moreira
+:josé_moreira rdf:type owl:NamedIndividual ;
+             :pertence :clube_atletismo_de_lamas ;
+             :realiza :ultra_trail ;
+             :DataNascimento "12/04/78 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "jmoreiracdf@gmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua Central nº 905  1º direito  Fiães " ;
+             :NIF " " ;
+             :Nome "José Moreira " ;
+             :NumParticipanteEvento "11 " ;
+             :NumParticipanteTipo "8 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "926440506 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#hélder_silva
+:hélder_silva rdf:type owl:NamedIndividual ;
+             :pertence :clube_atletismo_de_lamas ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "09/01/75 " ;
+             :DataSituação "05/02/14 " ;
+             :Email "helder.santos.silva@hotmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua Luis de Camões  320 2ºDto Post " ;
+             :NIF "204210984 " ;
+             :Nome "Hélder Silva " ;
+             :NumParticipanteEvento "26 " ;
+             :NumParticipanteTipo "510 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt "M " ;
+             :Telefone "919543200 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#jose_coelho
+:jose_coelho rdf:type owl:NamedIndividual ;
+             :pertence :clube_atletismo_de_lamas ;
+             :realiza :ultra_trail ;
+             :DataNascimento "09/12/78 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "rota_pontual@sapo.pt" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "RUA PADRE SA N.º 60  4505-384 FIÃES " ;
+             :NIF "201941015 " ;
+             :Nome "JOSE COELHO " ;
+             :NumParticipanteEvento "10 " ;
+             :NumParticipanteTipo "7 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "912711148 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#paulo_de_castro_rocha
+:paulo_de_castro_rocha rdf:type owl:NamedIndividual ;
+             :pertence :clube_de_veteranos_do_porto ;
+             :realiza :ultra_trail ;
+             :DataNascimento "22/05/59 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "pcastrorocha@gmail.com" ;
+             :Escalão "M50 " ;
+             :Morada "rua gil eanes  67 - 1º - 4400-165 - vila nova de gaia " ;
+             :NIF "160149070 " ;
+             :Nome "paulo de castro rocha " ;
+             :NumParticipanteEvento "9 " ;
+             :NumParticipanteTipo "6 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "933364233 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#artur_bernardo
+:artur_bernardo rdf:type owl:NamedIndividual ;
+             :pertence :individual ;
+             :realiza :ultra_trail ;
+             :DataNascimento "22/05/72 " ;
+             :DataSituação "04/02/14 " ;
+             :Email "ajbernardo@netcabo.pt" ;
+             :Escalão "M40 " ;
+             :Morada "Rua Jose Relvas n8 " ;
+             :NIF "206228317 " ;
+             :Nome "Artur Bernardo " ;
+             :NumParticipanteEvento "17 " ;
+             :NumParticipanteTipo "10 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "927033868 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#j_paulo_marques
+:j_paulo_marques rdf:type owl:NamedIndividual ;
+             :pertence :os_caga_tacos_running_tean ;
+             :realiza :ultra_trail ;
+             :DataNascimento "09/06/74 " ;
+             :DataSituação "06/02/14 " ;
+             :Email "pmarques269@gmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Tv da Seara N64 3esq 269-4450 Matosinhos " ;
+             :NIF "202213722 " ;
+             :Nome "J Paulo Marques " ;
+             :NumParticipanteEvento "30 " ;
+             :NumParticipanteTipo "20 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "918657054 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#bruno_manuel_henriques_maceda
+:bruno_manuel_henriques_maceda rdf:type owl:NamedIndividual ;
+             :pertence :os_caga_tacos_running_tean ;
+             :realiza :ultra_trail ;
+             :DataNascimento "11/06/79 " ;
+             :DataSituação "04/02/14 " ;
+             :Email "macedobruno10@gmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua Joaquim Lagoeiro  11 Veiros Estarreja " ;
+             :NIF "221428526 " ;
+             :Nome "Bruno Manuel Henriques Maceda " ;
+             :NumParticipanteEvento "20 " ;
+             :NumParticipanteTipo "12 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "918834475 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#joão_costa
+:joão_costa rdf:type owl:NamedIndividual ;
+             :pertence :turbulentos ;
+             :realiza :ultra_trail ;
+             :DataNascimento "04/04/70 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "jfscosta@gmail.com" ;
+             :Escalão "M40 " ;
+             :Morada "Rua Carolina Rosa Alves Nº27 Braga " ;
+             :NIF "195973631 " ;
+             :Nome "João Costa " ;
+             :NumParticipanteEvento "12 " ;
+             :NumParticipanteTipo "9 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "915303594 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#paulo_pimentel_torres
+:paulo_pimentel_torres rdf:type owl:NamedIndividual ;
+             :pertence :turbulentos ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "10/09/59 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "geral@vieirafreitas.pt" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua Costa Soares  39 " ;
+             :NIF "132287641 " ;
+             :Nome "Paulo Pimentel Torres " ;
+             :NumParticipanteEvento "13 " ;
+             :NumParticipanteTipo "504 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt "M " ;
+             :Telefone "966040136 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#joão_pimentel_torres
+:joão_pimentel_torres rdf:type owl:NamedIndividual ;
+             :pertence :turbulentos ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "11/09/88 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "geral@vieirafreitas.pt" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua Costa Soares  39 " ;
+             :NIF "132287641 " ;
+             :Nome "João Pimentel Torres " ;
+             :NumParticipanteEvento "14 " ;
+             :NumParticipanteTipo "505 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt "S " ;
+             :Telefone "966040136 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#vasco_manuel_de_sequeiros_barreto_martins_de_araújo
+:vasco_manuel_de_sequeiros_barreto_martins_de_araújo rdf:type owl:NamedIndividual ;
+             :pertence :turbulentos ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "26/05/64 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "vascosequeiros@yahoo.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua S. Domingos 174 3º esq. " ;
+             :NIF "192410148 " ;
+             :Nome "Vasco Manuel de Sequeiros Barreto Martins de Araújo " ;
+             :NumParticipanteEvento "15 " ;
+             :NumParticipanteTipo "506 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt "XL " ;
+             :Telefone "919421515 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#helder_matos
+:helder_matos rdf:type owl:NamedIndividual ;
+             :pertence :os_caga_tacos_running_tean ;
+             :realiza :ultra_trail ;
+             :DataNascimento "07/12/76 " ;
+             :DataSituação "05/02/14 " ;
+             :Email "Helder_Matos@sapo.pt" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Pcta Nova do picao 114b  1esq  4400-424 Canidelo " ;
+             :NIF "203438000 " ;
+             :Nome "Helder Matos " ;
+             :NumParticipanteEvento "23 " ;
+             :NumParticipanteTipo "14 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "918791083 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#josé_fernanades_ferreira
+:josé_fernanades_ferreira rdf:type owl:NamedIndividual ;
+             :pertence :porto_runners ;
+             :realiza :ultra_trail ;
+             :DataNascimento "09/09/65 " ;
+             :DataSituação "05/02/14 " ;
+             :Email "j.manuelff@gmail.com" ;
+             :Escalão "M40 " ;
+             :Morada "Rua Avelino Soares Carneiro  111 - R/C - Esº " ;
+             :NIF "157189775 " ;
+             :Nome "José Fernanades Ferreira " ;
+             :NumParticipanteEvento "24 " ;
+             :NumParticipanteTipo "15 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "917363961 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#sérgio_duarte
+:sérgio_duarte rdf:type owl:NamedIndividual ;
+             :pertence :com ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "06/10/94 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "sergioduarte5140@gmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Bairro da Alegria  Rua 10 de Junho nº 11  4710-332 Braga " ;
+             :NIF "218985681 " ;
+             :Nome "Sérgio Duarte " ;
+             :NumParticipanteEvento "16 " ;
+             :NumParticipanteTipo "507 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt "M " ;
+             :Telefone "916147589 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#jorge_yong
+:jorge_yong rdf:type owl:NamedIndividual ;
+             :pertence :individual ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "13/11/70 " ;
+             :DataSituação "04/02/14 " ;
+             :Email "pintojo@gmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Barcelos " ;
+             :NIF " " ;
+             :Nome "Jorge Yong " ;
+             :NumParticipanteEvento "18 " ;
+             :NumParticipanteTipo "508 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt "L " ;
+             :Telefone "919144861 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#paulo_serra
+:paulo_serra rdf:type owl:NamedIndividual ;
+             :pertence :individual ;
+             :realiza :ultra_trail ;
+             :DataNascimento "22/08/81 " ;
+             :DataSituação "04/02/14 " ;
+             :Email "paulo.serra@gmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Maia " ;
+             :NIF "217590128 " ;
+             :Nome "Paulo Serra " ;
+             :NumParticipanteEvento "21 " ;
+             :NumParticipanteTipo "13 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "914465667 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#tiago_josé_cadima_borges
+:tiago_josé_cadima_borges rdf:type owl:NamedIndividual ;
+             :pertence :individual ;
+             :realiza :ultra_trail ;
+             :DataNascimento "15/10/82 " ;
+             :DataSituação "05/02/14 " ;
+             :Email "tjcborges@gmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua do Campos Verdes nº161 R/C " ;
+             :NIF " " ;
+             :Nome "Tiago José Cadima Borges " ;
+             :NumParticipanteEvento "25 " ;
+             :NumParticipanteTipo "16 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "933868011 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#maria_de_fatima_batista_geraldes
+:maria_de_fatima_batista_geraldes rdf:type owl:NamedIndividual ;
+             :pertence :tugas_na_estrada ;
+             :realiza :ultra_trail ;
+             :DataNascimento "29/07/69 " ;
+             :DataSituação "05/02/14 " ;
+             :Email "mfatima_geraldes@hotmail.com" ;
+             :Escalão "SENIOR Fem " ;
+             :Morada "Rua Duque da Terceira  nº 249  1.1  4050-536 Porto " ;
+             :NIF "201632020 " ;
+             :Nome "Maria de Fatima Batista Geraldes " ;
+             :NumParticipanteEvento "27 " ;
+             :NumParticipanteTipo "17 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "919057654 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#paulo_vilaça
+:paulo_vilaça rdf:type owl:NamedIndividual ;
+             :pertence :tugas_na_estrada ;
+             :realiza :ultra_trail ;
+             :DataNascimento "09/12/63 " ;
+             :DataSituação "04/02/14 " ;
+             :Email "pmv777@gmail.com" ;
+             :Escalão "M50 " ;
+             :Morada "Tv Elaine Sanceau  51 3ºDto  4465-620 Leça do Balio " ;
+             :NIF " " ;
+             :Nome "paulo Vilaça " ;
+             :NumParticipanteEvento "19 " ;
+             :NumParticipanteTipo "11 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "939867583 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#manuel_moura
+:manuel_moura rdf:type owl:NamedIndividual ;
+             :pertence :os_barriguitas ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "27/04/55 " ;
+             :DataSituação "04/02/14 " ;
+             :Email "mamgs@sapo.pt" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Tv Julio Dinis 124 " ;
+             :NIF " " ;
+             :Nome "Manuel Moura " ;
+             :NumParticipanteEvento "22 " ;
+             :NumParticipanteTipo "509 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt "L " ;
+             :Telefone "916614683 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#sérgio_moreira
+:sérgio_moreira rdf:type owl:NamedIndividual ;
+             :pertence :blue_o ;
+             :realiza :ultra_trail ;
+             :DataNascimento "09/09/79 " ;
+             :DataSituação "03/02/14 " ;
+             :Email "sergio_moreira_79@hotmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua Nova da Serra  n.º 61 4415-280 Pedroso " ;
+             :NIF " " ;
+             :Nome "Sérgio Moreira " ;
+             :NumParticipanteEvento " " ;
+             :NumParticipanteTipo " " ;
+             :Situação "Registada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "963536358 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#jorge_manuel_martins_silva
+:jorge_manuel_martins_silva rdf:type owl:NamedIndividual ;
+             :pertence :individual ;
+             :realiza :ultra_trail ;
+             :DataNascimento "17/06/68 " ;
+             :DataSituação "05/02/14 " ;
+             :Email "jorge.silva2005@sapo.pt" ;
+             :Escalão "M40 " ;
+             :Morada "rua domingos nunes lt 2 " ;
+             :NIF "199624429 " ;
+             :Nome "jorge manuel martins silva " ;
+             :NumParticipanteEvento "28 " ;
+             :NumParticipanteTipo "18 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "964414481 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#ricardo_silva
+:ricardo_silva rdf:type owl:NamedIndividual ;
+             :pertence :tugas_na_estrada ;
+             :realiza :ultra_trail ;
+             :DataNascimento "12/02/14 " ;
+             :DataSituação "04/02/14 " ;
+             :Email "jo_ricardo_silva@hotmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua das cavadas 178 10 Dtº tras " ;
+             :NIF "204581249 " ;
+             :Nome "Ricardo Silva " ;
+             :NumParticipanteEvento " " ;
+             :NumParticipanteTipo " " ;
+             :Situação "Registada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "964644171 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#paulo_domingues
+:paulo_domingues rdf:type owl:NamedIndividual ;
+             :pertence :individual ;
+             :realiza :ultra_trail ;
+             :DataNascimento "05/08/70 " ;
+             :DataSituação "05/02/14 " ;
+             :Email "p.j.p.domingues@gmail.com" ;
+             :Escalão "M40 " ;
+             :Morada "Valongo " ;
+             :NIF "193896001 " ;
+             :Nome "Paulo Domingues " ;
+             :NumParticipanteEvento "29 " ;
+             :NumParticipanteTipo "19 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "917067362 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#dulce_moreda
+:dulce_moreda rdf:type owl:NamedIndividual ;
+             :pertence :individual ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "25/05/69 " ;
+             :DataSituação "06/02/14 " ;
+             :Email "dulcemoreda@hotmail.com" ;
+             :Escalão "SENIOR Fem " ;
+             :Morada "Valongo " ;
+             :NIF "195812921 " ;
+             :Nome "Dulce Moreda " ;
+             :NumParticipanteEvento "32 " ;
+             :NumParticipanteTipo "512 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt "M " ;
+             :Telefone "913997298 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#celeste_cruz
+:celeste_cruz rdf:type owl:NamedIndividual ;
+             :pertence :com ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "23/10/65 " ;
+             :DataSituação "04/02/14 " ;
+             :Email "mcruz@stec.uminho.pt" ;
+             :Escalão "SENIOR Fem " ;
+             :Morada "Rua Graça Júnior  nº 14  Braga " ;
+             :NIF "218985681 " ;
+             :Nome "Celeste Cruz " ;
+             :NumParticipanteEvento " " ;
+             :NumParticipanteTipo " " ;
+             :Situação "Registada " ;
+             :Solo " " ;
+             :T-Shirt "M " ;
+             :Telefone "919967574 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#celeste_cruz
+:celeste_cruz rdf:type owl:NamedIndividual ;
+             :pertence :turbulentos ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "23/10/65 " ;
+             :DataSituação "06/02/14 " ;
+             :Email "mcrus@stec.uminho.pt" ;
+             :Escalão "SENIOR Fem " ;
+             :Morada "Rua Graça Júnior  nº 14  Braga " ;
+             :NIF "181296543 " ;
+             :Nome "Celeste Cruz " ;
+             :NumParticipanteEvento "31 " ;
+             :NumParticipanteTipo "511 " ;
+             :Situação "Confirmada " ;
+             :Solo " " ;
+             :T-Shirt "M " ;
+             :Telefone "919967574 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#antónio_fernandes
+:antónio_fernandes rdf:type owl:NamedIndividual ;
+             :pertence :individual ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "24/05/77 " ;
+             :DataSituação "05/02/14 " ;
+             :Email "cisterbtt@gmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua S. Tiago Nº297  Caldelas " ;
+             :NIF " " ;
+             :Nome "António Fernandes " ;
+             :NumParticipanteEvento " " ;
+             :NumParticipanteTipo " " ;
+             :Situação "Registada " ;
+             :Solo " " ;
+             :T-Shirt "L " ;
+             :Telefone "931668407 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#sonia_parente
+:sonia_parente rdf:type owl:NamedIndividual ;
+             :pertence :edv-viana_trail ;
+             :realiza :ultra_trail ;
+             :DataNascimento "28/10/77 " ;
+             :DataSituação "05/02/14 " ;
+             :Email "parente.sonia@gmail.com" ;
+             :Escalão "SENIOR Fem " ;
+             :Morada "Av Mateus Carvalhido nº19  Sta Maria Maior " ;
+             :NIF "218174470 " ;
+             :Nome "Sonia Parente " ;
+             :NumParticipanteEvento " " ;
+             :NumParticipanteTipo " " ;
+             :Situação "Registada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "969139240 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#jorge_lourenço
+:jorge_lourenço rdf:type owl:NamedIndividual ;
+             :pertence :turbulentos ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "27/10/69 " ;
+             :DataSituação "05/02/14 " ;
+             :Email "jlourenzo@hotmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua Eduardo Esperança  7 " ;
+             :NIF " " ;
+             :Nome "Jorge Lourenço " ;
+             :NumParticipanteEvento " " ;
+             :NumParticipanteTipo " " ;
+             :Situação "Registada " ;
+             :Solo " " ;
+             :T-Shirt "L " ;
+             :Telefone "969037767 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#emanuel_durães
+:emanuel_durães rdf:type owl:NamedIndividual ;
+             :pertence :born_be_wild ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "05/12/72 " ;
+             :DataSituação "05/02/14 " ;
+             :Email "emanuel.duraes@gmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Av.Bombeiros Voluntarios  Nº27 3ºB - 4580-053 Paredes " ;
+             :NIF "204211514 " ;
+             :Nome "Emanuel Durães " ;
+             :NumParticipanteEvento " " ;
+             :NumParticipanteTipo " " ;
+             :Situação "Registada " ;
+             :Solo " " ;
+             :T-Shirt "L " ;
+             :Telefone "964601294 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#joão_manuel_dias_rei
+:joão_manuel_dias_rei rdf:type owl:NamedIndividual ;
+             :pertence :na ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "21/07/72 " ;
+             :DataSituação "05/02/14 " ;
+             :Email "joao.rei@sapo.pt" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "Rua do Areal  V.F.S.Martinho  Barcelos " ;
+             :NIF "207354367 " ;
+             :Nome "João Manuel Dias Rei " ;
+             :NumParticipanteEvento " " ;
+             :NumParticipanteTipo " " ;
+             :Situação "Registada " ;
+             :Solo " " ;
+             :T-Shirt "XL " ;
+             :Telefone "916141504 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#vera_cristina_moreira_delgado
+:vera_cristina_moreira_delgado rdf:type owl:NamedIndividual ;
+             :pertence :individual ;
+             :realiza :corrida_da_geira ;
+             :DataNascimento "28/11/80 " ;
+             :DataSituação "06/02/14 " ;
+             :Email "veramdelgado@hotmail.com" ;
+             :Escalão "SENIOR Fem " ;
+             :Morada "rua do freixo  51 " ;
+             :NIF "207053057 " ;
+             :Nome "Vera Cristina Moreira Delgado " ;
+             :NumParticipanteEvento " " ;
+             :NumParticipanteTipo " " ;
+             :Situação "Registada " ;
+             :Solo " " ;
+             :T-Shirt "M " ;
+             :Telefone "917861497 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "1200 " .
+
+
+            
+###  http://www.di.uminho.pt/prc2021/UltraTrail#francisco_terra
+:francisco_terra rdf:type owl:NamedIndividual ;
+             :pertence :olhares_sublimes ;
+             :realiza :ultra_trail ;
+             :DataNascimento "30/10/80 " ;
+             :DataSituação "06/02/14 " ;
+             :Email "franciscomsterra@gmail.com" ;
+             :Escalão "SENIOR Masc " ;
+             :Morada "São João da Madeira " ;
+             :NIF " " ;
+             :Nome "Francisco Terra " ;
+             :NumParticipanteEvento " " ;
+             :NumParticipanteTipo " " ;
+             :Situação "Registada " ;
+             :Solo " " ;
+             :T-Shirt " " ;
+             :Telefone "933841656 " ;
+             :TipoPagamento "Multibanco " ;
+             :Valor "2000 " .
+
+
+            
+
+###  http://www.di.uminho.pt/prc2021/UltraTrail#na
+:na rdf:type owl:NamedIndividual ;
+            :Nome "na ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#turbulentos
+:turbulentos rdf:type owl:NamedIndividual ;
+            :Nome "TURBULENTOS ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#os_caga_tacos_running_tean
+:os_caga_tacos_running_tean rdf:type owl:NamedIndividual ;
+            :Nome "Os Caga Tacos Running Tean ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#clube_atletismo_de_lamas
+:clube_atletismo_de_lamas rdf:type owl:NamedIndividual ;
+            :Nome "Clube Atletismo de Lamas ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#os_barriguitas
+:os_barriguitas rdf:type owl:NamedIndividual ;
+            :Nome "Os Barriguitas ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#edv-viana_trail
+:edv-viana_trail rdf:type owl:NamedIndividual ;
+            :Nome "EDV-Viana Trail ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#born_be_wild
+:born_be_wild rdf:type owl:NamedIndividual ;
+            :Nome "Born /Be Wild ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#clube_de_veteranos_do_porto
+:clube_de_veteranos_do_porto rdf:type owl:NamedIndividual ;
+            :Nome "clube de veteranos do porto ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#com
+:com rdf:type owl:NamedIndividual ;
+            :Nome ".COM ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#nast
+:nast rdf:type owl:NamedIndividual ;
+            :Nome "Nast ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#individual
+:individual rdf:type owl:NamedIndividual ;
+            :Nome "Individual ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#tugas_na_estrada
+:tugas_na_estrada rdf:type owl:NamedIndividual ;
+            :Nome "Tugas na Estrada ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#olhares_sublimes
+:olhares_sublimes rdf:type owl:NamedIndividual ;
+            :Nome "Olhares Sublimes ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#porto_runners
+:porto_runners rdf:type owl:NamedIndividual ;
+            :Nome "Porto Runners ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#blue_o
+:blue_o rdf:type owl:NamedIndividual ;
+            :Nome "Blue O ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#cães_da_avenida
+:cães_da_avenida rdf:type owl:NamedIndividual ;
+            :Nome "Cães da Avenida ".
+
+ 
+        
+
+###  http://www.di.uminho.pt/prc2021/UltraTrail#corrida_da_geira
+:corrida_da_geira rdf:type owl:NamedIndividual ;
+            :Nome "Corrida da Geira ".
+
+ 
+        
+###  http://www.di.uminho.pt/prc2021/UltraTrail#ultra_trail
+:ultra_trail rdf:type owl:NamedIndividual ;
+            :Nome "Ultra Trail ".
