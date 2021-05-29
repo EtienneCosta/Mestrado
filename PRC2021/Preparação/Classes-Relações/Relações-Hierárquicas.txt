@@ -1,0 +1,58 @@
+Cada um dos exemplos seguintes contem 3 termos que representam classes. Identifica as relações temMembro e temSubclasse entre os 3 termos.
+
+Dedo, Indicador, Dedos;
+EquipaBasket, Poste, JogadorBasket;
+MarcadorAzul, Marcador, Marcadores;
+Gardo, Faqueiro, Talher;
+Apresente um conjunto seu, com 3 termos que se relacionam da mesma forma.
+
+==========================================================================================
+
+Dedos :: Classe 
+  |
+  |
+  |_ _ _ Dedo :: Subclasse de Dedos 
+          |
+          |
+          |_ _ _ Indicador :: Subclasse de Dedo 
+
+==========================================================================================
+
+==========================================================================================
+
+EquipaBasket :: Classe 
+
+JogadorBasket :: Classe
+  |
+  |
+  |_ _ _ Poste :: Subclasse de JogadorBasket 
+        
+EquipaBasket "temMembro" JogadorBasket .
+
+==========================================================================================
+
+==========================================================================================
+
+Marcadores :: Classe 
+  
+Marcadores "temMembro" Marcador .
+
+Marcador :: Classe .
+   |
+   |
+   |_ _ _ MarcadorAzul :: Subclasse de Marcador .
+ 
+==========================================================================================
+
+
+==========================================================================================
+
+Talher :: Classe 
+  |
+  |
+  |_ _ _ Faqueiro :: Subclasse de Talher . 
+  
+  
+Talher "temMembro" Garfo .
+ 
+==========================================================================================

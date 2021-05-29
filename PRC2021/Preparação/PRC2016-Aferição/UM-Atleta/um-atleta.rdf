@@ -1,0 +1,24 @@
+<owl:Class rdf:ID="UM_Atleta">
+    <rdfs:subClassOf>
+        <owl:Restriction>
+            <owl:allValuesFrom>
+                <owl:Class rdf:ID="atleta"/>
+            </owl:allValuesFrom>
+            <owl:onProperty>
+                <owl:ObjectProperty rdf:ID="temAmigo"/>
+            </owl:onProperty>
+        </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+        <owl:Restriction>
+            <owl:hasValue>
+                <universidade rdf:ID="UM"/>
+            </owl:hasValue>
+            <owl:onProperty>
+               <owl:ObjectProperty rdf:ID="estudaEm"/>
+            </owl:onProperty>
+        </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Atleta"/>
+</owl:Class>
+

@@ -1,0 +1,10 @@
+Class: Caloteiro
+SubclassOf:
+    Pessoa AND
+    tem some Dívida
+
+Escreve uma frase em português que compreenda o significado contido nesta especificação.
+
+"Caloteiro" é uma "Subclasse" de "Pessoa" que  possuí alguma "Dívida" . 
+-----------       ----------     --------      -------------- --------
+   Class          SubclassOf     Pessoad  AND      tem some   Dívida  . 
