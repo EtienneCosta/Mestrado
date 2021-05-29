@@ -1,28 +1,70 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+<template>  
+  <div class="w3-container">
+    <h1 class="w3-header w3-black">Lista de Compras</h1>
+    <br>
+    <h2>{{autor}}</h2>
+    <br>
+<table class="w3-table-all">
+  <tr>
+    <th>Nome</th>
+    <th>Quantidade</th>
+    <th>Operações</th>
+
+  </tr>
+  
+  <tr v-for="(c,i) in compras" :key="i">
+    <td>{{c.nome}}</td>
+    <td>{{c.quantidade}}</td>
+    <td>
+      <button type="button" @click="inserir(i)" class="btn btn-primary">Inserir</button>
+      <button type="button" @click="apagar(i)" class="btn btn-danger">Remover</button>
+    
+      </td>
+  </tr> 
+
+</table>
+  
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld,
+  data (){
+    return {
+
+      compras:[
+        { nome:'Peixe', quantidade:'10'},
+        { nome:'Carne', quantidade:'7'},
+        { nome:'Frutas', quantidade:'5'},
+        { nome:'Vegetais', quantidade:'10'}
+      ],
+    autor:"Etienne Costa"
+
+    }
   },
+
+  methods:{
+    apagar: function (x){
+          this.compras[x].quantidade--;
+
+      if(this.compras[x].quantidade==0){
+        alert("Produto removido com sucesso ...");
+        this.compras.splice(x,1);
+      }
+
+    },
+    inserir: function(x){
+                this.compras[x].quantidade++;
+    }
+  }
+
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.w3-container{
+text-align: center;
 }
 </style>
