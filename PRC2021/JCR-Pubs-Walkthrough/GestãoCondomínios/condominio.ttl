@@ -1,0 +1,809 @@
+@prefix : <http://www.di.uminho.pt/prc2021/condominio#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/condominio> .
+
+<http://www.di.uminho.pt/prc2021/condominio> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/condominio#eReferenteAo
+:eReferenteAo rdf:type owl:ObjectProperty ;
+              rdfs:domain :Gestão ;
+              rdfs:range :Condomínio .
+
+###  http://www.di.uminho.pt/prc2021/condominio#pagouJaneiro
+:pagouJaneiro rdf:type owl:ObjectProperty ;
+               rdfs:domain :Fração ;
+               rdfs:range :MapaPagamentos .
+
+###  http://www.di.uminho.pt/prc2021/condominio#pagouJaneiro
+:pagouFevereiro rdf:type owl:ObjectProperty ;
+               rdfs:domain :Fração ;
+               rdfs:range :MapaPagamentos .
+
+###  http://www.di.uminho.pt/prc2021/condominio#pagouJaneiro
+:pagouMarço rdf:type owl:ObjectProperty ;
+               rdfs:domain :Fração ;
+               rdfs:range :MapaPagamentos .
+
+###  http://www.di.uminho.pt/prc2021/condominio#pagouAbril
+:pagouAbril rdf:type owl:ObjectProperty ;
+               rdfs:domain :Fração ;
+               rdfs:range :MapaPagamentos .
+
+###  http://www.di.uminho.pt/prc2021/condominio#pagouJaneiro
+:pagouMaio rdf:type owl:ObjectProperty ;
+               rdfs:domain :Fração ;
+               rdfs:range :MapaPagamentos .
+
+###  http://www.di.uminho.pt/prc2021/condominio#pagouJaneiro
+:pagouJunho rdf:type owl:ObjectProperty ;
+               rdfs:domain :Fração ;
+               rdfs:range :MapaPagamentos .
+
+###  http://www.di.uminho.pt/prc2021/condominio#pagouJaneiro
+:pagouJulho rdf:type owl:ObjectProperty ;
+               rdfs:domain :Fração ;
+               rdfs:range :MapaPagamentos .
+
+###  http://www.di.uminho.pt/prc2021/condominio#pagouJaneiro
+:pagouAgosto rdf:type owl:ObjectProperty ;
+               rdfs:domain :Fração ;
+               rdfs:range :MapaPagamentos .
+
+###  http://www.di.uminho.pt/prc2021/condominio#pagouJaneiro
+:pagouSetembro rdf:type owl:ObjectProperty ;
+               rdfs:domain :Fração ;
+               rdfs:range :MapaPagamentos .
+
+###  http://www.di.uminho.pt/prc2021/condominio#pagouJaneiro
+:pagouNovembro rdf:type owl:ObjectProperty ;
+               rdfs:domain :Fração ;
+               rdfs:range :MapaPagamentos .
+
+###  http://www.di.uminho.pt/prc2021/condominio#pagouDezembro
+:pagouDezembro rdf:type owl:ObjectProperty ;
+               rdfs:domain :Fração ;
+               rdfs:range :MapaPagamentos .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#pertence
+:pertence rdf:type owl:ObjectProperty ;
+          rdfs:domain :Fração ;
+          rdfs:range :Condomínio .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/condominio#Data
+:Data rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Descrição
+:Descrição rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Entidade
+:Entidade rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Mensalidade
+:Mensalidade rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Número
+:Número rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Permilagem
+:Permilagem rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Tipo
+:Tipo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Valor
+:Valor rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/condominio#Apartamento
+:Apartamento rdf:type owl:Class ;
+             rdfs:subClassOf :Fração .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Arrendatário
+:Arrendatário rdf:type owl:Class ;
+              rdfs:subClassOf :Pessoa .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Condomínio
+:Condomínio rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Despesa
+:Despesa rdf:type owl:Class ;
+          rdfs:subClassOf :LivroContas .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Fração
+:Fração rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Garagem
+:Garagem rdf:type owl:Class ;
+         rdfs:subClassOf :Fração .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Gestão
+:Gestão rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#LivroContas
+:LivroContas rdf:type owl:Class ;
+             rdfs:subClassOf :Gestão .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Loja
+:Loja rdf:type owl:Class ;
+      rdfs:subClassOf :Fração .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#MapaPagamentos
+:MapaPagamentos rdf:type owl:Class ;
+                rdfs:subClassOf :Gestão .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Pessoa
+:Pessoa rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Proprietário
+:Proprietário rdf:type owl:Class ;
+              rdfs:subClassOf :Pessoa .
+
+
+###  http://www.di.uminho.pt/prc2021/condominio#Receita
+:Receita rdf:type owl:Class ;
+          rdfs:subClassOf :LivroContas .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/condominio#vista_alegre
+:vista_alegre rdf:type owl:NamedIndividual ,
+                       :Condomínio .
+
+###  http://www.di.uminho.pt/prc2021/condominio#mapa_2020
+:mapa_2020 rdf:type owl:NamedIndividual ,
+                    :Gestão ,
+                    :MapaPagamentos ;
+           :eReferenteAo :vista_alegre ;
+           :Descrição "Mapa de pagamentos de 2020" .
+
+ 
+###   http://www.di.uminho.pt/prc2021/condominio#loja
+:loja rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :Descrição "A" ;
+                :Mensalidade 6.06 ;
+                :Permilagem 50 .
+
+
+
+ 
+###   http://www.di.uminho.pt/prc2021/condominio#1_dto
+:1_dto rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :pagouJaneiro :mapa_2020 ;
+                :pagouFevereiro :mapa_2020 ;
+                :pagouMarço :mapa_2020 ;
+                :pagouAbril :mapa_2020 ;
+                :Descrição "F" ;
+                :Mensalidade 36.45 ;
+                :Permilagem 24 .
+
+ 
+###   http://www.di.uminho.pt/prc2021/condominio#1_esq
+:1_esq rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :pagouJaneiro :mapa_2020 ;
+                :pagouFevereiro :mapa_2020 ;
+                :pagouMarço :mapa_2020 ;
+                :Descrição "G" ;
+                :Mensalidade 51.63 ;
+                :Permilagem 34 .
+
+ 
+###   http://www.di.uminho.pt/prc2021/condominio#2_dto
+:2_dto rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :Descrição "H" ;
+                :Mensalidade 36.45 ;
+                :Permilagem 24 .
+
+ 
+###   http://www.di.uminho.pt/prc2021/condominio#3_dto
+:3_dto rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :pagouJaneiro :mapa_2020 ;
+                :pagouFevereiro :mapa_2020 ;
+                :pagouMarço :mapa_2020 ;
+                :pagouAbril :mapa_2020 ;
+                :pagouMaio :mapa_2020 ;
+                :pagouJunho :mapa_2020 ;
+                :pagouJulho :mapa_2020 ;
+                :pagouAgosto :mapa_2020 ;
+                :pagouSetembro :mapa_2020 ;
+                :pagouOutubro :mapa_2020 ;
+                :pagouNovembro :mapa_2020 ;
+                :pagouDezembro :mapa_2020 ;
+                :Descrição "I" ;
+                :Mensalidade 36.45 ;
+                :Permilagem 24 .
+
+ 
+###   http://www.di.uminho.pt/prc2021/condominio#3_esq
+:3_esq rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :pagouJaneiro :mapa_2020 ;
+                :pagouFevereiro :mapa_2020 ;
+                :pagouMarço :mapa_2020 ;
+                :Descrição "J" ;
+                :Mensalidade 51.63 ;
+                :Permilagem 34 .
+
+ 
+###   http://www.di.uminho.pt/prc2021/condominio#4_dto
+:4_dto rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :pagouJaneiro :mapa_2020 ;
+                :pagouFevereiro :mapa_2020 ;
+                :pagouMarço :mapa_2020 ;
+                :pagouAbril :mapa_2020 ;
+                :pagouMaio :mapa_2020 ;
+                :pagouJunho :mapa_2020 ;
+                :pagouJulho :mapa_2020 ;
+                :pagouAgosto :mapa_2020 ;
+                :pagouSetembro :mapa_2020 ;
+                :pagouOutubro :mapa_2020 ;
+                :pagouNovembro :mapa_2020 ;
+                :pagouDezembro :mapa_2020 ;
+                :Descrição "L" ;
+                :Mensalidade 36.45 ;
+                :Permilagem 24 .
+
+ 
+###   http://www.di.uminho.pt/prc2021/condominio#5_dto
+:5_dto rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :pagouJaneiro :mapa_2020 ;
+                :pagouFevereiro :mapa_2020 ;
+                :pagouMarço :mapa_2020 ;
+                :pagouAbril :mapa_2020 ;
+                :pagouMaio :mapa_2020 ;
+                :pagouJunho :mapa_2020 ;
+                :Descrição "M" ;
+                :Mensalidade 36.45 ;
+                :Permilagem 24 .
+
+ 
+###   http://www.di.uminho.pt/prc2021/condominio#5_esq
+:5_esq rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :pagouJaneiro :mapa_2020 ;
+                :pagouFevereiro :mapa_2020 ;
+                :pagouMarço :mapa_2020 ;
+                :pagouAbril :mapa_2020 ;
+                :Descrição "N" ;
+                :Mensalidade 51.63 ;
+                :Permilagem 34 .
+
+ 
+###   http://www.di.uminho.pt/prc2021/condominio#6_dto
+:6_dto rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :pagouJaneiro :mapa_2020 ;
+                :pagouFevereiro :mapa_2020 ;
+                :pagouMarço :mapa_2020 ;
+                :pagouAbril :mapa_2020 ;
+                :pagouMaio :mapa_2020 ;
+                :pagouJunho :mapa_2020 ;
+                :pagouJulho :mapa_2020 ;
+                :pagouAgosto :mapa_2020 ;
+                :Descrição "O" ;
+                :Mensalidade 36.45 ;
+                :Permilagem 24 .
+
+###   http://www.di.uminho.pt/prc2021/condominio#7_dto
+:7_dto rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :pagouJaneiro :mapa_2020 ;
+                :pagouFevereiro :mapa_2020 ;
+                :pagouMarço :mapa_2020 ;
+                :pagouAbril :mapa_2020 ;
+                :Descrição "P" ;
+                :Mensalidade 36.45 ;
+                :Permilagem 24 .
+
+ 
+###   http://www.di.uminho.pt/prc2021/condominio#7_esq
+:7_esq rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :pagouJaneiro :mapa_2020 ;
+                :pagouFevereiro :mapa_2020 ;
+                :pagouMarço :mapa_2020 ;
+                :pagouAbril :mapa_2020 ;
+                :Descrição "Q" ;
+                :Mensalidade 51.63 ;
+                :Permilagem 34 .
+ 
+###   http://www.di.uminho.pt/prc2021/condominio#8_dto
+:8_dto rdf:type owl:NamedIndividual ,
+                :Fração ;
+                :pertence :vista_alegre ;
+                :Descrição "R" ;
+                :Mensalidade 36.45 ;
+                :Permilagem 24 .
+
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_001
+:2020_001 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-01-04" ;
+                                                      :Descrição "Manutenção da conta" ;
+                                                      :Entidade "CGD" ;
+                                                      :Número "2020/001" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 7.28 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_002
+:2020_002 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-01-06" ;
+                                                      :Descrição "Janeiro" ;
+                                                      :Entidade "7º Esq" ;
+                                                      :Número "2020/002" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 64.00 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_003
+:2020_003 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-01-06" ;
+                                                      :Descrição "Abril a Dezembro de 2019" ;
+                                                      :Entidade "2º Dto" ;
+                                                      :Número "2020/003" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 406.62 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_004
+:2020_004 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-01-08" ;
+                                                      :Descrição "Luz" ;
+                                                      :Entidade "EDP" ;
+                                                      :Número "2020/004" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 222.65 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_005
+:2020_005 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-01-16" ;
+                                                      :Descrição "Janeiro" ;
+                                                      :Entidade "7º Dto" ;
+                                                      :Número "2020/005" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 45.18 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_006
+:2020_006 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-02-01" ;
+                                                      :Descrição "Manutenção da conta" ;
+                                                      :Entidade "CGD" ;
+                                                      :Número "2020/006" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 7.28 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_007
+:2020_007 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-02-04" ;
+                                                      :Descrição "Fevereiro" ;
+                                                      :Entidade "5º Esq" ;
+                                                      :Número "2020/007" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 64.00 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_008
+:2020_008 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-02-06" ;
+                                                      :Descrição "Fevereiro" ;
+                                                      :Entidade "7º Esq" ;
+                                                      :Número "2020/008" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 64.00 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_009
+:2020_009 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-01-20" ;
+                                                      :Descrição "Manutenção dos elevadores: 1º trimestre" ;
+                                                      :Entidade "Kone" ;
+                                                      :Número "2020/009" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 439.77 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_010
+:2020_010 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-02-12" ;
+                                                      :Descrição "Janeiro, Fevereiro e Março" ;
+                                                      :Entidade "1º e 3º Esq" ;
+                                                      :Número "2020/010" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 384.00 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_011
+:2020_011 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-02-20" ;
+                                                      :Descrição "Fevereiro" ;
+                                                      :Entidade "7º Dto" ;
+                                                      :Número "2020/011" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 45.18 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_012
+:2020_012 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-02-24" ;
+                                                      :Descrição "Concerto do trinco da porta" ;
+                                                      :Entidade "Serralheiro" ;
+                                                      :Número "2020/012" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 20.00 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_013
+:2020_013 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-02-24" ;
+                                                      :Descrição "Inspeção dos elevadores" ;
+                                                      :Entidade "CMB" ;
+                                                      :Número "2020/013" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 174.30 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_014
+:2020_014 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-02-24" ;
+                                                      :Descrição "Acertos: Janeiro, Fevereiro, Março, Abril e 13.58 de Maio" ;
+                                                      :Entidade "1º Dto" ;
+                                                      :Número "2020/014" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 194.30 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_015
+:2020_015 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-03-11" ;
+                                                      :Descrição "Janeiro a Junho" ;
+                                                      :Entidade "5º Dto" ;
+                                                      :Número "2020/015" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 271.08 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_016
+:2020_016 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-03-11" ;
+                                                      :Descrição "Reparação das fachadas" ;
+                                                      :Entidade "PluriRapel" ;
+                                                      :Número "2020/016" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 1655.00 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_017
+:2020_017 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-02-26" ;
+                                                      :Descrição "Março" ;
+                                                      :Entidade "5º Esq" ;
+                                                      :Número "2020/017" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 64.00 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_018
+:2020_018 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-02-29" ;
+                                                      :Descrição "Janeiro a Dezembro" ;
+                                                      :Entidade "3º Dto" ;
+                                                      :Número "2020/018" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 542.16 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_019
+:2020_019 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-03-04" ;
+                                                      :Descrição "Luz" ;
+                                                      :Entidade "EDP" ;
+                                                      :Número "2020/019" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 236.59 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_020
+:2020_020 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-03-06" ;
+                                                      :Descrição "Março" ;
+                                                      :Entidade "7º Esq" ;
+                                                      :Número "2020/020" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 64.00 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_021
+:2020_021 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-03-07" ;
+                                                      :Descrição "Manutenção da conta" ;
+                                                      :Entidade "CGD" ;
+                                                      :Número "2020/021" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 7.28 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_022
+:2020_022 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-03-15" ;
+                                                      :Descrição "Março" ;
+                                                      :Entidade "7º Dto" ;
+                                                      :Número "2020/022" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 45.18 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_023
+:2020_023 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-03-30" ;
+                                                      :Descrição "Abril " ;
+                                                      :Entidade "5º Esq" ;
+                                                      :Número "2020/023" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 64.00 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_024
+:2020_024 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-04-04" ;
+                                                      :Descrição "Manutenção da conta" ;
+                                                      :Entidade "CGD" ;
+                                                      :Número "2020/024" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 7.28 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_025
+:2020_025 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-04-06" ;
+                                                      :Descrição "Abril" ;
+                                                      :Entidade "7º Esq" ;
+                                                      :Número "2020/025" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 64.00 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_026
+:2020_026 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-04-07" ;
+                                                      :Descrição "Abril a Agosto" ;
+                                                      :Entidade "6º Dto" ;
+                                                      :Número "2020/026" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 225.90 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_027
+:2020_027 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-04-14" ;
+                                                      :Descrição "Abril" ;
+                                                      :Entidade "7º Dto" ;
+                                                      :Número "2020/027" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 45.18 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_028
+:2020_028 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-04-15" ;
+                                                      :Descrição "Luz Comum" ;
+                                                      :Entidade "Vizinhos" ;
+                                                      :Número "2020/028" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 207.98 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_029
+:2020_029 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-04-15" ;
+                                                      :Descrição "Limpeza 2020" ;
+                                                      :Entidade "Limpeza" ;
+                                                      :Número "2020/029" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 1080.00 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#20200_30
+:2020_030 rdf:type owl:NamedIndividual ,
+                                                               :Receita ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-04-15" ;
+                                                      :Descrição "Janeiro a Dezembro" ;
+                                                      :Entidade "4º Dto" ;
+                                                      :Número "2020/030" ;
+                                                      :Tipo "Receita" ;
+                                                      :Valor 542.16 .
+
+ 
+###  http://www.di.uminho.pt/prc2021/condominio#2020_031
+:2020_031 rdf:type owl:NamedIndividual ,
+                                                               :Despesa ,
+                                                               :Gestão ,
+                                                               :LivroContas ;
+                                                      :eReferenteAo :vista_alegre ;
+                                                      :Data "2020-04-01" ;
+                                                      :Descrição "Manutenção dos elevadores: 2º trimestre" ;
+                                                      :Entidade "Kone" ;
+                                                      :Número "2020/031" ;
+                                                      :Tipo "Despesa" ;
+                                                      :Valor 439.77 .
+

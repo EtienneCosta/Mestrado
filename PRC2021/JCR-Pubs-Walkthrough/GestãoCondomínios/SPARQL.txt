@@ -1,0 +1,78 @@
+====================================================================================================
+Que entidades (receitas e despesas) estão referenciadas na ontologia?
+
+select distinct ?Entidade where {
+    [] :Entidade ?Entidade .
+}
+
+order by ?Entidade 
+
+====================================================================================================
+
+
+====================================================================================================
+Que frações não pagaram o mês de Abril de 2020?
+
+select ?s ?Descrição ?Permilagem ?Mensalidade  where {
+    ?s a :Fração;
+       :Descrição ?Descrição;
+       :Permilagem ?Permilagem;
+       :Mensalidade ?Mensalidade .
+       
+    FILTER ( !EXISTS { ?s :pagouAbril ?pagamento } )  
+}
+
+====================================================================================================
+
+
+
+====================================================================================================
+Para as despesas, qual o montante por entidade já dispendido?
+
+select ?Entidade ( SUM(?Valor) as ?MontanteDispendido) where {
+    ?s a :Despesa;
+       :Valor ?Valor;
+       :Entidade ?Entidade.
+ }
+
+group by (?Entidade)
+order by desc (?MontanteDispendido)
+
+
+
+====================================================================================================
+
+
+
+====================================================================================================
+Qual a receita líquida que se pode concluir do mapa de pagamento (contando apenas as mensalidades pagas)?
+
+select (SUM(?TotalPago) as ?ReceitaLíquida) where {
+    
+    select ?s  (COUNT(?p) as ?Pagamentos) ?Mensalidade ((?Pagamentos * ?Mensalidade) as ?TotalPago)   where {
+        ?s a :Fração;
+           :Mensalidade ?Mensalidade.
+           optional{
+                 ?s ?p  :mapa_2020.
+        }
+     }
+    group by ?s ?Mensalidade
+}
+
+====================================================================================================
+
+
+====================================================================================================
+Do mapa de pagamento, qual o montante pago por cada uma das frações?
+
+select ?s  (COUNT(?p) as ?Pagamentos) ?Mensalidade ((?Pagamentos * ?Mensalidade) as ?TotalPago)   where {
+    ?s a :Fração;
+       :Mensalidade ?Mensalidade.
+       optional{
+             ?s ?p  :mapa_2020.
+    }
+ }
+
+group by ?s ?Mensalidade
+
+====================================================================================================
