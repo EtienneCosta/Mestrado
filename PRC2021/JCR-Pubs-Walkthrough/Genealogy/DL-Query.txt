@@ -1,0 +1,15 @@
+Description Logic 
+
+
+=========================================================
+temPai value José_dos_Santos_Ramalho_1942
+
+José_Carlos_Leite_Ramalho_1967   :: Instances 
+Maria_Helena_Leite_Ramalho_1968  :: Instances 
+=========================================================
+
+=========================================================
+ePaiDe value José_Carlos_Leite_Ramalho_1967
+
+José_dos_Santos_Ramalho_1942 :: Instances 
+=========================================================
