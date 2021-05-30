@@ -1,0 +1,49 @@
+============================================================================================================================================
+1) Quais os pratos que levam camarão?
+
+select ?pratos ?Nome ?Descrição ?Preço where {
+    ?pratos :temIngrediente :camarão;
+            :Nome ?Nome ;
+            :Descrição ?Descrição;
+            :Preço ?Preço .
+}
+
+============================================================================================================================================
+
+
+============================================================================================================================================
+2) Que sobremesas existem num determinado menu?
+
+select ?Nome ?Descrição ?Preço where {
+    ?s a :Sobremesas;
+       :Nome ?Nome ;
+       :Descrição ?Descrição;
+       :Preço ?Preço .
+}
+order by ?Nome 
+
+============================================================================================================================================
+
+============================================================================================================================================
+3) Quais os pratos que não incluem "molho de amendoim"?
+
+select  distinct ?Nome ?Descrição ?Preço   where {
+    ?s a :Pratos;
+       :temIngrediente ?k;
+       :Nome ?Nome ;
+       :Descrição ?Descrição;
+       :Preço ?Preço .
+    filter (?k != :molho_de_amendoim)
+}
+
+Solução Alternativa :: Filtragem pela descrição do prato .
+
+select  distinct ?Nome ?Descrição ?Preço   where {
+    ?s a :Pratos;
+       :Nome ?Nome ;
+       :Descrição ?Descrição;
+       :Preço ?Preço .
+    filter (! regex (?Descrição,"molho de amendoim","i") ).
+}
+
+============================================================================================================================================

@@ -1,0 +1,471 @@
+@prefix : <http://www.di.uminho.pt/prc2021/Thai-Food#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/Thai-Food> .
+
+<http://www.di.uminho.pt/prc2021/Thai-Food> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#pertenceA
+<http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> rdf:type owl:ObjectProperty ;
+                                                     owl:inverseOf <http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente> ;
+                                                     rdfs:domain <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                     rdfs:range <http://www.di.uminho.pt/prc2021/bbc-food#Menu> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#temEmenta
+<http://www.di.uminho.pt/prc2021/bbc-food#temEmenta> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <http://www.di.uminho.pt/prc2021/bbc-food#Restaurante> ;
+                                                     rdfs:range <http://www.di.uminho.pt/prc2021/bbc-food#Menu> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente
+<http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Código_Postal
+<http://www.di.uminho.pt/prc2021/bbc-food#Código_Postal> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Descrição
+<http://www.di.uminho.pt/prc2021/bbc-food#Descrição> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Morada
+<http://www.di.uminho.pt/prc2021/bbc-food#Morada> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Nome
+<http://www.di.uminho.pt/prc2021/bbc-food#Nome> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Preço
+<http://www.di.uminho.pt/prc2021/bbc-food#Preço> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Quantidade
+<http://www.di.uminho.pt/prc2021/bbc-food#Quantidade> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Bebidas
+<http://www.di.uminho.pt/prc2021/bbc-food#Bebidas> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Menu> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Entradas
+<http://www.di.uminho.pt/prc2021/bbc-food#Entradas> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Menu> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Frango
+<http://www.di.uminho.pt/prc2021/bbc-food#Frango> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Pratos> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente
+<http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Marisco
+<http://www.di.uminho.pt/prc2021/bbc-food#Marisco> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Pratos> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Menu
+<http://www.di.uminho.pt/prc2021/bbc-food#Menu> rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Pato
+<http://www.di.uminho.pt/prc2021/bbc-food#Pato> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Pratos> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Peixe
+<http://www.di.uminho.pt/prc2021/bbc-food#Peixe> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Pratos> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Pratos
+<http://www.di.uminho.pt/prc2021/bbc-food#Pratos> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Menu> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Restaurante
+<http://www.di.uminho.pt/prc2021/bbc-food#Restaurante> rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Saladas
+<http://www.di.uminho.pt/prc2021/bbc-food#Saladas> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Menu> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Sobremesas
+<http://www.di.uminho.pt/prc2021/bbc-food#Sobremesas> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Menu> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Sopas
+<http://www.di.uminho.pt/prc2021/bbc-food#Sopas> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Menu> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Vaca
+<http://www.di.uminho.pt/prc2021/bbc-food#Vaca> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Pratos> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Vegetarianos
+<http://www.di.uminho.pt/prc2021/bbc-food#Vegetarianos> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Pratos> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#Arroz&Massas
+<http://www.di.uminho.pt/prc2021/bbc-food#Arroz&Massas> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.di.uminho.pt/prc2021/bbc-food#Pratos> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#aipo
+<http://www.di.uminho.pt/prc2021/bbc-food#aipo> rdf:type owl:NamedIndividual ,
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#yum_ta_lae> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#açucar
+<http://www.di.uminho.pt/prc2021/bbc-food#açucar> rdf:type owl:NamedIndividual ,
+                                                           <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                  <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#kluay_buat_chi> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#banana
+<http://www.di.uminho.pt/prc2021/bbc-food#banana> rdf:type owl:NamedIndividual ,
+                                                           <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                  <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#kluay_buat_chi> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#beringela
+<http://www.di.uminho.pt/prc2021/bbc-food#beringela> rdf:type owl:NamedIndividual ,
+                                                              <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#gang_keaw_neha> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#café
+<http://www.di.uminho.pt/prc2021/bbc-food#café> rdf:type owl:NamedIndividual ,
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Bebidas> ,
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Menu> ;
+                                                <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Café" ;
+                                                <http://www.di.uminho.pt/prc2021/bbc-food#Preço> 1 .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#camarão
+<http://www.di.uminho.pt/prc2021/bbc-food#camarão> rdf:type owl:NamedIndividual ,
+                                                            <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                   <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#yum_goong> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#caril_de_vaca
+<http://www.di.uminho.pt/prc2021/bbc-food#caril_de_vaca> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#gang_keaw_neha> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#cebola
+<http://www.di.uminho.pt/prc2021/bbc-food#cebola> rdf:type owl:NamedIndividual ,
+                                                           <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                  <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#gai_pad_khing> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#cebolinho
+<http://www.di.uminho.pt/prc2021/bbc-food#cebolinho> rdf:type owl:NamedIndividual ,
+                                                              <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#yum_goong> ,
+                                                                                                          <http://www.di.uminho.pt/prc2021/bbc-food#yum_ta_lae> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#coentros
+<http://www.di.uminho.pt/prc2021/bbc-food#coentros> rdf:type owl:NamedIndividual ,
+                                                             <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                    <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#yum_goong> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#cogumelos
+<http://www.di.uminho.pt/prc2021/bbc-food#cogumelos> rdf:type owl:NamedIndividual ,
+                                                              <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#gai_pad_khing> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#erva_príncipe
+<http://www.di.uminho.pt/prc2021/bbc-food#erva_príncipe> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#tom_yam_goong> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#folhas_de_lima_kaffir
+<http://www.di.uminho.pt/prc2021/bbc-food#folhas_de_lima_kaffir> rdf:type owl:NamedIndividual ,
+                                                                          <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                                 <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#tom_yam_goong> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#frango
+<http://www.di.uminho.pt/prc2021/bbc-food#frango> rdf:type owl:NamedIndividual ,
+                                                           <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                  <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#gai_pad_khing> ,
+                                                                                                       <http://www.di.uminho.pt/prc2021/bbc-food#satay_gai> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#gai_pad_khing
+<http://www.di.uminho.pt/prc2021/bbc-food#gai_pad_khing> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.di.uminho.pt/prc2021/bbc-food#Frango> ,
+                                                                  <http://www.di.uminho.pt/prc2021/bbc-food#Menu> ,
+                                                                  <http://www.di.uminho.pt/prc2021/bbc-food#Pratos> ;
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente> <http://www.di.uminho.pt/prc2021/bbc-food#cebola> ,
+                                                                                                                   <http://www.di.uminho.pt/prc2021/bbc-food#cogumelos> ,
+                                                                                                                   <http://www.di.uminho.pt/prc2021/bbc-food#frango> ,
+                                                                                                                   <http://www.di.uminho.pt/prc2021/bbc-food#gengibre> ;
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Descrição> "Frango salteado com gengibre, cogumelos e cebola" ;
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Gai Pad Khing" ;
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Preço> 12.5 .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#galanga
+<http://www.di.uminho.pt/prc2021/bbc-food#galanga> rdf:type owl:NamedIndividual ,
+                                                            <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                   <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#tom_yam_goong> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#gang_keaw_neha
+<http://www.di.uminho.pt/prc2021/bbc-food#gang_keaw_neha> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.di.uminho.pt/prc2021/bbc-food#Menu> ,
+                                                                   <http://www.di.uminho.pt/prc2021/bbc-food#Pratos> ,
+                                                                   <http://www.di.uminho.pt/prc2021/bbc-food#Vaca> ;
+                                                          <http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente> <http://www.di.uminho.pt/prc2021/bbc-food#beringela> ,
+                                                                                                                    <http://www.di.uminho.pt/prc2021/bbc-food#caril_de_vaca> ,
+                                                                                                                    <http://www.di.uminho.pt/prc2021/bbc-food#leite_de_coco> ,
+                                                                                                                    <http://www.di.uminho.pt/prc2021/bbc-food#manjericão> ;
+                                                          <http://www.di.uminho.pt/prc2021/bbc-food#Descrição> "Caril verde de vaca cozinhado em leite de coco com beringela e folhas de manjericão" ;
+                                                          <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Gang Keaw Waan Neha" ;
+                                                          <http://www.di.uminho.pt/prc2021/bbc-food#Preço> 15 .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#gengibre
+<http://www.di.uminho.pt/prc2021/bbc-food#gengibre> rdf:type owl:NamedIndividual ,
+                                                             <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                    <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#gai_pad_khing> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#kluay_buat_chi
+<http://www.di.uminho.pt/prc2021/bbc-food#kluay_buat_chi> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.di.uminho.pt/prc2021/bbc-food#Menu> ,
+                                                                   <http://www.di.uminho.pt/prc2021/bbc-food#Sobremesas> ;
+                                                          <http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente> <http://www.di.uminho.pt/prc2021/bbc-food#açucar> ,
+                                                                                                                    <http://www.di.uminho.pt/prc2021/bbc-food#banana> ,
+                                                                                                                    <http://www.di.uminho.pt/prc2021/bbc-food#leite_de_coco> ;
+                                                          <http://www.di.uminho.pt/prc2021/bbc-food#Descrição> "Banana cozinhada em leite de coco com acuçar" ;
+                                                          <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Kluay Buat Chi" ;
+                                                          <http://www.di.uminho.pt/prc2021/bbc-food#Preço> 5 .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#leite_de_coco
+<http://www.di.uminho.pt/prc2021/bbc-food#leite_de_coco> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#gang_keaw_neha> ,
+                                                                                                              <http://www.di.uminho.pt/prc2021/bbc-food#kluay_buat_chi> ,
+                                                                                                              <http://www.di.uminho.pt/prc2021/bbc-food#sago> ,
+                                                                                                              <http://www.di.uminho.pt/prc2021/bbc-food#tom_kha_pah> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#lima
+<http://www.di.uminho.pt/prc2021/bbc-food#lima> rdf:type owl:NamedIndividual ,
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#sago> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#malaguetas
+<http://www.di.uminho.pt/prc2021/bbc-food#malaguetas> rdf:type owl:NamedIndividual ,
+                                                               <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                      <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#tom_yam_goong> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#manjericão
+<http://www.di.uminho.pt/prc2021/bbc-food#manjericão> rdf:type owl:NamedIndividual ,
+                                                               <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                      <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#gang_keaw_neha> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#marisco
+<http://www.di.uminho.pt/prc2021/bbc-food#marisco> rdf:type owl:NamedIndividual ,
+                                                            <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                   <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#yum_ta_lae> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#menu
+<http://www.di.uminho.pt/prc2021/bbc-food#menu> rdf:type owl:NamedIndividual ,
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Menu> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#molho_de_amendoim
+<http://www.di.uminho.pt/prc2021/bbc-food#molho_de_amendoim> rdf:type owl:NamedIndividual ,
+                                                                      <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                             <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#satay_gai> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#ovos
+<http://www.di.uminho.pt/prc2021/bbc-food#ovos> rdf:type owl:NamedIndividual ,
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#tod_khai> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#peixe
+<http://www.di.uminho.pt/prc2021/bbc-food#peixe> rdf:type owl:NamedIndividual ,
+                                                          <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                 <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#tom_kha_pah> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#pepino
+<http://www.di.uminho.pt/prc2021/bbc-food#pepino> rdf:type owl:NamedIndividual ,
+                                                           <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                  <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#yum_goong> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#sago
+<http://www.di.uminho.pt/prc2021/bbc-food#sago> rdf:type owl:NamedIndividual ,
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Menu> ,
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Sobremesas> ;
+                                                <http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente> <http://www.di.uminho.pt/prc2021/bbc-food#leite_de_coco> ,
+                                                                                                          <http://www.di.uminho.pt/prc2021/bbc-food#lima> ,
+                                                                                                          <http://www.di.uminho.pt/prc2021/bbc-food#tapioca> ;
+                                                <http://www.di.uminho.pt/prc2021/bbc-food#Descrição> "Tapioca cozinhada em leite de coco e lima" ;
+                                                <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Sago" ;
+                                                <http://www.di.uminho.pt/prc2021/bbc-food#Preço> 5 .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#sala_thai
+<http://www.di.uminho.pt/prc2021/bbc-food#sala_thai> rdf:type owl:NamedIndividual ,
+                                                              <http://www.di.uminho.pt/prc2021/bbc-food#Restaurante> ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#Código_Postal> "1700-115 Lisboa" ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#Morada> "R. Conde Sabugosa, 13 A/C" ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Sala Thai" .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#satay_gai
+<http://www.di.uminho.pt/prc2021/bbc-food#satay_gai> rdf:type owl:NamedIndividual ,
+                                                              <http://www.di.uminho.pt/prc2021/bbc-food#Entradas> ,
+                                                              <http://www.di.uminho.pt/prc2021/bbc-food#Menu> ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente> <http://www.di.uminho.pt/prc2021/bbc-food#frango> ,
+                                                                                                               <http://www.di.uminho.pt/prc2021/bbc-food#molho_de_amendoim> ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#Descrição> "Espetadas de frango com molho de amendoim" ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Satay Gai" ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#Preço> 7 ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#Quantidade> 5 .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#sumo_de_lima
+<http://www.di.uminho.pt/prc2021/bbc-food#sumo_de_lima> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                        <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#tom_yam_goong> ,
+                                                                                                             <http://www.di.uminho.pt/prc2021/bbc-food#yum_ta_lae> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#tapioca
+<http://www.di.uminho.pt/prc2021/bbc-food#tapioca> rdf:type owl:NamedIndividual ,
+                                                            <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                   <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#sago> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#tod_khai
+<http://www.di.uminho.pt/prc2021/bbc-food#tod_khai> rdf:type owl:NamedIndividual ,
+                                                             <http://www.di.uminho.pt/prc2021/bbc-food#Entradas> ,
+                                                             <http://www.di.uminho.pt/prc2021/bbc-food#Menu> ;
+                                                    <http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente> <http://www.di.uminho.pt/prc2021/bbc-food#ovos> ;
+                                                    <http://www.di.uminho.pt/prc2021/bbc-food#Descrição> "Omele à moda tailandesa" ;
+                                                    <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Tod Khai" ;
+                                                    <http://www.di.uminho.pt/prc2021/bbc-food#Preço> 7.5 .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#tom_kha_pah
+<http://www.di.uminho.pt/prc2021/bbc-food#tom_kha_pah> rdf:type owl:NamedIndividual ,
+                                                                <http://www.di.uminho.pt/prc2021/bbc-food#Menu> ,
+                                                                <http://www.di.uminho.pt/prc2021/bbc-food#Sopas> ;
+                                                       <http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente> <http://www.di.uminho.pt/prc2021/bbc-food#leite_de_coco> ,
+                                                                                                                 <http://www.di.uminho.pt/prc2021/bbc-food#peixe> ;
+                                                       <http://www.di.uminho.pt/prc2021/bbc-food#Descrição> "Sopa de peixe cozinhada em leite de coco" ;
+                                                       <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Tom Kha Pah" ;
+                                                       <http://www.di.uminho.pt/prc2021/bbc-food#Preço> 5 .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#tom_yam_goong
+<http://www.di.uminho.pt/prc2021/bbc-food#tom_yam_goong> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.di.uminho.pt/prc2021/bbc-food#Menu> ,
+                                                                  <http://www.di.uminho.pt/prc2021/bbc-food#Sopas> ;
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente> <http://www.di.uminho.pt/prc2021/bbc-food#erva_príncipe> ,
+                                                                                                                   <http://www.di.uminho.pt/prc2021/bbc-food#folhas_de_lima_kaffir> ,
+                                                                                                                   <http://www.di.uminho.pt/prc2021/bbc-food#galanga> ,
+                                                                                                                   <http://www.di.uminho.pt/prc2021/bbc-food#malaguetas> ,
+                                                                                                                   <http://www.di.uminho.pt/prc2021/bbc-food#sumo_de_lima> ;
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Descrição> """Sopa Tradicional tailandesa com erva-príncipe, galanga, sumo de lima,
+folhas de lima kaffir e malaguetas .""" ;
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Tom Tam Goong" ;
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Preço> 6 .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#tomate
+<http://www.di.uminho.pt/prc2021/bbc-food#tomate> rdf:type owl:NamedIndividual ,
+                                                           <http://www.di.uminho.pt/prc2021/bbc-food#Ingrediente> ;
+                                                  <http://www.di.uminho.pt/prc2021/bbc-food#pertenceA> <http://www.di.uminho.pt/prc2021/bbc-food#yum_goong> ,
+                                                                                                       <http://www.di.uminho.pt/prc2021/bbc-food#yum_ta_lae> .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#yum_goong
+<http://www.di.uminho.pt/prc2021/bbc-food#yum_goong> rdf:type owl:NamedIndividual ,
+                                                              <http://www.di.uminho.pt/prc2021/bbc-food#Menu> ,
+                                                              <http://www.di.uminho.pt/prc2021/bbc-food#Saladas> ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente> <http://www.di.uminho.pt/prc2021/bbc-food#camarão> ,
+                                                                                                               <http://www.di.uminho.pt/prc2021/bbc-food#cebolinho> ,
+                                                                                                               <http://www.di.uminho.pt/prc2021/bbc-food#coentros> ,
+                                                                                                               <http://www.di.uminho.pt/prc2021/bbc-food#pepino> ,
+                                                                                                               <http://www.di.uminho.pt/prc2021/bbc-food#tomate> ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#Descrição> "Salada de camarão com pepino, tomate, cebolinho e coentros" ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Yum Goong" ;
+                                                     <http://www.di.uminho.pt/prc2021/bbc-food#Preço> 10 .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#yum_ta_lae
+<http://www.di.uminho.pt/prc2021/bbc-food#yum_ta_lae> rdf:type owl:NamedIndividual ,
+                                                               <http://www.di.uminho.pt/prc2021/bbc-food#Menu> ,
+                                                               <http://www.di.uminho.pt/prc2021/bbc-food#Saladas> ;
+                                                      <http://www.di.uminho.pt/prc2021/bbc-food#temIngrediente> <http://www.di.uminho.pt/prc2021/bbc-food#aipo> ,
+                                                                                                                <http://www.di.uminho.pt/prc2021/bbc-food#cebolinho> ,
+                                                                                                                <http://www.di.uminho.pt/prc2021/bbc-food#marisco> ,
+                                                                                                                <http://www.di.uminho.pt/prc2021/bbc-food#sumo_de_lima> ,
+                                                                                                                <http://www.di.uminho.pt/prc2021/bbc-food#tomate> ;
+                                                      <http://www.di.uminho.pt/prc2021/bbc-food#Descrição> "Salada de marisco com tomate, cebolinho, aipo e sumo de lima" ;
+                                                      <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Yum Ta Lae" ;
+                                                      <http://www.di.uminho.pt/prc2021/bbc-food#Preço> 12.5 .
+
+
+###  http://www.di.uminho.pt/prc2021/bbc-food#água
+<http://www.di.uminho.pt/prc2021/bbc-food#água> rdf:type owl:NamedIndividual ,
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Bebidas> ,
+                                                         <http://www.di.uminho.pt/prc2021/bbc-food#Menu> ;
+                                                <http://www.di.uminho.pt/prc2021/bbc-food#Nome> "Água" ;
+                                                <http://www.di.uminho.pt/prc2021/bbc-food#Preço> 1.5 .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
