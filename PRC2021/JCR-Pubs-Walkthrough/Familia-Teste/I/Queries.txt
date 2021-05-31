@@ -52,7 +52,6 @@ CONSTRUCT {
     #Respeita a simetria 
     ?p1 :ePrimo ?p2.
     ?p2 :ePrimo ?p1.
-
  }
 
  WHERE {

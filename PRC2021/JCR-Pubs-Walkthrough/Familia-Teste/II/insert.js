@@ -10,18 +10,23 @@ prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 base <http://prc.di.uminho.pt/2021/myfamily> 
 `   
 let querie1 = encodeURI(prefixes + `
-    CONSTRUCT {
-        ?p3 :bisavo ?bn .    
-    } WHERE {
-        ?bn :temProgenitor ?p1 .
-        ?p1 :temProgenitor ?p2 .
-        ?p2 :temProgenitor ?p3 .
-    }`
+CONSTRUCT {
+    # Respeita a simetria 
+    ?f :eIrmão ?g.
+    ?g :eIrmão ?f.
+ }
+ 
+ WHERE {
+     ?f :temProgenitor ?p .
+     ?g :temProgenitor ?p . 
+    
+    filter (?f != ?g)    
+}`
 )
 
 axios.get('http://localhost:7200/repositories/Familia/statements?query=' + querie1)
         .then(res => {
             let querie2 = `INSERT DATA { ${res.data} }`
-            axios.get('http://localhost:7200/repositories/Familia/statements?query=' + encodeURI(querie2))
+            axios.post('http://localhost:7200/repositories/Familia/statements?query=' + encodeURI(querie2))
               .then(e => console.log(e.data))
         })
