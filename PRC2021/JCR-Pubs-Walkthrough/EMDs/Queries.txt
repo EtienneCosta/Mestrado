@@ -1,0 +1,59 @@
+Quantos exames estão registados?
+
+select (COUNT (?s) as ?TotalExames) where {
+    ?s a :EMD. 
+}
+
+======================================================
+
+Quantos exames tiveram um resultado válido?
+
+select (COUNT(?s) as ?Válidos)   where {
+    ?s a :EMD;
+       :resultado "True"^^xsd:boolean .    
+}
+
+======================================================
+Qual a distribuição dos exames por género?
+
+select ?género (count (?género) as ?Distribuição)   where {
+    ?atleta a :Atleta; 
+	   :género ?género;
+	   :realizou ?exame .
+}
+
+group by (?género)
+
+======================================================
+Qual a distribuição dos exames por modalidade?
+
+select ?Modalidade (count (?Modalidade) as ?Distribuição)   where {
+    ?atleta a :Atleta; 
+	   :pratica ?modalidade;
+	   :realizou ?exame .
+    ?modalidade :nome ?Modalidade.
+}
+
+group by (?Modalidade)
+order by desc (?Distribuição)
+
+======================================================
+Quantos atletas federados do "GDGoma" fizeram EMD?
+
+select (count(?s) as ?FederadosDoGDgoma)  where {
+    ?s a :Atleta;
+       :pertence :gdgoma;
+       :federado "True"^^xsd:boolean .    
+}
+
+
+======================================================
+Quantos atletas do género feminino que praticam Triatlo fizeram EMD?
+
+select (Count (?s) as ?Total) where {
+    ?s a :Atleta;
+       :pratica :triatlo;
+       :realizou ?exame ;
+          :género "F"^^xsd:string .    
+}
+======================================================

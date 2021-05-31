@@ -1,0 +1,119 @@
+
+###  http://www.di.uminho.pt/prc2021/EMDs#sup
+:sup rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "SUP" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#karaté
+:karaté rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Karaté" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#andebol
+:andebol rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Andebol" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#ténis
+:ténis rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Ténis" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#ciclismo
+:ciclismo rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Ciclismo" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#patinagem
+:patinagem rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Patinagem" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#triatlo
+:triatlo rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Triatlo" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#dança
+:dança rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Dança" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#equitação
+:equitação rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Equitação" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#basquetebol
+:basquetebol rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Basquetebol" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#orientação
+:orientação rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Orientação" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#futebol
+:futebol rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Futebol" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#badminton
+:badminton rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Badminton" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#btt
+:btt rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "BTT" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#parapente
+:parapente rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Parapente" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#esgrima
+:esgrima rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Esgrima" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#atletismo
+:atletismo rdf:type owl:NamedIndividual ,
+                  :Modalidade ;
+         :nome "Atletismo" .
+   
+

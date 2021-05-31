@@ -1,0 +1,57 @@
+@prefix : <http://prc.di.uminho.pt/2021/myfamily#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+:Maria_Araújo_1884 :bisavo :Ana_Margarida_Ribeiro_Leite_1980, :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971,
+    :Isabel_Maria_Cabrita_de_Araújo_Leite_1971, :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968,
+    :Teresa_Maria_Ribeiro_Leite_1985 .
+
+:Henrique_Luiz_de_Araújo_1867 :bisavo :Ana_Margarida_Ribeiro_Leite_1980, :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971,
+    :Isabel_Maria_Cabrita_de_Araújo_Leite_1971, :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968,
+    :Teresa_Maria_Ribeiro_Leite_1985 .
+
+:Flora_Castilho_do_Couto_Leite :bisavo :Ana_Margarida_Ribeiro_Leite_1980, :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971,
+    :Isabel_Maria_Cabrita_de_Araújo_Leite_1971, :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968,
+    :Teresa_Maria_Ribeiro_Leite_1985 .
+
+:Marçal_da_Costa_Leite :bisavo :Ana_Margarida_Ribeiro_Leite_1980, :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971,
+    :Isabel_Maria_Cabrita_de_Araújo_Leite_1971, :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968,
+    :Teresa_Maria_Ribeiro_Leite_1985 .
+
+:Emília_Esteves :bisavo :Rui_Alberto_Araújo_Leite_1948, :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Flora_Araújo_Leite_1941 .
+
+:José_Maria_Esteves :bisavo :Rui_Alberto_Araújo_Leite_1948, :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Flora_Araújo_Leite_1941 .
+
+:Maria_das_Dores_Fernandes_de_Brito :bisavo :Rui_Alberto_Araújo_Leite_1948, :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Flora_Araújo_Leite_1941 .
+
+:José_Emílio_de_Araújo :bisavo :Rui_Alberto_Araújo_Leite_1948, :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Flora_Araújo_Leite_1941 .
+
+:Maria_Gonçalves_de_Azevedo :bisavo :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942,
+    :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_ .
+
+:José_Francisco_Ramos_Mouco :bisavo :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942,
+    :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_ .
+
+:António_da_Silva_Ramalho :bisavo :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942,
+    :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_ .
+
+:Maria_Dias_dos_Reis :bisavo :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942,
+    :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_ .
+
+:Custódia_Azevedo_1867 :bisavo :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Manuel_da_Silva_Ramalho_1866 :bisavo :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Christina_Rosa_Silva_Santos_1879 :bisavo :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .
+
+:Jozé_da_Silva_Santos_1879 :bisavo :José_Carlos_Leite_Ramalho_1967, :Maria_Helena_Leite_Ramalho_1968 .

@@ -1,0 +1,2100 @@
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "elba.le@acrroriz.biz" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lawrence.herman@gdgoma.tv" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "bernard.stokes@avcfamalicão.biz" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "fowler.alvarez@amigosmontanha.tv" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "hooper.kirby@acrroriz.name" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "zelma.bell@clube de orientação do minho.com" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "sheppard.bryant@avcfamalicão.com" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "larson.morin@gdgoma.name" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "tanya.mcclain@gdgoma.us" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "helena.mayo@vitoria.name" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "cathryn.fletcher@clube de orientação do minho.ca" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "martinez.johns@abcbraga.info" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "meagan.carter@scbraga.info" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "villarreal.tucker@avcfamalicão.biz" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "morris.poole@avcfamalicão.tv" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "charles.kim@acdrcrespos.tv" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "barker.mercer@avcfamalicão.name" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mccoy.blackburn@amigosmontanha.tv" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "meghan.cabrera@edviana.info" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "haley.joseph@avcfamalicão.net" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "kelsey.roberts@vitoria.biz" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "samantha.sharp@acrroriz.us" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lelia.oliver@gdgoma.me" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "guy.drake@abcbraga.info" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "sheila.caldwell@avcfamalicão.ca" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "evangelina.key@acdrcrespos.co.uk" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "guzman.douglas@abcbraga.org" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "elaine.allen@acdrcrespos.us" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "chambers.burton@vitoria.biz" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "dunn.horn@clube de orientação do minho.us" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "terry.chaney@scbraga.us" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "shaffer.le@avcfamalicão.biz" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "ophelia.boyd@amigosmontanha.name" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "nguyen.diaz@amigosmontanha.info" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "langley.velez@acrroriz.com" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "alyssa.howard@scbraga.info" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "tammy.bryant@acdrcrespos.info" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "john.warner@clube de orientação do minho.co.uk" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "whitehead.montgomery@avcfamalicão.org" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "vasquez.michael@vitoria.net" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "herminia.mooney@amigosmontanha.biz" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "malinda.merritt@abcbraga.co.uk" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "davenport.dominguez@acrroriz.biz" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "bird.noble@acrroriz.biz" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "laura.jacobson@acrroriz.com" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "betty.blake@abcbraga.ca" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "ursula.martinez@amigosmontanha.us" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "harrison.finch@edviana.us" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lila.curry@amigosmontanha.com" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "bonnie.diaz@scbraga.biz" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "andrews.rivas@abcbraga.us" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "sellers.hunter@scbraga.co.uk" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "roxanne.miles@vitoria.biz" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "maxine.rutledge@amigosmontanha.ca" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "josie.rasmussen@acdrcrespos.info" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "woodard.bennett@edviana.ca" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "freeman.wyatt@acrroriz.org" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lynn.shaw@clube de orientação do minho.com" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "angelia.noel@edviana.co.uk" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "jeanine.hester@avcfamalicão.name" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "ewing.drake@acdrcrespos.org" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "kellie.holland@scbraga.org" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "knapp.buckner@abcbraga.me" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "buckner.luna@edviana.us" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "claudine.gill@acrroriz.me" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "sanchez.mcgee@acdrcrespos.net" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "etta.cotton@avcfamalicão.us" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mcfarland.tyson@amigosmontanha.org" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "harmon.stone@amigosmontanha.com" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "raquel.ratliff@abcbraga.ca" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "gertrude.dillon@acrroriz.co.uk" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "fuentes.rogers@scbraga.name" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "shelia.york@scbraga.com" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "dee.holman@avcfamalicão.org" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "brennan.santana@vitoria.me" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "sherry.morales@avcfamalicão.org" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "brianna.bentley@acdrcrespos.org" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "elliott.guzman@clube de orientação do minho.org" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "travis.sampson@edviana.biz" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "maryann.joyce@acdrcrespos.net" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "heath.bishop@amigosmontanha.name" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lambert.ferrell@vitoria.me" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "alston.green@scbraga.biz" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "marisol.owen@acdrcrespos.name" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "rogers.noel@acdrcrespos.com" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "marcella.combs@clube de orientação do minho.com" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "olson.hickman@acrroriz.org" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "irma.jacobs@edviana.biz" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "hubbard.hart@gdgoma.org" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "holly.bowen@acdrcrespos.us" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "dee.lowery@vitoria.name" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "sue.waters@vitoria.net" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "stein.wiggins@edviana.name" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "stafford.ray@acdrcrespos.info" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "valarie.silva@acdrcrespos.info" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "jefferson.pacheco@edviana.info" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "best.french@gdgoma.biz" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "amparo.price@acdrcrespos.co.uk" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lambert.mueller@acdrcrespos.info" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "jamie.cherry@abcbraga.io" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mercedes.heath@gdgoma.tv" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "oliver.mcleod@scbraga.net" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "darla.ware@gdgoma.net" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lloyd.dotson@abcbraga.com" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "kline.stark@avcfamalicão.info" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "wilkins.cummings@acrroriz.us" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "jaime.erickson@abcbraga.co.uk" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "suarez.campbell@acdrcrespos.us" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "alford.small@avcfamalicão.co.uk" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "deana.ramsey@acrroriz.com" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "blevins.cline@clube de orientação do minho.me" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "annmarie.petersen@clube de orientação do minho.org" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "kathy.kramer@edviana.co.uk" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "crane.ballard@vitoria.name" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "milagros.ellis@acdrcrespos.net" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "hodges.ashley@abcbraga.net" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "margaret.bray@clube de orientação do minho.biz" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "holloway.maxwell@avcfamalicão.biz" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "dominguez.chambers@abcbraga.name" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "burnett.hogan@acrroriz.biz" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "santana.harper@scbraga.biz" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "stanton.cox@edviana.net" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "christine.rice@gdgoma.co.uk" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "janis.mckinney@abcbraga.ca" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "watson.lynch@gdgoma.tv" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mendez.good@clube de orientação do minho.us" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "christian.clements@acdrcrespos.biz" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "daniel.chambers@gdgoma.biz" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "salas.joseph@amigosmontanha.net" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "joyce.evans@amigosmontanha.name" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "foster.strickland@clube de orientação do minho.me" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "perry.sanford@vitoria.com" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "christensen.boyd@abcbraga.tv" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "magdalena.francis@acdrcrespos.biz" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "moses.sargent@abcbraga.biz" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "carissa.rosario@clube de orientação do minho.org" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "ray.howe@vitoria.info" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "odonnell.russell@gdgoma.co.uk" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "cynthia.page@acrroriz.biz" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "oneill.roth@edviana.net" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "shelton.walton@edviana.org" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mckenzie.woods@acrroriz.biz" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "paula.delaney@edviana.co.uk" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "roseann.benjamin@abcbraga.org" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "valdez.harper@amigosmontanha.me" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "montgomery.rhodes@vitoria.tv" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mavis.riley@amigosmontanha.com" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "booth.eaton@scbraga.us" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lucile.underwood@avcfamalicão.ca" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "jean.conley@gdgoma.io" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "justine.wise@avcfamalicão.io" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "joanna.grant@amigosmontanha.com" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "summer.calhoun@clube de orientação do minho.info" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "hudson.duffy@edviana.name" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "conway.alexander@scbraga.biz" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "claire.joyce@acdrcrespos.biz" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "stella.jackson@acdrcrespos.ca" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "maureen.cobb@amigosmontanha.info" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "jordan.alvarez@edviana.biz" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "tameka.orr@vitoria.tv" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "gwen.pate@amigosmontanha.com" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "berta.clay@clube de orientação do minho.info" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "montoya.anthony@acrroriz.ca" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "robert.herman@clube de orientação do minho.com" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "bartlett.sexton@gdgoma.org" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lester.manning@acdrcrespos.name" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "graves.mccray@abcbraga.us" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "thelma.schmidt@acrroriz.biz" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "arlene.morton@vitoria.name" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "cecelia.adams@amigosmontanha.tv" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "araceli.castaneda@avcfamalicão.biz" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "allie.lyons@acrroriz.ca" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "valdez.barnes@acdrcrespos.io" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "doyle.odom@amigosmontanha.us" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "althea.fitzpatrick@edviana.me" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "english.clemons@gdgoma.com" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "merrill.fulton@amigosmontanha.org" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "jewel.trevino@acrroriz.us" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "malinda.mccall@scbraga.co.uk" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "michele.barber@clube de orientação do minho.tv" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "chandra.potts@amigosmontanha.tv" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "cheryl.watson@gdgoma.net" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "tina.blankenship@acdrcrespos.info" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "tucker.morse@scbraga.net" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "tina.salinas@vitoria.co.uk" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "kelley.davidson@avcfamalicão.com" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "ramirez.blevins@vitoria.me" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mcintosh.aguirre@vitoria.name" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "catalina.webb@abcbraga.us" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "burgess.bradshaw@abcbraga.net" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "olive.chapman@avcfamalicão.net" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "burke.weeks@amigosmontanha.net" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "stafford.hale@acdrcrespos.tv" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "galloway.sanders@acrroriz.me" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "monica.neal@acrroriz.net" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "cindy.shepherd@avcfamalicão.tv" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "alfreda.raymond@abcbraga.tv" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mcintyre.walsh@abcbraga.ca" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "peters.vaughn@acrroriz.com" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "carrillo.munoz@scbraga.biz" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mayra.rose@acdrcrespos.tv" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "klein.cameron@scbraga.me" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mccray.barker@vitoria.tv" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "patrick.mcintyre@edviana.ca" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "ball.barlow@amigosmontanha.info" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "crawford.merritt@scbraga.net" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "kim.buck@avcfamalicão.tv" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "sellers.copeland@clube de orientação do minho.net" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "natalie.figueroa@clube de orientação do minho.biz" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "tonia.bryan@edviana.ca" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lane.norton@abcbraga.io" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "ola.glover@clube de orientação do minho.us" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "liz.baldwin@abcbraga.co.uk" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mosley.gonzales@scbraga.ca" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "dennis.crawford@amigosmontanha.com" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "preston.mccall@avcfamalicão.io" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "sweet.woodward@gdgoma.biz" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "ida.bradshaw@clube de orientação do minho.ca" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "evans.singleton@clube de orientação do minho.us" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mccullough.pena@clube de orientação do minho.name" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "nixon.hendrix@avcfamalicão.info" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "sweet.gibbs@avcfamalicão.biz" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "imelda.odonnell@avcfamalicão.us" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "chang.oneill@edviana.co.uk" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "opal.stewart@avcfamalicão.name" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "parks.saunders@clube de orientação do minho.name" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "hendrix.bauer@scbraga.io" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "small.coffey@vitoria.name" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "becker.talley@clube de orientação do minho.us" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "wolfe.baird@avcfamalicão.org" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "church.bishop@vitoria.com" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "bonita.mccormick@gdgoma.tv" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "warner.bullock@gdgoma.biz" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "britt.zamora@clube de orientação do minho.biz" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "bertha.shelton@gdgoma.biz" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "callahan.mitchell@abcbraga.name" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "curtis.dillon@amigosmontanha.tv" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lamb.graham@avcfamalicão.info" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "ayers.carroll@gdgoma.com" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "sallie.shaffer@clube de orientação do minho.me" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lancaster.andrews@vitoria.biz" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "flynn.huber@clube de orientação do minho.biz" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "paige.mccarthy@acdrcrespos.co.uk" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "chasity.coffey@edviana.biz" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "blair.sherman@scbraga.tv" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "leila.solis@acrroriz.net" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mathis.kirk@edviana.co.uk" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "carly.peck@edviana.tv" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "wilder.greene@vitoria.com" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "viola.medina@edviana.biz" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "jordan.bonner@vitoria.info" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "medina.hartman@avcfamalicão.name" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "addie.hayes@acrroriz.net" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "sarah.moore@acdrcrespos.biz" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "bobbi.hawkins@scbraga.co.uk" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "golden.hopkins@avcfamalicão.io" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "duncan.davidson@amigosmontanha.biz" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "chelsea.gallegos@avcfamalicão.co.uk" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "jimmie.beck@avcfamalicão.org" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "torres.hardy@clube de orientação do minho.info" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "may.holt@amigosmontanha.com" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "terri.avila@avcfamalicão.biz" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "jeri.pearson@acrroriz.ca" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "cabrera.curtis@avcfamalicão.name" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "shari.mathews@acdrcrespos.ca" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "nina.fowler@amigosmontanha.us" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "larsen.villarreal@scbraga.org" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "fuentes.walker@scbraga.io" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "emily.terrell@gdgoma.org" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "ethel.bartlett@acrroriz.info" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "elena.sullivan@clube de orientação do minho.net" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "hicks.daniels@abcbraga.ca" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "massey.goodman@amigosmontanha.co.uk" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "mendoza.buckner@scbraga.ca" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "raquel.dejesus@acrroriz.biz" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "osborn.green@acrroriz.co.uk" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "rodriguez.gonzalez@gdgoma.biz" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#gdgoma
+:gdgoma rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "alisa.morrison@gdgoma.tv" ;
+                              :nome "GDGoma" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "leanne.armstrong@amigosmontanha.ca" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "gilda.schmidt@scbraga.me" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "barton.massey@amigosmontanha.biz" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#scbraga
+:scbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "marlene.rodgers@scbraga.name" ;
+                              :nome "SCBraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "rosales.mejia@clube de orientação do minho.org" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "felicia.skinner@acdrcrespos.biz" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "bonnie.sandoval@clube de orientação do minho.org" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "workman.franks@amigosmontanha.co.uk" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acdrcrespos
+:acdrcrespos rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "morrow.yang@acdrcrespos.info" ;
+                              :nome "ACDRcrespos" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "effie.gibson@acrroriz.me" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#vitoria
+:vitoria rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "slater.david@vitoria.org" ;
+                              :nome "Vitoria" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#acrroriz
+:acrroriz rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "martin.brewer@acrroriz.us" ;
+                              :nome "ACRroriz" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "barrett.frederick@avcfamalicão.net" ;
+                              :nome "AVCfamalicão" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "casey.bowman@abcbraga.ca" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "valentine.fitzgerald@abcbraga.us" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "hayes.ward@edviana.biz" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#abcbraga
+:abcbraga rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "lenora.kane@abcbraga.ca" ;
+                              :nome "ABCbraga" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "carole.lindsey@amigosmontanha.ca" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#amigosmontanha
+:amigosmontanha rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "key.arnold@amigosmontanha.me" ;
+                              :nome "AmigosMontanha" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#clube_de_orientação_do_minho
+:clube_de_orientação_do_minho rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "oneil.baxter@clube de orientação do minho.org" ;
+                              :nome "Clube de Orientação do Minho" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#edviana
+:edviana rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "susanna.lowery@edviana.biz" ;
+                              :nome "EDViana" .    
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#avcfamalicão
+:avcfamalicão rdf:type owl:NamedIndividual ,
+                                       :Clube ;
+                              :email "tonia.espinoza@avcfamalicão.ca" ;
+                              :nome "AVCfamalicão" .    
+

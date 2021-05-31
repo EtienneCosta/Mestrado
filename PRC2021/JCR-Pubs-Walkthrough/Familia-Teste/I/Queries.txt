@@ -1,0 +1,94 @@
+Parte 1: Especifica as seguintes queries CONSTRUCT:
+
+====================================================================================================
+Constrói os triplos da relação Irmão;
+
+CONSTRUCT {
+    # Respeita a simetria 
+    ?f :eIrmão ?g.
+    ?g :eIrmão ?f.
+ }
+ 
+ WHERE {
+     ?f :temProgenitor ?p .
+     ?g :temProgenitor ?p . 
+    
+    filter (?f != ?g)    
+}
+====================================================================================================
+
+====================================================================================================
+Constrói os triplos da relação Bisavô;
+
+CONSTRUCT {
+    ?p3 :bisavo ?bn .
+
+} WHERE {
+    ?bn :temProgenitor ?p1 .
+    ?p1 :temProgenitor ?p2 .
+    ?p2 :temProgenitor ?p3 .
+
+}
+
+====================================================================================================
+
+====================================================================================================
+Constrói os triplos da relação Descendentes;
+
+CONSTRUCT {
+    ?p1 :eDescendente ?p2 .
+
+} WHERE {
+    ?p2 :eProgenitorDe+ ?p1 .
+}
+
+====================================================================================================
+
+====================================================================================================
+Constrói os triplos da relação Primo;
+
+"Foi feita a inserção da Object Properties eIrmão tirando partido do insert data "
+CONSTRUCT {
+    #Respeita a simetria 
+    ?p1 :ePrimo ?p2.
+    ?p2 :ePrimo ?p1.
+
+ }
+
+ WHERE {
+    ?p1 :temProgenitor ?x.
+    ?p2 :temProgenitor ?y.
+    ?x :eIrmão ?y .
+}
+====================================================================================================
+
+
+====================================================================================================
+Acrescenta o atributo sexo à tua ontologia, há várias formas de o fazer, escolhe a que entenderes. 
+Constrói os triplos relacionados com esta propriedade usando as propriedades existentes: temPai e temMae;
+
+CONSTRUCT {
+    ?mãe :sexo "F" . 
+    ?pai :sexo "M" .
+
+} WHERE {
+    ?p1 :temMae ?mãe .
+    ?p2 :temPai ?pai .
+}
+
+
+====================================================================================================
+
+
+
+====================================================================================================
+Constrói os triplos das pessoas relacionadas com "José_Carlos_Leite_Ramalho_1967", diretamente ou indiretamente, ou seja, para todas as pessoas com caminho no grafo até ao indivíduo em questão constrói o triplo: :José_Carlos_Leite_Ramalho_1967 :temRelacaoCom :indivíduoX .
+
+CONSTRUCT {
+    :José_Carlos_Leite_Ramalho_1967 :temRelacaoCom ?indivíduoX .
+
+} WHERE {
+    ?indivíduoX ?pro :José_Carlos_Leite_Ramalho_1967 .
+}
+
+====================================================================================================

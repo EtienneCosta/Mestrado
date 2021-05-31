@@ -1,0 +1,121 @@
+@prefix : <http://prc.di.uminho.pt/2021/myfamily#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+:Ana_da_Silva_Ramalho :eIrmão :Abílio_da_Silva_Ramalho, :António_da_Silva_Ramalho_1904,
+    :Arminda_da_Silva_Ramalho, :Ezequiel_da_Silva_Ramalho, :Generosa_da_Silva_Ramalho .
+
+:Abílio_da_Silva_Ramalho :eIrmão :Ana_da_Silva_Ramalho, :António_da_Silva_Ramalho_1904,
+    :Arminda_da_Silva_Ramalho, :Ezequiel_da_Silva_Ramalho, :Generosa_da_Silva_Ramalho .
+
+:António_da_Silva_Ramalho_1904 :eIrmão :Abílio_da_Silva_Ramalho, :Ana_da_Silva_Ramalho,
+    :Arminda_da_Silva_Ramalho, :Ezequiel_da_Silva_Ramalho, :Generosa_da_Silva_Ramalho .
+
+:Arminda_da_Silva_Ramalho :eIrmão :Abílio_da_Silva_Ramalho, :Ana_da_Silva_Ramalho,
+    :António_da_Silva_Ramalho_1904, :Ezequiel_da_Silva_Ramalho, :Generosa_da_Silva_Ramalho .
+
+:Ezequiel_da_Silva_Ramalho :eIrmão :Abílio_da_Silva_Ramalho, :Ana_da_Silva_Ramalho,
+    :António_da_Silva_Ramalho_1904, :Arminda_da_Silva_Ramalho, :Generosa_da_Silva_Ramalho .
+
+:Generosa_da_Silva_Ramalho :eIrmão :Abílio_da_Silva_Ramalho, :Ana_da_Silva_Ramalho,
+    :António_da_Silva_Ramalho_1904, :Arminda_da_Silva_Ramalho, :Ezequiel_da_Silva_Ramalho .
+
+:Emília_Esteves_de_Araújo_1908 :eIrmão :Albina_Esteves_de_Araújo_1910, :Filomena_Esteves_de_Araújo_1927,
+    :Henrique_Luís_Esteves_de_Araújo_1924, :Maria_Esteves_de_Araújo_1912, :José_Emílio_Esteves_de_Araújo_1916,
+    :Luís_Esteves_de_Araújo_1918, :Sara_Esteves_de_Araújo_1914, :Virgínia_Esteves_de_Araújo_1921 .
+
+:Albina_Esteves_de_Araújo_1910 :eIrmão :Emília_Esteves_de_Araújo_1908, :Filomena_Esteves_de_Araújo_1927,
+    :Henrique_Luís_Esteves_de_Araújo_1924, :Maria_Esteves_de_Araújo_1912, :José_Emílio_Esteves_de_Araújo_1916,
+    :Luís_Esteves_de_Araújo_1918, :Sara_Esteves_de_Araújo_1914, :Virgínia_Esteves_de_Araújo_1921 .
+
+:Filomena_Esteves_de_Araújo_1927 :eIrmão :Albina_Esteves_de_Araújo_1910, :Emília_Esteves_de_Araújo_1908,
+    :Henrique_Luís_Esteves_de_Araújo_1924, :Maria_Esteves_de_Araújo_1912, :José_Emílio_Esteves_de_Araújo_1916,
+    :Luís_Esteves_de_Araújo_1918, :Sara_Esteves_de_Araújo_1914, :Virgínia_Esteves_de_Araújo_1921 .
+
+:Henrique_Luís_Esteves_de_Araújo_1924 :eIrmão :Albina_Esteves_de_Araújo_1910, :Emília_Esteves_de_Araújo_1908,
+    :Filomena_Esteves_de_Araújo_1927, :Maria_Esteves_de_Araújo_1912, :José_Emílio_Esteves_de_Araújo_1916,
+    :Luís_Esteves_de_Araújo_1918, :Sara_Esteves_de_Araújo_1914, :Virgínia_Esteves_de_Araújo_1921 .
+
+:Maria_Esteves_de_Araújo_1912 :eIrmão :Albina_Esteves_de_Araújo_1910, :Emília_Esteves_de_Araújo_1908,
+    :Filomena_Esteves_de_Araújo_1927, :Henrique_Luís_Esteves_de_Araújo_1924, :José_Emílio_Esteves_de_Araújo_1916,
+    :Luís_Esteves_de_Araújo_1918, :Sara_Esteves_de_Araújo_1914, :Virgínia_Esteves_de_Araújo_1921 .
+
+:José_Emílio_Esteves_de_Araújo_1916 :eIrmão :Albina_Esteves_de_Araújo_1910, :Emília_Esteves_de_Araújo_1908,
+    :Filomena_Esteves_de_Araújo_1927, :Henrique_Luís_Esteves_de_Araújo_1924, :Maria_Esteves_de_Araújo_1912,
+    :Luís_Esteves_de_Araújo_1918, :Sara_Esteves_de_Araújo_1914, :Virgínia_Esteves_de_Araújo_1921 .
+
+:Luís_Esteves_de_Araújo_1918 :eIrmão :Albina_Esteves_de_Araújo_1910, :Emília_Esteves_de_Araújo_1908,
+    :Filomena_Esteves_de_Araújo_1927, :Henrique_Luís_Esteves_de_Araújo_1924, :Maria_Esteves_de_Araújo_1912,
+    :José_Emílio_Esteves_de_Araújo_1916, :Sara_Esteves_de_Araújo_1914, :Virgínia_Esteves_de_Araújo_1921 .
+
+:Sara_Esteves_de_Araújo_1914 :eIrmão :Albina_Esteves_de_Araújo_1910, :Emília_Esteves_de_Araújo_1908,
+    :Filomena_Esteves_de_Araújo_1927, :Henrique_Luís_Esteves_de_Araújo_1924, :Maria_Esteves_de_Araújo_1912,
+    :José_Emílio_Esteves_de_Araújo_1916, :Luís_Esteves_de_Araújo_1918, :Virgínia_Esteves_de_Araújo_1921 .
+
+:Virgínia_Esteves_de_Araújo_1921 :eIrmão :Albina_Esteves_de_Araújo_1910, :Emília_Esteves_de_Araújo_1908,
+    :Filomena_Esteves_de_Araújo_1927, :Henrique_Luís_Esteves_de_Araújo_1924, :Maria_Esteves_de_Araújo_1912,
+    :José_Emílio_Esteves_de_Araújo_1916, :Luís_Esteves_de_Araújo_1918, :Sara_Esteves_de_Araújo_1914 .
+
+:Teresa_Maria_Ribeiro_Leite_1985 :eIrmão :Ana_Margarida_Ribeiro_Leite_1980 .
+
+:Ana_Margarida_Ribeiro_Leite_1980 :eIrmão :Teresa_Maria_Ribeiro_Leite_1985 .
+
+:Henrique_Marçal_Araújo_Leite_1943 :eIrmão :Rui_Alberto_Araújo_Leite_1948, :Maria_Flora_Araújo_Leite_1941 .
+
+:Rui_Alberto_Araújo_Leite_1948 :eIrmão :Henrique_Marçal_Araújo_Leite_1943, :Maria_Flora_Araújo_Leite_1941 .
+
+:Maria_Flora_Araújo_Leite_1941 :eIrmão :Rui_Alberto_Araújo_Leite_1948, :Henrique_Marçal_Araújo_Leite_1943 .
+
+:Gilberto_Couto_Leite :eIrmão :Domingos_Couto_Leite, :Helena_Couto_Leite, :Marçal_Aristides_Costa_Leite_1909,
+    :João_Bernardo_Couto_Leite_1916, :Orlando_Couto_Leite, :Rosa_Couto_Leite .
+
+:Domingos_Couto_Leite :eIrmão :Gilberto_Couto_Leite, :Helena_Couto_Leite, :Marçal_Aristides_Costa_Leite_1909,
+    :João_Bernardo_Couto_Leite_1916, :Orlando_Couto_Leite, :Rosa_Couto_Leite .
+
+:Helena_Couto_Leite :eIrmão :Domingos_Couto_Leite, :Gilberto_Couto_Leite, :Marçal_Aristides_Costa_Leite_1909,
+    :João_Bernardo_Couto_Leite_1916, :Orlando_Couto_Leite, :Rosa_Couto_Leite .
+
+:Marçal_Aristides_Costa_Leite_1909 :eIrmão :Domingos_Couto_Leite, :Gilberto_Couto_Leite,
+    :Helena_Couto_Leite, :João_Bernardo_Couto_Leite_1916, :Orlando_Couto_Leite, :Rosa_Couto_Leite .
+
+:João_Bernardo_Couto_Leite_1916 :eIrmão :Domingos_Couto_Leite, :Gilberto_Couto_Leite,
+    :Helena_Couto_Leite, :Marçal_Aristides_Costa_Leite_1909, :Orlando_Couto_Leite, :Rosa_Couto_Leite .
+
+:Orlando_Couto_Leite :eIrmão :Domingos_Couto_Leite, :Gilberto_Couto_Leite, :Helena_Couto_Leite,
+    :Marçal_Aristides_Costa_Leite_1909, :João_Bernardo_Couto_Leite_1916, :Rosa_Couto_Leite .
+
+:Rosa_Couto_Leite :eIrmão :Domingos_Couto_Leite, :Gilberto_Couto_Leite, :Helena_Couto_Leite,
+    :Marçal_Aristides_Costa_Leite_1909, :João_Bernardo_Couto_Leite_1916, :Orlando_Couto_Leite .
+
+:Maria_Alves_dos_Santos_1906 :eIrmão :Florinda_Alves_dos_Santos .
+
+:Florinda_Alves_dos_Santos :eIrmão :Maria_Alves_dos_Santos_1906 .
+
+:Isabel_Maria_Cabrita_de_Araújo_Leite_1971 :eIrmão :Henrique_Miguel_Cabrita_de_Araújo_Leite_1971 .
+
+:Henrique_Miguel_Cabrita_de_Araújo_Leite_1971 :eIrmão :Isabel_Maria_Cabrita_de_Araújo_Leite_1971 .
+
+:José_dos_Santos_Ramalho_1942 :eIrmão :Ilda_dos_Santos_Ramalho_1949, :Manuel_Carlos_dos_Santos_Ramalho,
+    :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_ .
+
+:Ilda_dos_Santos_Ramalho_1949 :eIrmão :José_dos_Santos_Ramalho_1942, :Manuel_Carlos_dos_Santos_Ramalho,
+    :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_ .
+
+:Manuel_Carlos_dos_Santos_Ramalho :eIrmão :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942,
+    :Manuel_Fernando_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_ .
+
+:Manuel_Fernando_dos_Santos_Ramalho :eIrmão :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942,
+    :Manuel_Carlos_dos_Santos_Ramalho, :Maria_Flora_dos_Santos_Ramalho_ .
+
+:Maria_Flora_dos_Santos_Ramalho_ :eIrmão :Ilda_dos_Santos_Ramalho_1949, :José_dos_Santos_Ramalho_1942,
+    :Manuel_Carlos_dos_Santos_Ramalho, :Manuel_Fernando_dos_Santos_Ramalho .
+
+:Maria_Helena_Leite_Ramalho_1968 :eIrmão :José_Carlos_Leite_Ramalho_1967 .
+
+:José_Carlos_Leite_Ramalho_1967 :eIrmão :Maria_Helena_Leite_Ramalho_1968 .

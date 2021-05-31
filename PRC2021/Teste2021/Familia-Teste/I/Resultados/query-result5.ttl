@@ -1,0 +1,61 @@
+@prefix : <http://prc.di.uminho.pt/2021/myfamily#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+:Custódia_Azevedo_1867 :sexo "F" .
+
+:Manuel_da_Silva_Ramalho_1866 :sexo "M" .
+
+:José_Francisco_Ramos_Mouco :sexo "M" .
+
+:António_da_Silva_Ramalho :sexo "M" .
+
+:Henrique_Luiz_de_Araújo_1867 :sexo "M" .
+
+:José_Maria_Esteves :sexo "M" .
+
+:José_Emílio_de_Araújo :sexo "M" .
+
+:Rui_Alberto_Araújo_Leite_1948 :sexo "M" .
+
+:Marçal_Aristides_Costa_Leite_1909 :sexo "M" .
+
+:Marçal_da_Costa_Leite :sexo "M" .
+
+:Jozé_da_Silva_Santos_1879 :sexo "M" .
+
+:Henrique_Marçal_Araújo_Leite_1943 :sexo "M" .
+
+:António_da_Silva_Ramalho_1904 :sexo "M" .
+
+:José_dos_Santos_Ramalho_1942 :sexo "M" .
+
+:Maria_Gonçalves_de_Azevedo :sexo "F" .
+
+:Maria_Dias_dos_Reis :sexo "F" .
+
+:Maria_Araújo_1884 :sexo "F" .
+
+:Emília_Esteves :sexo "F" .
+
+:Maria_das_Dores_Fernandes_de_Brito :sexo "F" .
+
+:Maria_Margarida_Ribeiro_1954 :sexo "F" .
+
+:Maria_Esteves_de_Araújo_1912 :sexo "F" .
+
+:Flora_Castilho_do_Couto_Leite :sexo "F" .
+
+:Christina_Rosa_Silva_Santos_1879 :sexo "F" .
+
+:Maria_Otília_Araújo_Leite_1944 :sexo "F" .
+
+:Maria_Alves_dos_Santos_1906 :sexo "F" .
+
+:Maria_Flora_Araújo_Leite_1941 :sexo "F" .

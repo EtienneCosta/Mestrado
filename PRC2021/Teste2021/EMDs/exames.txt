@@ -1,0 +1,2400 @@
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_03_22_kline_stark
+:2020_03_22_kline_stark rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-03-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_19_curtis_dillon
+:2020_12_19_curtis_dillon rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-12-19" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_11_21_shelia_york
+:2019_11_21_shelia_york rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-11-21" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_06_30_christian_clements
+:2019_06_30_christian_clements rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-06-30" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_06_09_holly_bowen
+:2019_06_09_holly_bowen rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-06-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_01_gilda_schmidt
+:2019_07_01_gilda_schmidt rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-07-01" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_27_tina_salinas
+:2020_07_27_tina_salinas rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-07-27" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_21_odonnell_russell
+:2020_11_21_odonnell_russell rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-11-21" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_04_16_nina_fowler
+:2020_04_16_nina_fowler rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-04-16" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_10_25_lawrence_herman
+:2020_10_25_lawrence_herman rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-10-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_01_05_lucile_underwood
+:2020_01_05_lucile_underwood rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-01-05" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_04_25_freeman_wyatt
+:2019_04_25_freeman_wyatt rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-04-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_01_jaime_erickson
+:2020_11_01_jaime_erickson rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-11-01" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_04_09_mcintosh_aguirre
+:2019_04_09_mcintosh_aguirre rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-04-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_04_20_cecelia_adams
+:2019_04_20_cecelia_adams rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-04-20" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_03_01_key_arnold
+:2020_03_01_key_arnold rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-03-01" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_06_26_watson_lynch
+:2019_06_26_watson_lynch rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-06-26" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_02_magdalena_francis
+:2019_12_02_magdalena_francis rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-12-02" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_25_may_holt
+:2021_04_25_may_holt rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-04-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_02_18_elliott_guzman
+:2019_02_18_elliott_guzman rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-02-18" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_18_bonnie_sandoval
+:2019_10_18_bonnie_sandoval rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-10-18" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_04_dunn_horn
+:2021_02_04_dunn_horn rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-02-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_25_cheryl_watson
+:2019_10_25_cheryl_watson rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-10-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_14_olson_hickman
+:2020_12_14_olson_hickman rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-12-14" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_03_09_casey_bowman
+:2019_03_09_casey_bowman rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-03-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_31_christensen_boyd
+:2019_12_31_christensen_boyd rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-12-31" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_05_19_morris_poole
+:2021_05_19_morris_poole rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-05-19" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_27_callahan_mitchell
+:2020_11_27_callahan_mitchell rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-11-27" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_01_29_mccray_barker
+:2019_01_29_mccray_barker rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-01-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_10_06_raquel_dejesus
+:2020_10_06_raquel_dejesus rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-10-06" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_13_wilder_greene
+:2019_10_13_wilder_greene rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-10-13" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_01_mayra_rose
+:2019_12_01_mayra_rose rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-12-01" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_02_29_dee_lowery
+:2020_02_29_dee_lowery rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-02-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_02_06_daniel_chambers
+:2020_02_06_daniel_chambers rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-02-06" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_21_samantha_sharp
+:2019_12_21_samantha_sharp rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-12-21" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_05_28_foster_strickland
+:2020_05_28_foster_strickland rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-05-28" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_03_osborn_green
+:2020_12_03_osborn_green rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-12-03" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_31_ayers_carroll
+:2019_07_31_ayers_carroll rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-07-31" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_04_09_kelsey_roberts
+:2020_04_09_kelsey_roberts rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-04-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_15_cindy_shepherd
+:2020_07_15_cindy_shepherd rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-07-15" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_01_29_bonita_mccormick
+:2019_01_29_bonita_mccormick rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-01-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_08_18_crawford_merritt
+:2019_08_18_crawford_merritt rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-08-18" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_05_18_christine_rice
+:2021_05_18_christine_rice rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-05-18" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_19_preston_mccall
+:2021_02_19_preston_mccall rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-02-19" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_03_24_charles_kim
+:2020_03_24_charles_kim rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-03-24" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_03_03_burnett_hogan
+:2019_03_03_burnett_hogan rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-03-03" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_22_valentine_fitzgerald
+:2021_04_22_valentine_fitzgerald rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-04-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_10_22_carly_peck
+:2020_10_22_carly_peck rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-10-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_03_12_small_coffey
+:2019_03_12_small_coffey rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-03-12" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_02_06_brennan_santana
+:2019_02_06_brennan_santana rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-02-06" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_04_12_rosales_mejia
+:2019_04_12_rosales_mejia rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-04-12" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_15_ewing_drake
+:2021_02_15_ewing_drake rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-02-15" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_09_09_salas_joseph
+:2019_09_09_salas_joseph rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-09-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_03_09_morrow_yang
+:2020_03_09_morrow_yang rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-03-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_05_28_roseann_benjamin
+:2020_05_28_roseann_benjamin rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-05-28" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_05_23_booth_eaton
+:2019_05_23_booth_eaton rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-05-23" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_06_03_roxanne_miles
+:2019_06_03_roxanne_miles rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-06-03" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_06_22_jordan_bonner
+:2020_06_22_jordan_bonner rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-06-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_31_raquel_ratliff
+:2019_07_31_raquel_ratliff rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-07-31" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_04_08_maryann_joyce
+:2020_04_08_maryann_joyce rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-04-08" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_09_13_mendoza_buckner
+:2019_09_13_mendoza_buckner rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-09-13" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_04_27_lane_norton
+:2020_04_27_lane_norton rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-04-27" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_12_margaret_bray
+:2020_07_12_margaret_bray rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-07-12" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_06_25_catalina_webb
+:2019_06_25_catalina_webb rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-06-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_25_chelsea_gallegos
+:2020_07_25_chelsea_gallegos rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-07-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_09_08_golden_hopkins
+:2019_09_08_golden_hopkins rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-09-08" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_01_18_imelda_odonnell
+:2019_01_18_imelda_odonnell rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-01-18" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_20_olive_chapman
+:2021_02_20_olive_chapman rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-02-20" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_09_24_gwen_pate
+:2020_09_24_gwen_pate rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-09-24" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_01_29_hooper_kirby
+:2021_01_29_hooper_kirby rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-01-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_04_09_andrews_rivas
+:2020_04_09_andrews_rivas rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-04-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_05_01_haley_joseph
+:2019_05_01_haley_joseph rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-05-01" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_05_29_alston_green
+:2021_05_29_alston_green rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-05-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_03_22_claire_joyce
+:2021_03_22_claire_joyce rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-03-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_03_26_massey_goodman
+:2021_03_26_massey_goodman rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-03-26" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_01_tucker_morse
+:2020_07_01_tucker_morse rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-07-01" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_08_02_evans_singleton
+:2019_08_02_evans_singleton rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-08-02" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_25_ida_bradshaw
+:2020_11_25_ida_bradshaw rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-11-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_01_12_john_warner
+:2021_01_12_john_warner rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-01-12" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_30_lenora_kane
+:2020_07_30_lenora_kane rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-07-30" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_17_addie_hayes
+:2019_07_17_addie_hayes rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-07-17" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_01_06_jimmie_beck
+:2020_01_06_jimmie_beck rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-01-06" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_05_03_althea_fitzpatrick
+:2019_05_03_althea_fitzpatrick rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-05-03" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_20_sweet_woodward
+:2019_10_20_sweet_woodward rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-10-20" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_06_09_malinda_mccall
+:2020_06_09_malinda_mccall rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-06-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_10_maxine_rutledge
+:2019_10_10_maxine_rutledge rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-10-10" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_04_30_mccoy_blackburn
+:2019_04_30_mccoy_blackburn rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-04-30" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_17_mercedes_heath
+:2021_04_17_mercedes_heath rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-04-17" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_03_larsen_villarreal
+:2019_07_03_larsen_villarreal rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-07-03" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_14_hendrix_bauer
+:2020_11_14_hendrix_bauer rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-11-14" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_26_ola_glover
+:2020_11_26_ola_glover rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-11-26" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_29_bernard_stokes
+:2020_12_29_bernard_stokes rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-12-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_08_12_tonia_espinoza
+:2020_08_12_tonia_espinoza rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-08-12" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_14_alford_small
+:2019_10_14_alford_small rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-10-14" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_05_14_valdez_barnes
+:2021_05_14_valdez_barnes rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-05-14" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_02_04_michele_barber
+:2020_02_04_michele_barber rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-02-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_04_28_kathy_kramer
+:2019_04_28_kathy_kramer rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-04-28" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_10_18_kelley_davidson
+:2020_10_18_kelley_davidson rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-10-18" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_27_paige_mccarthy
+:2019_10_27_paige_mccarthy rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-10-27" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_01_03_lamb_graham
+:2019_01_03_lamb_graham rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-01-03" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_08_30_jeanine_hester
+:2020_08_30_jeanine_hester rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-08-30" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_01_17_medina_hartman
+:2019_01_17_medina_hartman rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-01-17" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_05_monica_neal
+:2021_04_05_monica_neal rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-04-05" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_30_travis_sampson
+:2019_10_30_travis_sampson rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-10-30" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_29_malinda_merritt
+:2019_12_29_malinda_merritt rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-12-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_02_06_milagros_ellis
+:2020_02_06_milagros_ellis rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-02-06" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_22_dominguez_chambers
+:2021_04_22_dominguez_chambers rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-04-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_02_24_wilkins_cummings
+:2020_02_24_wilkins_cummings rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-02-24" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_08_lelia_oliver
+:2021_02_08_lelia_oliver rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-02-08" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_11_lambert_mueller
+:2020_07_11_lambert_mueller rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-07-11" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_03_janis_mckinney
+:2020_11_03_janis_mckinney rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-11-03" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_03_28_jeri_pearson
+:2019_03_28_jeri_pearson rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-03-28" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_26_nixon_hendrix
+:2021_02_26_nixon_hendrix rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-02-26" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_09_15_vasquez_michael
+:2019_09_15_vasquez_michael rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-09-15" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_01_17_peters_vaughn
+:2020_01_17_peters_vaughn rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-01-17" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_12_tina_blankenship
+:2021_04_12_tina_blankenship rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-04-12" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_06_27_brianna_bentley
+:2019_06_27_brianna_bentley rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-06-27" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_11_whitehead_montgomery
+:2021_04_11_whitehead_montgomery rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-04-11" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_05_19_mcfarland_tyson
+:2019_05_19_mcfarland_tyson rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-05-19" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_04_12_langley_velez
+:2019_04_12_langley_velez rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-04-12" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_03_16_natalie_figueroa
+:2020_03_16_natalie_figueroa rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-03-16" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_16_evangelina_key
+:2021_04_16_evangelina_key rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-04-16" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_03_01_chambers_burton
+:2020_03_01_chambers_burton rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-03-01" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_08_06_liz_baldwin
+:2019_08_06_liz_baldwin rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-08-06" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_22_guzman_douglas
+:2021_04_22_guzman_douglas rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-04-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_04_kim_buck
+:2020_11_04_kim_buck rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-11-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_18_santana_harper
+:2019_12_18_santana_harper rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-12-18" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_10_10_english_clemons
+:2020_10_10_english_clemons rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-10-10" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_04_07_gertrude_dillon
+:2019_04_07_gertrude_dillon rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-04-07" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_01_09_sarah_moore
+:2019_01_09_sarah_moore rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-01-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_13_graves_mccray
+:2019_10_13_graves_mccray rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-10-13" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_08_11_zelma_bell
+:2019_08_11_zelma_bell rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-08-11" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_05_13_sanchez_mcgee
+:2021_05_13_sanchez_mcgee rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-05-13" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_09_04_holloway_maxwell
+:2019_09_04_holloway_maxwell rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-09-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_05_07_josie_rasmussen
+:2021_05_07_josie_rasmussen rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-05-07" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_01_31_cathryn_fletcher
+:2021_01_31_cathryn_fletcher rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-01-31" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_01_22_slater_david
+:2020_01_22_slater_david rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-01-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_25_cabrera_curtis
+:2021_02_25_cabrera_curtis rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-02-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_05_11_lloyd_dotson
+:2019_05_11_lloyd_dotson rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-05-11" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_05_03_hicks_daniels
+:2019_05_03_hicks_daniels rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-05-03" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_31_parks_saunders
+:2020_12_31_parks_saunders rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-12-31" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_08_31_torres_hardy
+:2019_08_31_torres_hardy rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-08-31" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_21_kellie_holland
+:2020_07_21_kellie_holland rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-07-21" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_10_31_moses_sargent
+:2020_10_31_moses_sargent rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-10-31" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_08_26_davenport_dominguez
+:2020_08_26_davenport_dominguez rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-08-26" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_16_rodriguez_gonzalez
+:2021_02_16_rodriguez_gonzalez rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-02-16" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_08_tanya_mcclain
+:2020_12_08_tanya_mcclain rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-12-08" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_01_27_duncan_davidson
+:2020_01_27_duncan_davidson rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-01-27" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_05_10_martin_brewer
+:2021_05_10_martin_brewer rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-05-10" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_08_30_amparo_price
+:2019_08_30_amparo_price rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-08-30" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_05_08_tammy_bryant
+:2020_05_08_tammy_bryant rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-05-08" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_22_lancaster_andrews
+:2020_12_22_lancaster_andrews rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-12-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_08_25_alyssa_howard
+:2019_08_25_alyssa_howard rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-08-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_03_01_tameka_orr
+:2019_03_01_tameka_orr rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-03-01" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_10_10_tonia_bryan
+:2020_10_10_tonia_bryan rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-10-10" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_24_effie_gibson
+:2020_11_24_effie_gibson rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-11-24" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_01_11_joyce_evans
+:2020_01_11_joyce_evans rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-01-11" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_09_14_conway_alexander
+:2020_09_14_conway_alexander rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-09-14" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_01_09_robert_herman
+:2021_01_09_robert_herman rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-01-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_06_27_galloway_sanders
+:2019_06_27_galloway_sanders rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-06-27" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_06_22_shelton_walton
+:2020_06_22_shelton_walton rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-06-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_06_30_alisa_morrison
+:2019_06_30_alisa_morrison rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-06-30" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_09_20_knapp_buckner
+:2020_09_20_knapp_buckner rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-09-20" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_09_14_burke_weeks
+:2019_09_14_burke_weeks rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-09-14" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_02_mcintyre_walsh
+:2020_07_02_mcintyre_walsh rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-07-02" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_04_23_mccullough_pena
+:2020_04_23_mccullough_pena rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-04-23" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_26_chang_oneill
+:2019_07_26_chang_oneill rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-07-26" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_05_24_sheila_caldwell
+:2020_05_24_sheila_caldwell rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-05-24" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_19_meagan_carter
+:2021_02_19_meagan_carter rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-02-19" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_08_03_jamie_cherry
+:2020_08_03_jamie_cherry rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-08-03" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_01_08_bonnie_diaz
+:2020_01_08_bonnie_diaz rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-01-08" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_04_12_shari_mathews
+:2020_04_12_shari_mathews rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-04-12" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_06_29_merrill_fulton
+:2020_06_29_merrill_fulton rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-06-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_14_montgomery_rhodes
+:2019_10_14_montgomery_rhodes rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-10-14" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_06_12_marcella_combs
+:2020_06_12_marcella_combs rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-06-12" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_23_angelia_noel
+:2020_12_23_angelia_noel rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-12-23" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_01_04_lester_manning
+:2019_01_04_lester_manning rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-01-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_01_29_ursula_martinez
+:2021_01_29_ursula_martinez rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-01-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_02_16_ramirez_blevins
+:2019_02_16_ramirez_blevins rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-02-16" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_12_irma_jacobs
+:2019_12_12_irma_jacobs rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-12-12" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_02_08_justine_wise
+:2019_02_08_justine_wise rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-02-08" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_09_26_mosley_gonzales
+:2020_09_26_mosley_gonzales rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-09-26" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_08_07_church_bishop
+:2020_08_07_church_bishop rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-08-07" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_01_02_carissa_rosario
+:2021_01_02_carissa_rosario rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-01-02" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_01_12_hubbard_hart
+:2019_01_12_hubbard_hart rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-01-12" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_02_02_barker_mercer
+:2020_02_02_barker_mercer rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-02-02" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_08_19_leila_solis
+:2020_08_19_leila_solis rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-08-19" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_10_23_oneill_roth
+:2020_10_23_oneill_roth rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-10-23" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_16_nguyen_diaz
+:2021_04_16_nguyen_diaz rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-04-16" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_01_09_guy_drake
+:2020_01_09_guy_drake rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-01-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_10_jean_conley
+:2020_12_10_jean_conley rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-12-10" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_27_opal_stewart
+:2019_07_27_opal_stewart rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-07-27" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_02_02_ray_howe
+:2019_02_02_ray_howe rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-02-02" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_09_04_viola_medina
+:2019_09_04_viola_medina rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-09-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_03_18_workman_franks
+:2019_03_18_workman_franks rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-03-18" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_06_28_dennis_crawford
+:2020_06_28_dennis_crawford rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-06-28" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_06_02_araceli_castaneda
+:2020_06_02_araceli_castaneda rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-06-02" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_05_suarez_campbell
+:2019_07_05_suarez_campbell rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-07-05" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_08_09_claudine_gill
+:2020_08_09_claudine_gill rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-08-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_20_patrick_mcintyre
+:2020_12_20_patrick_mcintyre rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-12-20" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_08_11_burgess_bradshaw
+:2020_08_11_burgess_bradshaw rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-08-11" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_06_04_fuentes_walker
+:2020_06_04_fuentes_walker rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-06-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_09_11_crane_ballard
+:2019_09_11_crane_ballard rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-09-11" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_26_paula_delaney
+:2021_02_26_paula_delaney rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-02-26" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_08_15_elena_sullivan
+:2019_08_15_elena_sullivan rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-08-15" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_09_04_mckenzie_woods
+:2020_09_04_mckenzie_woods rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-09-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_06_02_sallie_shaffer
+:2020_06_02_sallie_shaffer rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-06-02" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_24_berta_clay
+:2021_04_24_berta_clay rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-04-24" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_27_emily_terrell
+:2020_07_27_emily_terrell rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-07-27" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_05_10_sue_waters
+:2020_05_10_sue_waters rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-05-10" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_25_lynn_shaw
+:2020_07_25_lynn_shaw rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-07-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_01_18_chandra_potts
+:2021_01_18_chandra_potts rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-01-18" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_04_26_deana_ramsey
+:2020_04_26_deana_ramsey rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-04-26" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_24_stein_wiggins
+:2020_11_24_stein_wiggins rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-11-24" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_10_28_stella_jackson
+:2020_10_28_stella_jackson rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-10-28" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_23_perry_sanford
+:2021_02_23_perry_sanford rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-02-23" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_06_18_barrett_frederick
+:2020_06_18_barrett_frederick rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-06-18" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_13_doyle_odom
+:2021_04_13_doyle_odom rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-04-13" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_05_05_blevins_cline
+:2021_05_05_blevins_cline rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-05-05" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_27_martinez_johns
+:2019_07_27_martinez_johns rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-07-27" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_09_03_ophelia_boyd
+:2020_09_03_ophelia_boyd rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-09-03" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_03_16_terri_avila
+:2020_03_16_terri_avila rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-03-16" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_14_villarreal_tucker
+:2019_10_14_villarreal_tucker rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-10-14" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_03_04_sheppard_bryant
+:2019_03_04_sheppard_bryant rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-03-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_06_carrillo_munoz
+:2020_07_06_carrillo_munoz rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-07-06" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_09_06_bird_noble
+:2019_09_06_bird_noble rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-09-06" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_20_hayes_ward
+:2020_11_20_hayes_ward rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-11-20" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_03_16_maureen_cobb
+:2021_03_16_maureen_cobb rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-03-16" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_30_wolfe_baird
+:2020_12_30_wolfe_baird rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-12-30" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_03_04_etta_cotton
+:2021_03_04_etta_cotton rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-03-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_03_summer_calhoun
+:2019_12_03_summer_calhoun rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-12-03" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_03_08_hodges_ashley
+:2021_03_08_hodges_ashley rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-03-08" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_15_stafford_hale
+:2019_07_15_stafford_hale rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-07-15" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_14_joanna_grant
+:2019_07_14_joanna_grant rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-07-14" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_06_valarie_silva
+:2020_11_06_valarie_silva rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-11-06" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_20_barton_massey
+:2019_12_20_barton_massey rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-12-20" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_13_annmarie_petersen
+:2020_12_13_annmarie_petersen rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-12-13" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_10_22_laura_jacobson
+:2020_10_22_laura_jacobson rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-10-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_05_28_carole_lindsey
+:2020_05_28_carole_lindsey rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-05-28" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_03_23_meghan_cabrera
+:2019_03_23_meghan_cabrera rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-03-23" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_06_12_harmon_stone
+:2019_06_12_harmon_stone rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-06-12" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_08_fowler_alvarez
+:2019_10_08_fowler_alvarez rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-10-08" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_09_ball_barlow
+:2020_11_09_ball_barlow rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-11-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_11_terry_chaney
+:2020_07_11_terry_chaney rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-07-11" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_09_06_blair_sherman
+:2020_09_06_blair_sherman rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-09-06" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_05_10_oneil_baxter
+:2020_05_10_oneil_baxter rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-05-10" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_04_sherry_morales
+:2021_04_04_sherry_morales rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-04-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_04_rogers_noel
+:2021_02_04_rogers_noel rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-02-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_26_marlene_rodgers
+:2019_10_26_marlene_rodgers rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-10-26" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_03_04_alfreda_raymond
+:2021_03_04_alfreda_raymond rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-03-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_09_ethel_bartlett
+:2019_12_09_ethel_bartlett rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-12-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_09_18_jewel_trevino
+:2019_09_18_jewel_trevino rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-09-18" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_08_25_britt_zamora
+:2019_08_25_britt_zamora rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-08-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_10_16_warner_bullock
+:2020_10_16_warner_bullock rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-10-16" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_08_09_heath_bishop
+:2019_08_09_heath_bishop rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-08-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_02_14_sellers_hunter
+:2019_02_14_sellers_hunter rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-02-14" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_09_27_mavis_riley
+:2020_09_27_mavis_riley rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-09-27" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_13_woodard_bennett
+:2019_07_13_woodard_bennett rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-07-13" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_05_30_cynthia_page
+:2019_05_30_cynthia_page rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-05-30" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_10_valdez_harper
+:2020_11_10_valdez_harper rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-11-10" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_09_24_lila_curry
+:2020_09_24_lila_curry rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-09-24" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_17_bartlett_sexton
+:2019_12_17_bartlett_sexton rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-12-17" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_05_25_oliver_mcleod
+:2019_05_25_oliver_mcleod rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-05-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_08_23_becker_talley
+:2020_08_23_becker_talley rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-08-23" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_01_10_allie_lyons
+:2021_01_10_allie_lyons rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-01-10" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_07_15_marisol_owen
+:2020_07_15_marisol_owen rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-07-15" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_01_13_leanne_armstrong
+:2021_01_13_leanne_armstrong rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-01-13" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_01_20_shaffer_le
+:2020_01_20_shaffer_le rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-01-20" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_26_klein_cameron
+:2021_02_26_klein_cameron rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-02-26" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_21_montoya_anthony
+:2019_12_21_montoya_anthony rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-12-21" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_04_29_stafford_ray
+:2020_04_29_stafford_ray rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-04-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_01_02_hudson_duffy
+:2020_01_02_hudson_duffy rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-01-02" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_01_01_jordan_alvarez
+:2019_01_01_jordan_alvarez rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-01-01" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_06_23_harrison_finch
+:2019_06_23_harrison_finch rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-06-23" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_12_10_lambert_ferrell
+:2020_12_10_lambert_ferrell rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-12-10" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_03_29_elaine_allen
+:2019_03_29_elaine_allen rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-03-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_09_29_stanton_cox
+:2019_09_29_stanton_cox rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-09-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_12_09_arlene_morton
+:2019_12_09_arlene_morton rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-12-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_06_27_mathis_kirk
+:2019_06_27_mathis_kirk rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-06-27" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_08_29_sweet_gibbs
+:2019_08_29_sweet_gibbs rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-08-29" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_09_01_bobbi_hawkins
+:2020_09_01_bobbi_hawkins rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-09-01" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_11_22_dee_holman
+:2020_11_22_dee_holman rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-11-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_11_22_darla_ware
+:2019_11_22_darla_ware rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-11-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_10_22_bertha_shelton
+:2019_10_22_bertha_shelton rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-10-22" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_02_13_larson_morin
+:2019_02_13_larson_morin rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-02-13" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_01_13_betty_blake
+:2021_01_13_betty_blake rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-01-13" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_10_09_helena_mayo
+:2020_10_09_helena_mayo rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-10-09" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_01_mendez_good
+:2019_07_01_mendez_good rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-07-01" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_08_23_flynn_huber
+:2020_08_23_flynn_huber rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-08-23" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_02_04_elba_le
+:2021_02_04_elba_le rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-02-04" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_02_07_fuentes_rogers
+:2019_02_07_fuentes_rogers rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2019-02-07" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_05_14_chasity_coffey
+:2021_05_14_chasity_coffey rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-05-14" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_07_11_buckner_luna
+:2019_07_11_buckner_luna rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-07-11" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_06_26_herminia_mooney
+:2020_06_26_herminia_mooney rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2020-06-26" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_05_17_thelma_schmidt
+:2020_05_17_thelma_schmidt rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-05-17" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_01_24_susanna_lowery
+:2021_01_24_susanna_lowery rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2021-01-24" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2020_04_08_jefferson_pacheco
+:2020_04_08_jefferson_pacheco rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2020-04-08" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_04_30_best_french
+:2019_04_30_best_french rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-04-30" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2021_04_25_sellers_copeland
+:2021_04_25_sellers_copeland rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "True"^^xsd:boolean ;
+            :dataEMD "2021-04-25" .
+   
+
+
+###  http://www.di.uminho.pt/prc2021/EMDs#2019_09_09_felicia_skinner
+:2019_09_09_felicia_skinner rdf:type owl:NamedIndividual ,
+            :EMD ;
+            :resultado "False"^^xsd:boolean ;
+            :dataEMD "2019-09-09" .
+   
+

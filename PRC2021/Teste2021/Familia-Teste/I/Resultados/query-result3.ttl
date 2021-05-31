@@ -1,0 +1,166 @@
+@prefix : <http://prc.di.uminho.pt/2021/myfamily#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+:Abílio_da_Silva_Ramalho :eDescendente :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866,
+    :António_da_Silva_Ramalho, :Maria_Gonçalves_de_Azevedo, :José_Francisco_Ramos_Mouco,
+    :Maria_Dias_dos_Reis .
+
+:Ana_da_Silva_Ramalho :eDescendente :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866,
+    :António_da_Silva_Ramalho, :Maria_Gonçalves_de_Azevedo, :José_Francisco_Ramos_Mouco,
+    :Maria_Dias_dos_Reis .
+
+:António_da_Silva_Ramalho_1904 :eDescendente :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866,
+    :António_da_Silva_Ramalho, :Maria_Gonçalves_de_Azevedo, :José_Francisco_Ramos_Mouco,
+    :Maria_Dias_dos_Reis .
+
+:Arminda_da_Silva_Ramalho :eDescendente :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866,
+    :António_da_Silva_Ramalho, :Maria_Gonçalves_de_Azevedo, :José_Francisco_Ramos_Mouco,
+    :Maria_Dias_dos_Reis .
+
+:Ezequiel_da_Silva_Ramalho :eDescendente :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866,
+    :António_da_Silva_Ramalho, :Maria_Gonçalves_de_Azevedo, :José_Francisco_Ramos_Mouco,
+    :Maria_Dias_dos_Reis .
+
+:Generosa_da_Silva_Ramalho :eDescendente :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866,
+    :António_da_Silva_Ramalho, :Maria_Gonçalves_de_Azevedo, :José_Francisco_Ramos_Mouco,
+    :Maria_Dias_dos_Reis .
+
+:Albina_Esteves_de_Araújo_1910 :eDescendente :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves .
+
+:Emília_Esteves_de_Araújo_1908 :eDescendente :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves .
+
+:Filomena_Esteves_de_Araújo_1927 :eDescendente :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves .
+
+:Henrique_Luís_Esteves_de_Araújo_1924 :eDescendente :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves .
+
+:Maria_Esteves_de_Araújo_1912 :eDescendente :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves .
+
+:José_Emílio_Esteves_de_Araújo_1916 :eDescendente :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves .
+
+:Luís_Esteves_de_Araújo_1918 :eDescendente :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves .
+
+:Sara_Esteves_de_Araújo_1914 :eDescendente :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves .
+
+:Virgínia_Esteves_de_Araújo_1921 :eDescendente :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves .
+
+:Ana_Margarida_Ribeiro_Leite_1980 :eDescendente :Maria_Margarida_Ribeiro_1954, :Rui_Alberto_Araújo_Leite_1948,
+    :Maria_Esteves_de_Araújo_1912, :Marçal_Aristides_Costa_Leite_1909, :Maria_Araújo_1884,
+    :Henrique_Luiz_de_Araújo_1867, :Flora_Castilho_do_Couto_Leite, :Marçal_da_Costa_Leite,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves .
+
+:Teresa_Maria_Ribeiro_Leite_1985 :eDescendente :Maria_Margarida_Ribeiro_1954, :Rui_Alberto_Araújo_Leite_1948,
+    :Maria_Esteves_de_Araújo_1912, :Marçal_Aristides_Costa_Leite_1909, :Maria_Araújo_1884,
+    :Henrique_Luiz_de_Araújo_1867, :Flora_Castilho_do_Couto_Leite, :Marçal_da_Costa_Leite,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves .
+
+:Manuel_da_Silva_Ramalho_1866 :eDescendente :António_da_Silva_Ramalho, :Maria_Dias_dos_Reis .
+
+:Ilda_dos_Santos_Ramalho_1949 :eDescendente :António_da_Silva_Ramalho_1904, :Maria_Alves_dos_Santos_1906,
+    :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866, :Christina_Rosa_Silva_Santos_1879,
+    :Jozé_da_Silva_Santos_1879, :António_da_Silva_Ramalho, :Maria_Gonçalves_de_Azevedo,
+    :José_Francisco_Ramos_Mouco, :Maria_Dias_dos_Reis .
+
+:José_dos_Santos_Ramalho_1942 :eDescendente :António_da_Silva_Ramalho_1904, :Maria_Alves_dos_Santos_1906,
+    :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866, :Christina_Rosa_Silva_Santos_1879,
+    :Jozé_da_Silva_Santos_1879, :António_da_Silva_Ramalho, :Maria_Gonçalves_de_Azevedo,
+    :José_Francisco_Ramos_Mouco, :Maria_Dias_dos_Reis .
+
+:Manuel_Carlos_dos_Santos_Ramalho :eDescendente :António_da_Silva_Ramalho_1904, :Maria_Alves_dos_Santos_1906,
+    :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866, :Christina_Rosa_Silva_Santos_1879,
+    :Jozé_da_Silva_Santos_1879, :António_da_Silva_Ramalho, :Maria_Gonçalves_de_Azevedo,
+    :José_Francisco_Ramos_Mouco, :Maria_Dias_dos_Reis .
+
+:Manuel_Fernando_dos_Santos_Ramalho :eDescendente :António_da_Silva_Ramalho_1904,
+    :Maria_Alves_dos_Santos_1906, :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866,
+    :Christina_Rosa_Silva_Santos_1879, :Jozé_da_Silva_Santos_1879, :António_da_Silva_Ramalho,
+    :Maria_Gonçalves_de_Azevedo, :José_Francisco_Ramos_Mouco, :Maria_Dias_dos_Reis .
+
+:Maria_Flora_dos_Santos_Ramalho_ :eDescendente :António_da_Silva_Ramalho_1904, :Maria_Alves_dos_Santos_1906,
+    :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866, :Christina_Rosa_Silva_Santos_1879,
+    :Jozé_da_Silva_Santos_1879, :António_da_Silva_Ramalho, :Maria_Gonçalves_de_Azevedo,
+    :José_Francisco_Ramos_Mouco, :Maria_Dias_dos_Reis .
+
+:Florinda_Alves_dos_Santos :eDescendente :Christina_Rosa_Silva_Santos_1879, :Jozé_da_Silva_Santos_1879 .
+
+:Maria_Alves_dos_Santos_1906 :eDescendente :Christina_Rosa_Silva_Santos_1879, :Jozé_da_Silva_Santos_1879 .
+
+:Custódia_Azevedo_1867 :eDescendente :Maria_Gonçalves_de_Azevedo, :José_Francisco_Ramos_Mouco .
+
+:Domingos_Couto_Leite :eDescendente :Flora_Castilho_do_Couto_Leite, :Marçal_da_Costa_Leite .
+
+:Gilberto_Couto_Leite :eDescendente :Flora_Castilho_do_Couto_Leite, :Marçal_da_Costa_Leite .
+
+:Helena_Couto_Leite :eDescendente :Flora_Castilho_do_Couto_Leite, :Marçal_da_Costa_Leite .
+
+:Marçal_Aristides_Costa_Leite_1909 :eDescendente :Flora_Castilho_do_Couto_Leite, :Marçal_da_Costa_Leite .
+
+:João_Bernardo_Couto_Leite_1916 :eDescendente :Flora_Castilho_do_Couto_Leite, :Marçal_da_Costa_Leite .
+
+:Orlando_Couto_Leite :eDescendente :Flora_Castilho_do_Couto_Leite, :Marçal_da_Costa_Leite .
+
+:Rosa_Couto_Leite :eDescendente :Flora_Castilho_do_Couto_Leite, :Marçal_da_Costa_Leite .
+
+:Maria_Araújo_1884 :eDescendente :Emília_Esteves, :José_Maria_Esteves .
+
+:Henrique_Luiz_de_Araújo_1867 :eDescendente :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo .
+
+:Henrique_Miguel_Cabrita_de_Araújo_Leite_1971 :eDescendente :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Otília_Araújo_Leite_1944, :Maria_Esteves_de_Araújo_1912, :Marçal_Aristides_Costa_Leite_1909,
+    :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867, :Flora_Castilho_do_Couto_Leite,
+    :Marçal_da_Costa_Leite, :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo,
+    :José_Maria_Esteves .
+
+:Isabel_Maria_Cabrita_de_Araújo_Leite_1971 :eDescendente :Henrique_Marçal_Araújo_Leite_1943,
+    :Maria_Otília_Araújo_Leite_1944, :Maria_Esteves_de_Araújo_1912, :Marçal_Aristides_Costa_Leite_1909,
+    :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867, :Flora_Castilho_do_Couto_Leite,
+    :Marçal_da_Costa_Leite, :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo,
+    :José_Maria_Esteves .
+
+:Rui_Alberto_Araújo_Leite_1948 :eDescendente :Maria_Esteves_de_Araújo_1912, :Marçal_Aristides_Costa_Leite_1909,
+    :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867, :Flora_Castilho_do_Couto_Leite,
+    :Marçal_da_Costa_Leite, :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo,
+    :José_Maria_Esteves .
+
+:Henrique_Marçal_Araújo_Leite_1943 :eDescendente :Maria_Esteves_de_Araújo_1912, :Marçal_Aristides_Costa_Leite_1909,
+    :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867, :Flora_Castilho_do_Couto_Leite,
+    :Marçal_da_Costa_Leite, :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo,
+    :José_Maria_Esteves .
+
+:Maria_Flora_Araújo_Leite_1941 :eDescendente :Maria_Esteves_de_Araújo_1912, :Marçal_Aristides_Costa_Leite_1909,
+    :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867, :Flora_Castilho_do_Couto_Leite,
+    :Marçal_da_Costa_Leite, :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo,
+    :José_Maria_Esteves .
+
+:José_Carlos_Leite_Ramalho_1967 :eDescendente :Maria_Flora_Araújo_Leite_1941, :José_dos_Santos_Ramalho_1942,
+    :António_da_Silva_Ramalho_1904, :Maria_Esteves_de_Araújo_1912, :Marçal_Aristides_Costa_Leite_1909,
+    :Maria_Alves_dos_Santos_1906, :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866,
+    :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867, :Christina_Rosa_Silva_Santos_1879,
+    :Flora_Castilho_do_Couto_Leite, :Marçal_da_Costa_Leite, :Jozé_da_Silva_Santos_1879,
+    :António_da_Silva_Ramalho, :Maria_Gonçalves_de_Azevedo, :José_Francisco_Ramos_Mouco,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves,
+    :Maria_Dias_dos_Reis .
+
+:Maria_Helena_Leite_Ramalho_1968 :eDescendente :Maria_Flora_Araújo_Leite_1941, :José_dos_Santos_Ramalho_1942,
+    :António_da_Silva_Ramalho_1904, :Maria_Esteves_de_Araújo_1912, :Marçal_Aristides_Costa_Leite_1909,
+    :Maria_Alves_dos_Santos_1906, :Custódia_Azevedo_1867, :Manuel_da_Silva_Ramalho_1866,
+    :Maria_Araújo_1884, :Henrique_Luiz_de_Araújo_1867, :Christina_Rosa_Silva_Santos_1879,
+    :Flora_Castilho_do_Couto_Leite, :Marçal_da_Costa_Leite, :Jozé_da_Silva_Santos_1879,
+    :António_da_Silva_Ramalho, :Maria_Gonçalves_de_Azevedo, :José_Francisco_Ramos_Mouco,
+    :Emília_Esteves, :Maria_das_Dores_Fernandes_de_Brito, :José_Emílio_de_Araújo, :José_Maria_Esteves,
+    :Maria_Dias_dos_Reis .
