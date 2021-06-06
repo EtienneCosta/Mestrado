@@ -1,0 +1,75 @@
+Desde já peço desculpas pelo sucedido .
+
+A solução submetida no dia do teste foi a seguinte :
+
+axios.get('http://localhost:7200/repositories/Familia/statements?query=' + querie1)
+        .then(res => {
+            let querie2 = `INSERT DATA { ${res.data} }`
+            axios.post('http://localhost:7200/repositories/Familia/statements?update=' + encodeURI(querie2))
+              .then(e => console.log(e.data))
+        }) 
+
+
+Devo ter feito qualquer alteração depois de ter entregue, e hoje dia 06/06/2021 estava a adicionar resoluções da unidade curricular de SPLN e acabei por fazer um push global e modifiquei a solução submetida no dia do teste :
+
+
+============= Submissão depois do teste (06/06/2021) ===============
+
+axios.get('http://localhost:7200/repositories/Familia/statements?query=' + querie1)
+        .then( async res => {
+            let querie2 = `INSERT DATA { ${res.data} }`
+            axios.post('http://localhost:7200/repositories/Familia/statements?update=' + encodeURI(querie2))
+              .then(async e => console.log("Submetido"))
+
+
+============= Submissão de SPLN  (06/06/2021) ===============
+
+#!usr/bin/python3
+
+import re
+
+dict_pt_en={}
+
+
+"""
+Pretende-se implementar um gerador de chat bots. Neste gerador, um bot é uma função que recebe
+uma lista de tuplos, em que cada tuplo é composto por um padrão (expressão regular) e uma lista 
+de acções (identificadores de funções, funções lambda ou constantes), às quais são passados os grupos 
+de captura das expressões regulares:
+accoes = [
+    (r'és um (\w+)', [
+        lambda x: return f'{x} és tu!,
+        lambda x: return f'Tu é que és {x}',
+        'Quem o diz é quem o é cala a boca jacaré!'
+    ]),
+    (r'.',['Não percebi, fala direito!'])
+]
+"""
+
+
+"""
+a) Implemente o padrão e a acção correspondentes ao primeiro exemplo de resposta do bot("Carro em inglês")
+"""
+
+
+def translate_or_create(sentence:str)->str :
+    translated_word=''
+    if 'em inglês é' in sentence :
+        wordPT=sentence.split()[0].strip()
+        wordEN=sentence.split()[-1].strip()
+        dict_pt_en[wordPT]=wordEN
+        translated_word='ok'
+
+
+    elif 'em inglês' in sentence :
+        word=sentence.split()[0].strip()
+        if word in dict_pt_en.keys():
+            translated_word=dict_pt_en[word]
+        else:
+            translated_word='não sei'
+
+    return translated_word
+
+print(translate_or_create('carro em inglês'))
+print(translate_or_create('carro em inglês é car'))
+print(translate_or_create('carro em inglês'))
