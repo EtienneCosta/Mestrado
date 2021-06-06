@@ -20,8 +20,8 @@ let querie1 = encodeURI(prefixes + `
 )
 
 axios.get('http://localhost:7200/repositories/Familia/statements?query=' + querie1)
-        .then(res => {
+        .then( async res => {
             let querie2 = `INSERT DATA { ${res.data} }`
             axios.post('http://localhost:7200/repositories/Familia/statements?update=' + encodeURI(querie2))
-              .then(e => console.log(e.data))
+              .then(async e => console.log("Submetido"))
         })

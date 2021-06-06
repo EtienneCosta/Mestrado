@@ -24,9 +24,14 @@ CONSTRUCT {
 }`
 )
 
+var resultado1 ;
 axios.get('http://localhost:7200/repositories/Familia/statements?query=' + querie1)
         .then(res => {
-            let querie2 = `INSERT DATA { ${res.data} }`
-            axios.post('http://localhost:7200/repositories/Familia/statements?query=' + encodeURI(querie2))
-              .then(e => console.log(e.data))
-        })
+            resultado1=res.data;})
+
+let querie2 = `INSERT DATA { ${resultado1} }`
+            
+axios.post('http://localhost:7200/repositories/Familia/statements?update=' + encodeURI(querie2))
+            .then(res =>{
+                console.log("Inseri");
+            })
