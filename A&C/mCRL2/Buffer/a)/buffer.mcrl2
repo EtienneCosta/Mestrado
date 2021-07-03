@@ -1,0 +1,13 @@
+act inp,mo,mo_s,mi,mi_s,r_s,out_s,t,m_out,m_r;
+
+proc B1 = inp . mo_s. mi. r_s. B1 ;
+proc B2 = mo. out_s . t. mi_s. B2 ;
+proc Bs = allow ( {inp,r_s,out_s,t,m_out,m_r},
+          comm ({mo|mo_s -> m_out, mi|mi_s -> m_r},
+	  B1 || B2));
+
+
+init hide({m_r,m_out},
+	allow({inp,r_s,out_s,t,m_out,m_r},
+	comm ({mo|mo_s -> m_out, mi|mi_s -> m_r},
+	B1 || B2)));

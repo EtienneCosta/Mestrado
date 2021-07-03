@@ -1,0 +1,4 @@
+act a,b;
+proc P = a . b . S . P ;
+proc S = b . S + a ;
+init P ; 

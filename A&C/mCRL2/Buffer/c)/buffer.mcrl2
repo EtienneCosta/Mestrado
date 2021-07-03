@@ -1,0 +1,19 @@
+act inp;
+    mo: Int;
+    mo_s: Int;
+    mi: Int;
+    mi_s: Int;
+    r_s;
+    out_s;
+    t;
+    m_out: Int;
+    m_r;
+
+proc Bi = inp . r_s . mo(0) . mi_s(0) . Bi ;
+proc Bm(n: Int) = mo_s(n-1) . mi(n-1) . mo(n) . mi_s(n) . Bm(n) ;
+proc Bf = mo_s(2) . mi(2) . out_s . t . Bf;
+
+
+init allow({inp,r_s,out_s,t,mo|mo_s,mi|mi_s},
+     Bi || Bm(1) || Bf);
+
