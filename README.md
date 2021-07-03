@@ -54,7 +54,10 @@ Projects developed during the master's degree in computer engineering. ![uminho]
 
 - [SAT](https://github.com/EtienneCosta/Mestrado/tree/main/VF/MiniSat) - Boolean Satisfiability Problem.
 - [SMT](https://github.com/EtienneCosta/Mestrado/tree/main/VF/SMT) - Satisfiability Modulo Theories.
-- [Why3]() - Coming Soon.
+- [Why3](https://github.com/EtienneCosta/Mestrado/tree/main/VF/Why3) - Platform for deductive program verification.
+- [Frama-C](https://github.com/EtienneCosta/Mestrado/tree/main/VF/Frama-C) - A set of interoperable program analyzers for C programs.
+- [Coq](https://github.com/EtienneCosta/Mestrado/tree/main/VF/Coq) - A formal proof management system.
+
 
 **Software Architecture and Calculi**
 
