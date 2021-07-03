@@ -1,0 +1,8 @@
+Permite capturar um conjunto de ditados numa página web:
+curl https://pt.wikipedia.org/wiki/Ditado_popular | grep -E '^(<p>|</p>)'  | sed  -E "s/(<p>|<\/p>)//g"
+
+Permite capturar os nomes dos alunos de MFES 2021:
+curl https://haslab.github.io/MFES/VF/2021/index | grep -E '<td>[A-Za-z ]+</td>' | sed -E "s/<td>|<\/td>//g" | sed -E "s/[A-Z]i?[A-Z]+//g" | sed '/^[[:space:]]*$/d'
+
+Permite capturar o nome dos jogadores brasileiros mais importante do futebol pela Worl Soccer Magazine :
+curl https://pt.wikipedia.org/wiki/Lista_dos_500_jogadores_mais_importantes_do_futebol_pela_World_Soccer_Magazine  | grep -E '<li>([A-Za-z ]+)-([ A-Za-z]+)</li>' | sed -E "s/(<li>|<\/li>|<ul>|<\/ul>)//g" | sed '1d'

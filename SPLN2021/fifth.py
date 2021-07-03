@@ -25,7 +25,6 @@ def find_corresp(text1:str,text2:str) -> dict:
     d = {}
     t1 = re.findall(r'\w+',text1)
     t2 = re.findall(r'\w+',text2)
-    
     for index in range(len(t1)):
         if(t1[index]!=t2[index]):
             d[t1[index]]=t2[index]
