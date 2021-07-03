@@ -1,6 +1,6 @@
-# Mestrado           
+# Master's degree           
 
-Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho](http://www4.di.uminho.pt/~jmf/IMAGES/um_eeng.gif)
+Projects developed during the master's degree in computer engineering. ![uminho](http://www4.di.uminho.pt/~jmf/IMAGES/um_eeng.gif)
 
 
 
@@ -51,7 +51,6 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 
 
 
-
 **Cálculo de Sistemas de Informação**
 
 - [Wiki](https://haslab.github.io/MFES/CSI/2021/index) 
@@ -65,6 +64,11 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 
 **Arquitetura e Cálculo**
 
+- [mCRL2](https://github.com/EtienneCosta/Mestrado/tree/main/VF/MiniSat) - Specification language for describing concurrent discrete event systems.
+- [UPPALL](https://github.com/EtienneCosta/Mestrado/tree/main/VF/SMT) - an integrated tool environment for modeling, validation and verification of real-time systems .
+- [Time-Critical Reactive Systems]() -Timed Automata.
+- [Monads]() - Modelling and analysis of cyber-physical systems now with monads.
+
 
 # Base de Dados NoSQL
 
@@ -73,20 +77,7 @@ Projectos desenvolvidos durante o mestrado em engenharia informática . ![uminho
 
 
 ## Contributors
-* [André Morais](https://github.com/Demorales1998)
-* [Etienne Costa](https://github.com/EtienneCosta)
-* [Gonçalo Pinto](https://github.com/GRP99)
-* [Luís Ribeiro](https://github.com/luis1ribeiro)
-* [Maurício Salgado](https://github.com/MauricioSalgado)
 * [Rui Azevedo](https://github.com/ruiAzevedo19) ⭐️
-
-
-
-
-
-
-
-
-
-
-
+* [Pedro Costa](https://github.com/pCosta99) ⭐️
+* [Gonçalo Pinto](https://github.com/GRP99)⭐️
+* [Luís Ribeiro](https://github.com/luis1ribeiro)⭐️
