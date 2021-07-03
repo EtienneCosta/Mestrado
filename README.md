@@ -23,9 +23,9 @@ Projects developed during the master's degree in computer engineering. ![uminho]
 - [Class](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/Turma)- Class grammar.
 - [SELRA](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/SELRA)- Selection of learning resources .
 
-# Métodos Formais em Engenharia de Software
+# Formal Methods
 
-**Análise e Teste de Software**
+**Software Analysis and Testing**
 
 - [Parser Combinators](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/ParserCombinators) - GIC made in haskell.
 - [Code Smells](https://github.com/EtienneCosta/Mestrado/tree/main/ATS/Code%20Smells) - Code Smells.
@@ -39,30 +39,24 @@ Projects developed during the master's degree in computer engineering. ![uminho]
 
 
 
-
-
-
-
-
-
-**Especificação e Modelação**
+**Specification and modeling**
 
 - [Lamport Mutex](https://github.com/EtienneCosta/Mestrado/tree/main/EM/Project/LamportMutex) - Distributed mutual exclusion algorithm .
 
 
 
-**Cálculo de Sistemas de Informação**
+**Calculation of Information Systems**
 
 - [Wiki](https://haslab.github.io/MFES/CSI/2021/index) 
 
 
-**Verificação Formal**
+**Formal Verification**
 
 - [SAT](https://github.com/EtienneCosta/Mestrado/tree/main/VF/MiniSat) - Boolean Satisfiability Problem.
 - [SMT](https://github.com/EtienneCosta/Mestrado/tree/main/VF/SMT) - Satisfiability Modulo Theories.
 - [Why3]() - Coming Soon.
 
-**Arquitetura e Cálculo**
+**Software Architecture and Calculi**
 
 - [mCRL2](https://github.com/EtienneCosta/Mestrado/tree/main/A%26C/mCRL2) - Specification language for describing concurrent discrete event systems.
 - [UPPAAL](https://github.com/EtienneCosta/Mestrado/tree/main/A%26C/UPPAAL) - an integrated tool environment for modeling, validation and verification of real-time systems .
@@ -70,10 +64,9 @@ Projects developed during the master's degree in computer engineering. ![uminho]
 - [Monads](https://github.com/EtienneCosta/Mestrado/tree/main/A%26C/TSP) - Modelling and analysis of cyber-physical systems now with monads.
 
 
-# Base de Dados NoSQL
+# NoSQL Databases
 
 - [Relational vs Non-Relational Databases](https://github.com/EtienneCosta/Mestrado/tree/main/BDNoSql/Trabalho%20Pr%C3%A1tico) - Oracle,Mongo and Neo4j.
-
 
 
 ## Contributors
