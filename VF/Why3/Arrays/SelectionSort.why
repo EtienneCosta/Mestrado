@@ -1,0 +1,23 @@
+module SelectionSort
+       
+  use int.Int
+  use ref.Ref
+  use array.Array
+  use array.IntArraySorted
+  use array.ArrayPermut
+  use array.ArrayEq
+
+
+let select (a:array int) (i: int)
+    requires {0 <= i <length a }
+    ensures  {i <= result < length a}
+    ensures  {forall k:int. i<=k<length a -> a[result]<= a[k]}
+    =
+    let min = ref i in 
+        for j = i + 1 to length a - 1 do 
+            invariant {}
+            invariant { i <= !min <j /\ forall k:int. i <= k < j -> a[!min]<=a[k] }
+            if a[j] < a[!min] then min:=j
+        done;
+    !min
+end

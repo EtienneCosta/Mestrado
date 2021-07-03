@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
+"http://why3.lri.fr/why3session.dtd">
+<why3session shape_version="6">
+<prover id="0" name="Z3" version="4.8.6" timelimit="1" steplimit="0" memlimit="1000"/>
+<prover id="1" name="Alt-Ergo" version="2.3.1" timelimit="1" steplimit="0" memlimit="1000"/>
+<prover id="2" name="CVC4" version="1.7" timelimit="1" steplimit="0" memlimit="1000"/>
+<file format="whyml" proved="true">
+<path name=".."/><path name="btree.why"/>
+<theory name="BTree" proved="true">
+ <goal name="add&#39;vc" expl="VC for add" proved="true">
+ <proof prover="2"><result status="valid" time="0.47" steps="24915"/></proof>
+ <transf name="split_all_full" proved="true" >
+  <goal name="add&#39;vc.0" expl="variant decrease" proved="true">
+  <proof prover="2"><result status="valid" time="0.10" steps="8630"/></proof>
+  </goal>
+  <goal name="add&#39;vc.1" expl="precondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.08" steps="7254"/></proof>
+  </goal>
+  <goal name="add&#39;vc.2" expl="variant decrease" proved="true">
+  <proof prover="2"><result status="valid" time="0.10" steps="8647"/></proof>
+  </goal>
+  <goal name="add&#39;vc.3" expl="precondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.08" steps="7266"/></proof>
+  </goal>
+  <goal name="add&#39;vc.4" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.12" steps="8620"/></proof>
+  </goal>
+  <goal name="add&#39;vc.5" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.11" steps="8246"/></proof>
+  </goal>
+  <goal name="add&#39;vc.6" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.10" steps="7723"/></proof>
+  </goal>
+  <goal name="add&#39;vc.7" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.11" steps="9107"/></proof>
+  </goal>
+  <goal name="add&#39;vc.8" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.13" steps="11613"/></proof>
+  </goal>
+  <goal name="add&#39;vc.9" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.12" steps="9879"/></proof>
+  </goal>
+  <goal name="add&#39;vc.10" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.11" steps="9822"/></proof>
+  </goal>
+  <goal name="add&#39;vc.11" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.13" steps="10882"/></proof>
+  </goal>
+  <goal name="add&#39;vc.12" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.13" steps="11650"/></proof>
+  </goal>
+  <goal name="add&#39;vc.13" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.12" steps="9949"/></proof>
+  </goal>
+  <goal name="add&#39;vc.14" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.08" steps="9853"/></proof>
+  </goal>
+  <goal name="add&#39;vc.15" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.11" steps="10963"/></proof>
+  </goal>
+ </transf>
+ </goal>
+ <goal name="genTree&#39;vc" expl="VC for genTree" proved="true">
+ <proof prover="2"><result status="valid" time="0.23" steps="22842"/></proof>
+ <transf name="split_all_full" proved="true" >
+  <goal name="genTree&#39;vc.0" expl="variant decrease" proved="true">
+  <proof prover="2"><result status="valid" time="0.13" steps="10270"/></proof>
+  </goal>
+  <goal name="genTree&#39;vc.1" expl="precondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.06" steps="8604"/></proof>
+  </goal>
+  <goal name="genTree&#39;vc.2" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.06" steps="7827"/></proof>
+  </goal>
+  <goal name="genTree&#39;vc.3" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.09" steps="9239"/></proof>
+  </goal>
+  <goal name="genTree&#39;vc.4" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.10" steps="9528"/></proof>
+  </goal>
+  <goal name="genTree&#39;vc.5" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.08" steps="8886"/></proof>
+  </goal>
+  <goal name="genTree&#39;vc.6" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.07" steps="9068"/></proof>
+  </goal>
+  <goal name="genTree&#39;vc.7" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.14" steps="11797"/></proof>
+  </goal>
+  <goal name="genTree&#39;vc.8" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.15" steps="12255"/></proof>
+  </goal>
+  <goal name="genTree&#39;vc.9" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.10" steps="11783"/></proof>
+  </goal>
+ </transf>
+ </goal>
+ <goal name="split_list_g&#39;vc" expl="VC for split_list_g" proved="true">
+ <proof prover="1"><result status="valid" time="0.08" steps="469"/></proof>
+ <transf name="split_all_full" proved="true" >
+  <goal name="split_list_g&#39;vc.0" expl="variant decrease" proved="true">
+  <proof prover="2"><result status="valid" time="0.11" steps="10311"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.1" expl="variant decrease" proved="true">
+  <proof prover="2"><result status="valid" time="0.13" steps="10322"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.2" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.06" steps="7540"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.3" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.07" steps="8279"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.4" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.08" steps="8942"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.5" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.07" steps="8636"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.6" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.13" steps="11236"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.7" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.14" steps="11479"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.8" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.18" steps="13461"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.9" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.17" steps="13437"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.10" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.12" steps="10712"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.11" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.12" steps="10801"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.12" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.12" steps="10867"/></proof>
+  </goal>
+  <goal name="split_list_g&#39;vc.13" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.11" steps="11406"/></proof>
+  </goal>
+ </transf>
+ </goal>
+ <goal name="split_list_leq&#39;vc" expl="VC for split_list_leq" proved="true">
+ <proof prover="1"><result status="valid" time="0.09" steps="485"/></proof>
+ <transf name="split_all_full" proved="true" >
+  <goal name="split_list_leq&#39;vc.0" expl="variant decrease" proved="true">
+  <proof prover="2"><result status="valid" time="0.14" steps="10315"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.1" expl="variant decrease" proved="true">
+  <proof prover="2"><result status="valid" time="0.13" steps="10313"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.2" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.06" steps="7540"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.3" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.06" steps="8279"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.4" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.09" steps="8932"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.5" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.07" steps="8634"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.6" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.13" steps="11233"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.7" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.15" steps="11466"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.8" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.18" steps="13422"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.9" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.16" steps="13423"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.10" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.12" steps="10712"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.11" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.10" steps="10803"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.12" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.13" steps="10865"/></proof>
+  </goal>
+  <goal name="split_list_leq&#39;vc.13" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.11" steps="11390"/></proof>
+  </goal>
+ </transf>
+ </goal>
+ <goal name="genTreePartion&#39;vc" expl="VC for genTreePartion" proved="true">
+ <transf name="split_all_full" proved="true" >
+  <goal name="genTreePartion&#39;vc.0" expl="variant decrease" proved="true">
+  <proof prover="2"><result status="valid" time="0.13" steps="10684"/></proof>
+  </goal>
+  <goal name="genTreePartion&#39;vc.1" expl="variant decrease" proved="true">
+  <proof prover="2"><result status="valid" time="0.13" steps="11878"/></proof>
+  </goal>
+  <goal name="genTreePartion&#39;vc.2" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.06" steps="7827"/></proof>
+  </goal>
+  <goal name="genTreePartion&#39;vc.3" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.09" steps="9239"/></proof>
+  </goal>
+  <goal name="genTreePartion&#39;vc.4" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.10" steps="9528"/></proof>
+  </goal>
+  <goal name="genTreePartion&#39;vc.5" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.21" steps="17987"/></proof>
+  </goal>
+  <goal name="genTreePartion&#39;vc.6" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.21" steps="18257"/></proof>
+  </goal>
+  <goal name="genTreePartion&#39;vc.7" expl="postcondition" proved="true">
+  <proof prover="2"><result status="valid" time="0.29" steps="24984"/></proof>
+  </goal>
+  <goal name="genTreePartion&#39;vc.8" expl="postcondition">
+  <proof prover="0"><result status="highfailure" time="0.69" steps="950224"/></proof>
+  <proof prover="1"><result status="timeout" time="1.00"/></proof>
+  <proof prover="2"><undone/></proof>
+  </goal>
+  <goal name="genTreePartion&#39;vc.4" expl="postcondition">
+  <proof prover="2"><undone/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+</file>
+</why3session>

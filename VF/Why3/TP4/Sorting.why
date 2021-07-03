@@ -1,0 +1,72 @@
+module SelectionSort 
+
+use int.Int
+use ref.Ref
+use array.Array
+use array.IntArraySorted
+use array.ArrayPermut
+use array.ArrayEq
+
+
+let swap (a: array int) (i: int) (j: int) =
+    ensures { exchange (old a) a i j }
+    requires { 0 <= i < length a /\ 0 <= j < length a }
+    let v = a[i] in
+     a[i] <- a[j];
+     a[j] <- v
+
+
+(* sorted_sub a l u is true whenever the array segment a(l..u-1) is sorted w.r.t order relation le *)
+(* permut_all a1 a2 l u is true when array a1 is a permutation of array a2. *)
+let selection_sort_2 (a:array int) = 
+    ensures {sorted a /\ permut_all (old a) a }
+    for i = 0 to length a - 1 do 
+        invariant { sorted_sub a 0 i /\ permut_all(old a) a }
+        invariant { forall n1 n2: int. 0 <= n1 < i <= n2 < length a -> a[n1] <= a[n2] }
+        let min = ref i in 
+        for j = i + 1 to length a -1 do 
+            invariant { i <= !min < j && forall n:int. i <= n < j -> a[!min]<=a[n] }
+            if a[j] < a[!min] then min := j                     
+        done;  
+        if !min <> i then swap a !min i 
+    done; 
+end
+
+
+module InsertionSort 
+
+use int.Int
+use ref.Ref
+use array.Array
+use array.IntArraySorted
+use array.ArrayPermut
+use array.ArrayEq
+
+
+let swap (a: array int) (i: int) (j: int) =
+    ensures { exchange (old a) a i j }
+    requires { 0 <= i < length a /\ 0 <= j < length a }
+    let v = a[i] in
+     a[i] <- a[j];
+     a[j] <- v
+
+
+(* sorted_sub a l u is true whenever the array segment a(l..u-1) is sorted w.r.t order relation le *)
+(* permut_all a1 a2 l u is true when array a1 is a permutation of array a2. *)
+
+let insertion_sort3 (a: array int) =
+    ensures { sorted a /\ permut_all (old a) a }
+  label L in
+    for i = 1 to length a - 1 do
+      invariant { permut_all (a at L) a /\ sorted_sub a 0 i    }
+      let j = ref i in
+      while !j > 0 && a[!j - 1] > a[!j] do
+        invariant { 0 <= !j <= i /\  permut_all (a at L) a  }
+        invariant { sorted_sub a 0 !j /\ sorted_sub a !j (i+1)  }  
+        invariant { forall n1 n2:int. 0 <= n1 < !j /\ !j+1 <= n2 <= i -> a[n1] <= a[n2] }
+        variant{ !j }
+        swap a (!j-1) !j;
+        j := !j - 1
+      done
+  done
+end

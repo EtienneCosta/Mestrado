@@ -1,0 +1,169 @@
+module BTree
+
+use int.Int
+use list.List
+use list.NumOcc
+use list.Mem
+use list.Length
+
+type tree 'a = Empty | Node (tree 'a) 'a (tree 'a)
+
+(* Conta o número de nodos numa determinada árvore *)
+function size (t: tree 'a) : int = 
+  match t with 
+  | Empty -> 0
+  | Node l _ r -> 1 + (size l) + (size r) 
+  end 
+
+(* Verifica se (k : int) ocorre na árvore *)
+predicate memt (t: tree int) (k: int) =
+   match t with 
+   | Empty -> false 
+   | Node l x r -> (k = x) \/ memt l k \/ memt r k 
+  end
+
+(* Número de ocorrências de (x : int) na árvore *)
+function num_occ (x: 'a) (t: tree 'a) : int = 
+   match t with 
+   | Empty -> 0
+   | Node l n r -> (if x=n then 1 else 0) + (num_occ x l) + (num_occ x r) 
+  end
+
+(* Todos os elementos da árvore são <= que (x : int) *)
+predicate leq_tree (x:int) (t: tree int) = forall k : int. memt t k -> k <= x
+
+(*todos elementos de t <= x 
+predicate leq_tree (x:int) (t: tree int) =
+   match t with 
+   | Empty -> true 
+   | Node l n r -> n <= x /\ leq_tree x l /\ leq_tree x r
+   end
+   *)
+
+
+(*todos elementos de t <= x 
+let rec predicate leq_tree2 (x:int) (t: tree int) =
+  ensures { result <-> forall k : int. memt t k -> k <= x }
+   match t with 
+   | Empty -> true 
+   | Node l n r -> n <= x && leq_tree2 x l && leq_tree2 x r
+end
+*)
+
+
+(* (x : int) <= que todos os elementos da árvore *) 
+predicate geq_tree (x:int) (t: tree int) = forall k : int. memt t k -> x <= k 
+
+
+(* t sorted inorder  *)
+ predicate sortedBT (t: tree int) = 
+    match t with 
+    | Empty -> true 
+    | Node l x r -> sortedBT l /\ sortedBT r /\
+                     leq_tree x l /\ geq_tree x r                
+  end
+
+(* inserção inorder *)
+let rec add (t : tree int) (v : int) : tree int =
+      
+      requires { sortedBT t } (* Árvore inicial está ordenada *)
+      ensures  { sortedBT result } (* Após a inserção a árvore permanence ordenada *)
+      ensures  { size result = size t + 1 } (* O tamanho da árvore resultante é igual ao tamanho da árvore inicial + 1 *)
+      ensures  { forall x : int. memt result x <-> (memt t x \/ x = v) } (* Se x pertence a árvore resultante, então já existia inicialmente (memt t x ) ou corresponde ao valor adicionado ( x=v ) *)
+      ensures  { forall x: int. num_occ x result =
+                    if x = v then 1 + num_occ x t else num_occ x t  } (* Número de ocorrências *) 
+      variant  { t } 
+      match t with
+        | Empty -> Node (Empty) v (Empty)
+        | Node l x r ->
+          if v <= x then Node (add l v) x r else Node l x (add r v)
+  end
+
+
+(*Conside o problema da construção de árvores binárias ordenadas (inorder) a partir de 
+  listas não ordenadas, e os dois métodos seguintes para o resolver : 
+
+  1. Inserir (começando com uma árvore vazia) cada elemento da lista usando a função
+     de inserção 'add'.    
+  *)
+
+let rec genTree (l: list int) : tree int 
+  ensures { sortedBT result } (* Árvore resultante está ordenada *)
+  ensures { forall x : int. memt result x <-> mem x l } (* Árvore resultante tem exatamente os mesmos elementos da lista recebida *)
+  ensures { forall x : int.  NumOcc.num_occ x l = num_occ x result }  (* Árvore resultante tem exatamente o mesmo número de ocorrências que a lista recebida  *)
+  ensures { size result = length l } (* O tamanho da árvore resultante é igual ao comprimento da lista *)
+  variant { length l  } (* O comprimento da lista tende para 0 *)
+  = match l with 
+  | Nil -> Empty 
+  | (Cons x y) -> add (genTree y) x 
+  end
+
+(*  
+  2. Por partição:
+
+      a. começar por separar a cauda da lista em duas, uma contendo os elementos
+         inferiores ou iguais à cabeça da lista, e outra contendo os superiores.
+      b. construir a árvore colocando a cabeça da lista na raíz, e usando as duas
+         sublistas para construir recursivamente as sub-árvores.
+*)
+
+(* Filtragem da lista l :: filter (>k) l  *)
+let rec split_list_g (k:int) (l:list int): list int
+  ensures { length result <= length l } (* O tamanho da lista resultante é menor ou igual que a lista de entrada *)
+  ensures { forall x : int. mem x result -> mem x l } (* Para todo x do tipo inteiro, se x pertence a lista resultante então x pertence a lista de entrada *)
+  ensures { forall x : int. mem x result -> x > k } (* Para todo x do tipo inteiro, se x pertence a lista resultante então x > k *)
+  ensures { forall x:  int. x > k -> (NumOcc.num_occ x result = NumOcc.num_occ x l) }  (* Para todo x do tipo inteiro, se x > k então o número de ocorrências de x na lista resultante é igual ao número de ocorrências da lista de entrada *)
+  variant { length l } (* O comprimento da lista tende para 0 *)
+  = match l with
+  |   Nil -> Nil
+  | ( Cons x y ) -> if x > k then ( Cons x (split_list_g k y) ) else  split_list_g k y
+end
+
+(* Filtragem da lista l :: filter (<=k) l  *)
+let rec split_list_leq (k:int) (l:list int): list int
+  ensures { length result <= length l } (* O tamanho da lista resultante é menor ou igual que a lista de entrada *)
+  ensures { forall x : int. mem x result -> mem x l } (* Para todo x do tipo inteiro, se x pertence a lista resultante então x pertence a lista de entrada *)
+  ensures { forall x : int. mem x result -> x <= k } (* Para todo x do tipo inteiro, se x pertence a lista resultante então x <= k *)
+  ensures  { forall x: int. x <= k -> (NumOcc.num_occ x result = NumOcc.num_occ x l) }  (* Para todo x do tipo inteiro, se x <= k então o número de ocorrências de x na lista resultante é igual ao número de ocorrências da lista de entrada *)
+
+  variant { length l} (* O comprimento da lista tende para 0 *)
+  = match l with
+  |   Nil -> Nil
+  | ( Cons x y ) -> if x <= k then ( Cons x (split_list_leq k y) ) else  split_list_leq k y
+end
+
+let rec genTreePartion (l: list int) : tree int 
+  ensures { forall x : int. mem x l <-> memt result x } (* Árvore resultante tem exatamente os mesmos elementos da lista recebida *)
+  ensures { forall x : int. num_occ x result = NumOcc.num_occ x l} (* Árvore resultante tem exatamente o mesmo número de ocorrências que a lista recebida  *)
+  ensures { sortedBT result }  (* Árvore resultante está ordenada *)
+  variant { length l } (* O comprimento da lista tende para 0 *)
+  = match l with 
+    | Nil -> Empty
+    | (Cons x y) -> Node (genTreePartion (split_list_leq x y)) x (genTreePartion (split_list_g x y)) 
+  end
+
+
+
+let rec genTree_aux (l: list int) (t: tree int) : tree int
+  ensures { forall x : int. memt result x <-> mem x l }
+  ensures { forall x : int. num_occ x result = NumOcc.num_occ x l}
+  ensures { sortedBT result }
+  variant {length l} 
+  = match l with 
+    | Nil -> t  
+    | Cons x y -> (genTree_aux y (add t x ) )
+end
+
+
+let function genTree2 (l: list int) : tree int 
+  ensures { forall x : int. memt result x <-> mem x l }
+  ensures { forall x : int. num_occ x result = NumOcc.num_occ x l}
+  ensures { sortedBT result }
+  = match l with 
+  | Nil -> Empty 
+  | (Cons x y) -> genTree_aux (Cons x y) Empty
+  end
+
+
+
+end

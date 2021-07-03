@@ -1,0 +1,101 @@
+module Abin
+
+use   int.Int
+use  list.List
+use  list.Mem
+use  list.Append
+use  list.Permut
+use  list.Length
+use  list.SortedInt
+use  list.NumOcc
+
+type tree 'a = Empty | Node (tree 'a) 'a (tree 'a)
+
+
+let rec function size (t: tree 'a) : int = 
+match t with 
+  | Empty -> 0
+  | Node l _ r -> 1 + size l + size r   
+  end
+
+
+(* k ocorre em t *)
+predicate memt (t: tree int) (k: int) =
+   match t with 
+   | Empty -> false 
+   | Node l x r -> memt l k \/  k = x \/ memt r k 
+  end
+   
+   
+(*todos elementos de t <= x *)
+predicate leq_tree (x:int) (t: tree int) = forall k : int. memt t k -> k <= x 
+(*
+predicate leq_tree (x:int) (t: tree int) =
+   match t with 
+   | Empty -> true 
+   | Node l n r -> n <= x /\ leq_tree x l /\ leq_tree x r
+   end
+ *)  
+(* x <= todos elementos de t *)
+predicate geq_tree (x:int) (t: tree int) = forall k : int. memt t k -> x <= k 
+
+(*
+predicate geq_tree (x:int) (t: tree int) = 
+   match t with 
+   | Empty -> true
+   | Node l n r -> x <= n /\ geq_tree x l /\ geq_tree x r
+  end
+*)
+
+(* t sorted inorder  *)
+ predicate sortedBT (t: tree int) = 
+    match t with 
+    | Empty -> true 
+    | Node l x r -> sortedBT l   /\ sortedBT r /\ 
+                    leq_tree x l /\ geq_tree x r
+  end
+ 
+(* num de ocorrências de x em t *)
+ function num_occ (x: 'a) (t: tree 'a) : int = 
+   match t with 
+   | Empty -> 0
+   | Node l n r -> if x=n then 1 + num_occ x l + num_occ x r 
+                   else num_occ x l + num_occ x r 
+  end
+     
+(* inserção inorder *)
+let rec add (t: tree int) (v: int) : tree int = 
+    requires { sortedBT t }
+    ensures  { sortedBT result }
+    ensures  { size result = size t + 1 }
+    ensures  { forall x : int. memt result x -> (memt t x \/ x = v) }
+    ensures  { forall x : int. num_occ x result = 
+                                if x = v then 1 + num_occ x t else num_occ x t }
+    variant { t } 
+    match t with 
+    | Empty -> Node (Empty) v (Empty)
+    | Node l x r -> if v <= x then Node (add l v) x r else Node l x (add r v)
+end
+
+(*  ensures { sortedBT result}
+  ensures { forall x : int. memt result x <-> mem x l }
+  ensures { forall x : int. num_occ x result = NumOcc.num_occ x l}
+*)
+
+let rec function  genTree_aux (l: list int) (t: tree int) : tree int
+  requires { sortedBT t }
+  ensures  { sortedBT result }
+  variant  { l }
+  = match l with 
+    | Nil  -> t
+    | Cons head tail -> genTree_aux tail (add t head)
+  end
+
+let function genTree (l: list int) : tree int 
+  ensures  { sortedBT result }
+ (* ensures { forall x : int. memt result x <-> mem x l }  
+   ensures { forall x : int. num_occ x result = NumOcc.num_occ x l}
+   *)
+  = genTree_aux l (Empty) 
+end
+

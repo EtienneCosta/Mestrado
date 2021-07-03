@@ -1,0 +1,108 @@
+module BTree
+
+use int.Int
+use list.List
+use list.NumOcc
+use list.Mem
+use list.Length
+
+type tree 'a = Empty | Node (tree 'a) 'a (tree 'a)
+
+(* Conta o número de nodos *)
+let rec function size (t: tree 'a') : int = 
+  match t with 
+  | Empty -> 0
+  | Node l _ r -> 1 + size l + size r 
+  end 
+
+(* k ocorre em t *)
+predicate memt (t: tree int) (k: int) =
+   match t with 
+   | Empty -> false 
+   | Node l x r -> memt l k \/  k = x \/ memt r k 
+  end
+
+(* num de ocorrências de x em t *)
+function num_occ (x: 'a) (t: tree 'a) : int = 
+   match t with 
+   | Empty -> 0
+   | Node l n r -> if x=n then 1 + num_occ x l + num_occ x r else num_occ x l + num_occ x r 
+  end
+
+(*todos elementos de t <= x *)
+predicate leq_tree (x:int) (t: tree int) = forall k : int. memt t k -> k <= x
+
+(* x <= todos elementos de t *)
+predicate geq_tree (x:int) (t: tree int) = forall k : int. memt t k -> x <= k 
+
+
+(* t sorted inorder  *)
+ predicate sortedBT (t: tree int) = 
+    match t with 
+    | Empty -> true 
+    | Node l x r -> sortedBT l /\ sortedBT r /\ 
+                      leq_tree x l /\ geq_tree x r
+end
+
+(* inserção inorder *)
+let rec add (t : tree int) (v : int) : tree int =
+      requires { sortedBT t }
+      ensures  { sortedBT result }
+      ensures  { size result = size t + 1 } 
+      ensures  { forall k : int. memt result k <-> memt t k \/ k = v} 
+      ensures{  forall x: int. num_occ x result =
+                    if x = v then 1 + num_occ x t else num_occ x t} 
+      variant  { t }
+      match t with
+        | Empty -> Node (Empty) v (Empty)
+        | Node l x r ->
+          if v <= x then Node (add l v) x r else Node l x (add r v)
+  end
+
+
+(*Conside o problema da construção de árvores binárias ordenadas (inorder) a partir de 
+  listas não ordenadas, e os dois métodos seguintes para o resolver : 
+
+  1. Inserir (começando com uma árvore vazia) cada elemento da lista usando a função
+     de inserção 'add'.    
+  *)
+
+let rec genTree (l: list int) : tree int 
+  ensures { sortedBT result }
+  ensures { forall x : int. memt result x <-> mem x l }
+  ensures { forall x : int. num_occ x result = NumOcc.num_occ x l}  
+  ensures { size result = length l }
+  variant { length l  }
+  = match l with 
+  | Nil -> Empty 
+  | (Cons x y) -> add (genTree y) x 
+  end
+
+let rec split_list_g (k:int) (l:list int): list int
+  variant { length l}
+  ensures { forall x : int. mem x result -> x > k }
+  (*ensures { forall x : int.  NumOcc.num_occ x result = NumOcc.num_occ x l}*)
+  = match l with
+  |   Nil -> Nil
+  | ( Cons x y ) -> if x > k then ( Cons x (split_list_g k y) ) else  split_list_g k y
+end
+
+let rec split_list_leq (k:int) (l:list int): list int
+  variant { length l}
+  ensures { forall x : int. mem x result -> x <= k }
+  (*ensures { forall x : int.  NumOcc.num_occ x result = NumOcc.num_occ x l}*)
+  = match l with
+  |   Nil -> Nil
+  | ( Cons x y ) -> if x <= k then ( Cons x (split_list_leq k y) ) else  split_list_leq k y
+end
+
+
+
+let  genTreePartion (l: list int) : tree int 
+  ensures { sortedBT result }
+  ensures { size result = length l }
+  = match l with 
+    | Nil -> Empty
+    | (Cons x y) -> Node (genTreePartion (split_list_leq x y))  x  (genTreePartion (split_list_g x y)) 
+  end
+end

@@ -1,0 +1,281 @@
+theory Expr
+
+use map.Map
+use map.Const
+use int.Int
+use int.EuclideanDivision
+
+
+(* identificadores *)
+type ident
+function mk_ident int : ident
+
+(* operadores *)
+type operator = Oplus | Ominus | Omult | Odiv
+
+(* expressões *)
+(* Einc : x++ *)
+type expr = 
+    | Econst int
+    | Evar ident
+    | Ebin expr operator expr
+    | Einc ident 
+
+(* estados do programa *)
+type state = map ident int 
+
+
+(* div: Divisão euclidiana *)
+function eval_bin (x:int) (op:operator) (y:int) : int =
+    match op with
+      | Oplus -> x+y
+      | Ominus -> x-y
+      | Omult -> x*y
+      | Odiv -> if y <> 0 then div x y else 0
+    end
+
+(* semântica das expressões definidas *)
+function eval_expr (s:state) (e:expr) : int = 
+    match e with 
+      (* Função constante *)
+      | Econst n -> n 
+      (* Permite capturar o valor da variável x no estado s.*)
+      | Evar x -> get s x
+      (* Calcula o valor de uma operação matématica, op in [Oplus,Ominus,Omult,Odiv] *)
+      | Ebin e1 op e2 -> eval_bin (eval_expr s e1) op (eval_expr s e2)
+      (* Incrementa o valor da variável x em 1 unidade. *)
+      | Einc x -> let aux = get s x in let s = set s x ((get s x) + 1) in aux 
+    end
+
+
+
+goal Test13 : 
+    let s = const 0 in 
+    eval_expr s (Econst 13) = 13
+
+goal Test42 : 
+    let x = mk_ident 0 in
+    let s = set (const 0) x 42 in
+    eval_expr s (Evar x) = 42
+
+goal Test55 : 
+    let x = mk_ident 0 in
+    let s = set (const 0) x 42 in
+    eval_expr s (Ebin (Evar x) Oplus (Econst 13)) = 55
+
+
+(* Teste de sucesso da função de adição.*)
+goal AddSucess':
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 8 in 
+    eval_expr s (Ebin (Evar x) Oplus (Econst 2)) = 10
+
+(* Teste de sucesso da função de subtração.*)
+goal SubSucess':
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 8 in 
+    eval_expr s (Ebin (Evar x) Ominus (Econst 2)) = 6
+
+(* Teste de sucesso da função de multiplicação.*)
+goal MultSucess':
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 8 in 
+    eval_expr s (Ebin (Evar x) Omult (Econst 2)) = 16
+
+(* Teste de sucesso da função de divisão.*)
+goal DivSucess':
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 8 in 
+    eval_expr s (Ebin (Evar x) Odiv (Econst 2)) = 4
+
+(* Teste de insucesso da função de adição.*)
+goal AddFail':
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 8 in 
+    eval_expr s (Ebin (Evar x) Oplus (Econst 2)) = 1
+
+(* Teste de insucesso da função de subtração.*)
+goal SubFail':
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 8 in 
+    eval_expr s (Ebin (Evar x) Ominus (Econst 2)) = 5
+
+(* Teste de insucesso da função de multiplicação.*)
+goal MultFail':
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 8 in 
+    eval_expr s (Ebin (Evar x) Omult (Econst 2)) = 10
+
+(* Teste de insucesso da função de divisão.*)
+goal DivFail':
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 8 in 
+    eval_expr s (Ebin (Evar x) Odiv (Econst 2)) = 3
+
+
+(* Teste da função incremento :: Falha por não estar a fazer referência ao próximo estado da variável  *)
+goal IncFail :
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 1 in 
+    eval_expr s (Einc x) =  2
+
+(* Teste da função incremento :: Funciona por não estar a fazer referência ao próximo estado da variável  *)
+goal IncSucess :
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 1 in 
+    eval_expr s (Einc x) =  1
+
+
+(* semântica das expressões definidas: indutivo *)
+inductive eval_expr_rel state expr state int = 
+    | econst : forall n:int, s:state.
+               eval_expr_rel s (Econst n) s n
+    | evar : forall x:ident, s:state.
+                eval_expr_rel s (Evar x) s (get s x)
+    | ebin : forall e1 e2: expr, op:operator, n1 n2 : int, s s1 s2:state.
+                 eval_expr_rel s e1 s1 n1 ->
+	             eval_expr_rel s1 e2 s2 n2 -> 
+	             eval_expr_rel s (Ebin e1 op e2) s2 (eval_bin n1 op n2)
+    | einc : forall x: ident, s :state. 
+             let s1 = set s x ((get s x) + 1) in  eval_expr_rel s (Einc x) s1 (get s x) 
+
+
+ 
+ goal Test13r : 
+   let s  = const 0 in 
+     eval_expr_rel s (Econst 13) s 13
+
+goal Test42r :
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 42 in
+    eval_expr_rel s (Evar x) s 42
+
+(* Provado à custa do split_vc e asserts : *)
+(* [0] assert(eval_expr_rel s (Evar x) s 42) *)
+(*    [1] assert (eval_expr_rel s (Econst 13) s 13)) *)
+
+goal Test55r : 
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 42 in
+    eval_expr_rel s (Ebin (Evar x) Oplus (Econst 13)) s 55
+
+
+(* x++ *)
+goal Teste2r :
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 1 in 
+    let s1 = set (const 0) x 2 in 
+    eval_expr_rel s (Einc x) s1 1 
+
+
+(* O Einc invalida a prova no_side_effects, visto que modifica o estado da variável*)
+lemma no_side_effects:
+    forall s s': state, e:expr, n:int.
+        eval_expr_rel s e s' n -> s=s'
+ 
+(* Não é obrigatório o uso do induction_pr, pode ser 
+   provado à custa do split_all_full e induction_ty_lex.
+*)
+lemma expr_eval:
+    forall e:expr,s:state, n:int. 
+        eval_expr_rel s e s n <-> (eval_expr s e = n)
+
+(*
+   Prova feita com recurso ao induction_pr.
+   Foi reescrita a bi-implicação:
+        p <=> q   = p -> q /\ q -> p 
+*)
+lemma expr_eval_pr:
+	forall e:expr,s:state, n:int.
+	eval_expr_rel s e s n -> (eval_expr s e = n) && (eval_expr s e = n) -> eval_expr_rel s e s n
+
+(* Foi provado à custa do objectivo Teste55r, visto que é
+   exatamente a mesma coisa. 
+*)
+goal Test55r2 : 
+    let x = mk_ident 0 in
+    let s = set (const 0) x 42 in
+    eval_expr_rel s (Ebin (Evar x) Oplus (Econst 13)) s 55
+
+(* Teste de sucesso da função de divisão.*)
+goal Div1':
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 8 in 
+    eval_expr_rel s (Ebin (Evar x) Odiv (Econst 2)) s 4   
+
+(* Teste de insucesso da função de divisão
+   Não devia conseguir provar isto ... 
+*) 
+goal Div2':
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 8 in 
+    eval_expr_rel s (Ebin (Evar x) Odiv (Econst 2)) s 1   
+
+end
+
+theory Programs
+use map.Map 
+use map.Const
+use Expr
+
+(* statements *)
+type stmt =
+  | Sskip
+  | Sassign ident expr
+  | Sseq stmt stmt
+  | Sif expr stmt stmt
+  | Swhile expr stmt
+
+(* big step semantics *)
+inductive big_step state stmt state =
+    | big_step_skip: forall s:state.
+        big_step s Sskip s 
+    | big_step_assign: forall s:state, e:expr, x:ident.
+        big_step s (Sassign x e) (set s x (eval_expr s e))  
+    | big_step_seq: forall s1 s2 s3:state, i1 i2:stmt.
+        big_step s1 i1 s2 ->
+        big_step s2 i2 s3 ->
+        big_step s1 (Sseq i1 i2) s3 
+    
+    | big_step_if_true: forall s s':state, e:expr, i1 i2:stmt.
+        eval_expr s e <> 0 ->
+        big_step s i1 s'   -> 
+        big_step s (Sif e i1 i2) s'
+
+    | big_step_if_false: forall s s':state, e:expr, i1 i2:stmt.
+        eval_expr s e = 0 ->
+        big_step s i2 s'  -> 
+        big_step s (Sif e i1 i2) s'
+
+    | big_step_while_true: forall s s' s'':state, e:expr, i:stmt.
+        eval_expr s e <> 0            ->
+        big_step s i s'               -> 
+        big_step s' (Swhile e i) s''  ->
+        big_step s (Swhile e i) s'' 
+
+    | big_step_while_false: forall s :state, e:expr, i:stmt.
+        eval_expr s e = 0 ->
+        big_step s (Swhile e i) s
+
+
+goal Assign42 :
+    let x = mk_ident 0 in
+    let s = const 0 in
+    forall s':state.
+      big_step s (Sassign x (Econst 42)) s' ->  get s' x = 42
+
+goal If42 :
+    let x = mk_ident 0 in
+    let s = set (const 0) x 0 in
+    forall s1:state.
+      big_step s
+        (Sif (Evar x)
+             (Sassign x (Econst 13))
+             (Sassign x (Econst 42)))
+	 s1 ->  get s1 x = 42
+
+goal big_step_determinism:
+    forall s s':state, i :stmt.
+      big_step s i s' -> forall s'': state. big_step s i s''  -> s' = s''
+
+end

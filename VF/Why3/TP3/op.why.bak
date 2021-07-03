@@ -1,0 +1,118 @@
+theory Expr
+
+use int.Int
+use map.Map
+use map.Const
+use int.EuclideanDivision
+
+type ident
+
+function mk_ident int : ident
+
+type operator = Oplus | Ominus | Omult | ODiv
+
+type expr = 
+    | Econst int
+    | Evar ident
+    | Ebin expr operator expr
+    | Einc ident 
+
+type state = map ident int 
+
+function eval_bin (x:int) (op:operator) (y:int) : int =
+    match op with
+      | Oplus -> x+y
+      | Ominus -> x-y
+      | Omult -> x*y
+      | ODiv -> if y = 0 then 0 else div x y
+    end
+
+
+function eval_expr (s:state) (e:expr) : int = 
+    match e with 
+      | Econst n -> n 
+      | Evar x -> get s x
+      | Ebin e1 op e2 -> eval_bin (eval_expr s e1) op (eval_expr s e2)
+      | Einc x -> (get s x)  + 1
+    end
+
+
+goal Test13 : 
+    let s = const 0 in 
+    eval_expr s (Econst 13) = 13
+
+
+goal Test42 : 
+    let x = mk_ident 0 in
+    let s = set (const 0) x 42 in
+    eval_expr s (Evar x) = 42
+
+goal Test55 : 
+    let x = mk_ident 0 in
+    let s = set (const 0) x 42 in
+    eval_expr s (Ebin (Evar x) Oplus (Econst 13)) = 55
+
+goal TestInc :
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 1 in 
+    eval_expr s (Einc  x ) =  2
+
+
+inductive eval_expr_rel state expr state int = 
+    | econst : forall n:int, s:state.
+               eval_expr_rel s (Econst n) s n
+    | evar : forall x:ident, s:state.
+                eval_expr_rel s (Evar x) s (get s x)
+    | ebin : forall e1 e2: expr, op:operator, n1 n2 : int, s s1 s2:state.
+             (eval_expr_rel s e1 s1 n1) ->
+	         (eval_expr_rel s1 e2 s2 n2) -> 
+	         (eval_expr_rel s (Ebin e1 op e2) s2 (eval_bin n1 op n2))
+    | einc : forall x: ident, s :state.
+            eval_expr_rel s (Einc x) (set s x ((get s x) + 1)) (get s x)
+
+goal Test13r : 
+   let s  = const 0 in 
+     eval_expr_rel s (Econst 13) s 13
+
+goal Test42r :
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 42 in
+    eval_expr_rel s (Evar x) s 42
+
+goal Test55r : 
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 42 in
+    eval_expr_rel s (Ebin (Evar x) Oplus (Econst 13)) s 55
+
+
+(*O Einc invalida a prova no_side_effects, visto que modifica o estado da variável*)
+lemma no_side_effects:
+    forall s s': state, e:expr, n:int.
+        eval_expr_rel s e s' n -> s=s'
+
+lemma expr_eval:
+    forall e:expr,s:state, n:int. 
+        eval_expr_rel s e s n <-> (eval_expr s e = n)
+
+lemma expr_eval_pr:
+	forall e:expr,s:state, n:int.
+	eval_expr_rel s e s n -> (eval_expr s e = n) && (eval_expr s e = n) -> eval_expr_rel s e s n
+
+goal Test55r2 : 
+    let x = mk_ident 0 in
+    let s = set (const 0) x 42 in
+    eval_expr_rel s (Ebin (Evar x) Oplus (Econst 13)) s 55
+
+goal Div1':
+    let x = mk_ident 0 in 
+    let s = set (const 0) x 8 in 
+    eval_expr_rel s (Ebin (Evar x) ODiv (Econst 2)) s 4   
+
+
+goal Inc :
+    let x = mk_ident 0 in
+    let s = set (const 0) x 1 in
+    let s1 = set (const 0) x 2 in
+    eval_expr_rel s (Einc x) s1 2
+
+end

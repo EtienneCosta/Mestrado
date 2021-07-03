@@ -1,0 +1,53 @@
+module Abin
+
+ use int.Int
+
+type tree 'a = Empty | Node (tree 'a) 'a (tree 'a)
+
+
+let rec function size (t: tree 'a) : int = 
+match t with 
+
+  | Empty -> 0
+  | Node l _ r -> 1 + size l + size r   
+  end
+
+
+(* k ocorre em t *)
+
+predicate memt (t: tree int) (k: int) =
+   match t with 
+   | Empty -> false 
+   | Node l x r -> memt l k \/  k = x \/ memt r k 
+  end
+   
+   
+(*todos elementos de t <= x *)
+predicate leq_tree (x:int) (t: tree int) =
+   match t with 
+   | Empty -> true 
+   | Node l n r -> n <= x /\ leq_tree x l /\ leq_tree x r
+   end
+   
+(* x <= todos elementos de t *)
+predicate geq_tree (x:int) (t: tree int) = 
+   match t with 
+   | Empty -> true
+   | Node l n r -> x <= n /\ geq_tree x l /\ geq_tree x r
+  end
+  
+(* t sorted inorder 
+ predicate sortedBT (t: tree int) = 
+ *)
+ 
+ 
+ (* num de ocorrências de x em t *)
+ 
+ function num_occ (x: 'a) (t: tree 'a) : int = 
+   match t with 
+   | Empty -> 0
+   | Node l n r -> if x=n then 1 + num_occ x l + num_occ x r else num_occ x l + num_occ x r 
+  end
+     
+
+end

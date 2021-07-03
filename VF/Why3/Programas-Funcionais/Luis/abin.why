@@ -1,0 +1,79 @@
+(* BTREE's *)
+module Bintree_insert
+
+  use  int.Int
+  use  list.List
+  use  list.Mem
+  use  list.Append
+  use  list.Permut
+  use  list.Length
+  use  list.SortedInt
+  use  list.NumOcc
+
+  
+  (* ao nível lógico -> \/, ao nível dos programas -> || *)
+  
+  type tree 'a = Empty | Node (tree 'a) 'a (tree 'a)
+
+  let rec function size (t: tree 'a) : int =
+    match t with
+    |  Empty -> 0
+    |  Node l _ r -> 1 + (size l) + (size r)
+    end
+                                     
+  predicate memt (t : tree int) (k : int) = 
+    match t with
+      | Empty -> false
+      | Node l x r -> if x = k then true else memt l k \/ memt r k
+    end
+   (* Apesar de correto, não dá. Posso criar um let rec com esta definição com um ensure igual ao forall embaixo declarado.  
+    
+    predicate leq_tree (k : int) (t : tree int) =
+      match t with
+      | Empty -> true
+      | Node l x r -> if k >= x then leq_tree k l /\ leq_tree k r else false 
+      end 
+    *)
+    predicate leq_tree (x : int) (t : tree int) = forall k : int. memt t k -> k <= x (* todos menores que k *)
+
+
+  (* Apesar de correto, não dá. Posso criar um let rec com esta definição com um ensure igual ao forall embaixo declarado. 
+    
+    predicate geq_tree (k : int) (t : tree int) =
+      match t with
+       | Empty -> true
+       | Node l x r -> if k <= x then geq_tree k l /\ geq_tree k r else false 
+      end 
+   *)
+   predicate geq_tree (x : int) (t : tree int) = forall k : int. memt t k -> x <= k (* todos maiores que k *)
+
+  predicate sortedBT (t : tree int) =
+    match t with
+    | Empty -> true
+      (* todos os elementos à esquerda da root são menores que ele e todos os elementos à direita são maiores que ele. *)
+      (* Para além disso, ambas as subarvores teem que estar sorted. *)
+    | Node l k r -> leq_tree k l /\ geq_tree k r /\ sortedBT l /\ sortedBT r
+    end
+
+  function num_occ (x: 'a) (t: tree 'a) : int =
+    match t with
+      | Empty -> 0
+      | Node l k r -> (if x = k then 1 else 0) + (num_occ x l) + (num_occ x r)
+    end
+
+
+  let rec add (t : tree int) (v : int) : tree int =
+      requires { sortedBT t }
+      ensures  { sortedBT result }
+      ensures  { size result = size t + 1 } (* !POSSO RETIRAR. Serve apenas para verificar propriedades do predicado. *)
+      ensures  { forall k : int. memt result k -> memt t k \/ k = v} (* Integridade do result. Permutação. *)
+      ensures{  forall x: int. num_occ x result =
+                    if x = v then 1 + num_occ x t else num_occ x t} (* !POSSO RETIRAR. Serve apenas para verificar propriedades do predicado. *)
+      variant  { t }
+      match t with
+        | Empty -> Node (Empty) v (Empty)
+        | Node t1 x t2 ->
+          if v <= x then Node (add t1 v) x t2 else Node t1 x (add t2 v)
+  end
+
+end

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
+"http://why3.lri.fr/why3session.dtd">
+<why3session shape_version="6">
+<prover id="0" name="Alt-Ergo" version="2.3.1" timelimit="1" steplimit="0" memlimit="1000"/>
+<prover id="1" name="CVC4" version="1.7" timelimit="1" steplimit="0" memlimit="1000"/>
+<file format="whyml" proved="true">
+<path name=".."/><path name="InsertionSortList.why"/>
+<theory name="InsertionSortList" proved="true">
+ <goal name="insert&#39;vc" expl="VC for insert" proved="true">
+ <transf name="split_all_full" proved="true" >
+  <goal name="insert&#39;vc.0" expl="variant decrease" proved="true">
+  <proof prover="1"><result status="valid" time="0.12" steps="10265"/></proof>
+  </goal>
+  <goal name="insert&#39;vc.1" expl="precondition" proved="true">
+  <proof prover="1"><result status="valid" time="0.09" steps="8757"/></proof>
+  </goal>
+  <goal name="insert&#39;vc.2" expl="postcondition" proved="true">
+  <proof prover="1"><result status="valid" time="0.10" steps="9860"/></proof>
+  </goal>
+  <goal name="insert&#39;vc.3" expl="postcondition" proved="true">
+  <proof prover="1"><result status="valid" time="0.12" steps="10538"/></proof>
+  </goal>
+  <goal name="insert&#39;vc.4" expl="postcondition" proved="true">
+  <proof prover="1"><result status="valid" time="0.51" steps="53543"/></proof>
+  </goal>
+ </transf>
+ </goal>
+ <goal name="insertionSort&#39;vc" expl="VC for insertionSort" proved="true">
+ <proof prover="0"><result status="valid" time="0.11" steps="648"/></proof>
+ <transf name="split_all_full" proved="true" >
+  <goal name="insertionSort&#39;vc.0" expl="variant decrease" proved="true">
+  <proof prover="1"><result status="valid" time="0.14" steps="11862"/></proof>
+  </goal>
+  <goal name="insertionSort&#39;vc.1" expl="precondition" proved="true">
+  <proof prover="1"><result status="valid" time="0.06" steps="8801"/></proof>
+  </goal>
+  <goal name="insertionSort&#39;vc.2" expl="postcondition" proved="true">
+  <proof prover="1"><result status="valid" time="0.08" steps="9467"/></proof>
+  </goal>
+  <goal name="insertionSort&#39;vc.3" expl="postcondition" proved="true">
+  <proof prover="1"><result status="valid" time="0.37" steps="39485"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+</file>
+</why3session>

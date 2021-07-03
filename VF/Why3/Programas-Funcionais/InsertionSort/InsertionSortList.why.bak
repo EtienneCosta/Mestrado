@@ -1,0 +1,28 @@
+module InsertionSortList
+  use import int.Int
+  use import list.List
+  use import list.Mem
+  use import list.SortedInt
+  use import list.Permut
+  use import list.Length
+
+
+let rec insert x l 
+     requires {sorted l}
+     ensures {sorted result /\ permut result (Cons x l)}
+     variant { length l }
+   = match l with 
+     | Nil -> Cons x Nil 
+     | Cons y l' -> if x <= y then Cons x l else Cons y (insert x l')
+     end
+     
+let rec insertionSort l
+     ensures { sorted result /\ permut result l }
+     variant { length l} 
+  = match l with 
+     | Nil -> Nil 
+     | Cons y l' -> insert y (insertionSort l')
+    end
+     
+ 
+end
