@@ -66,7 +66,7 @@ Projects developed during the master's degree in computer engineering. ![uminho]
 
 # NoSQL Databases
 
-- [Relational vs Non-Relational Databases](https://github.com/EtienneCosta/Mestrado/tree/main/BDNoSql/Trabalho%20Pr%C3%A1tico) - Oracle,Mongo and Neo4j.
+- [Relational vs Non-Relational Databases](https://github.com/EtienneCosta/Mestrado/tree/main/BDNoSql) - Oracle,Mongo and Neo4j.
 
 
 ## Contributors
