@@ -65,7 +65,7 @@ Projects developed during the master's degree in computer engineering. ![uminho]
 **Arquitetura e Cálculo**
 
 - [mCRL2](https://github.com/EtienneCosta/Mestrado/tree/main/A%26C/mCRL2) - Specification language for describing concurrent discrete event systems.
-- [UPPALL](https://github.com/EtienneCosta/Mestrado/tree/main/VF/SMT) - an integrated tool environment for modeling, validation and verification of real-time systems .
+- [UPPAAL](https://github.com/EtienneCosta/Mestrado/tree/main/VF/SMT) - an integrated tool environment for modeling, validation and verification of real-time systems .
 - [Time-Critical Reactive Systems]() -Timed Automata.
 - [Monads]() - Modelling and analysis of cyber-physical systems now with monads.
 
