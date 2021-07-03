@@ -12,6 +12,8 @@ Projects developed during the master's degree in computer engineering. ![uminho]
   - [Luxury Ink](https://github.com/EtienneCosta/Mestrado/tree/main/PRI2020/TP1) - Ballpoint webpage.
   - [Project Record](https://github.com/EtienneCosta/Mestrado/tree/main/PRI2020/TP2) - DTD to verify that XML data is valid.
   - [Arqueossítios do NW Português](https://github.com/EtienneCosta/Mestrado/tree/main/PRI2020/TP3) - Generation of HTML pages and Websites with XSLT.
+  - [Resource Finder](https://github.com/EtienneCosta/ResourceFinder) 
+
  
 **Gramáticas na Compreensão de Software**
 
@@ -21,7 +23,7 @@ Projects developed during the master's degree in computer engineering. ![uminho]
 - [List](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/List)- List grammar.
 - [Mixed List](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/ListasMistas)- Mixed list grammar.
 - [Class](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/Turma)- Class grammar.
-- [SELRA](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/SELRA)- Selection of learning resources .
+- [SELRA](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/SELRA)- Selection of learning resources 🤩.
 
 **Scripting in Natural Language Processing**
 - [Menu](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/TPCs/Menu)
@@ -33,13 +35,16 @@ Projects developed during the master's degree in computer engineering. ![uminho]
 
 
 **Knowledge Processing and Representation**
-- [Menu](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/TPCs/Menu)
-- [Grammar](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/TPCs/Grammar) 
-- [Names](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/TPCs/Names)
-- [Genealogy](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/Projects/TP1)
-- [Databases](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/Projects/TP2)
-- [Make From Template](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/Projects/TP3)
-
+- [Ontology for Students](https://github.com/EtienneCosta/Mestrado/tree/main/PRC2021/TP1)
+- [Digital Music Archive](https://github.com/EtienneCosta/Mestrado/tree/main/PRC2021/TP2)
+- [Charade](https://github.com/EtienneCosta/Mestrado/tree/main/PRC2021/TP3)
+- [Periodic Table Of The Elements](https://github.com/EtienneCosta/Mestrado/tree/main/PRC2021/TP4) 🤩.
+- [JCR Pubs](https://github.com/EtienneCosta/Mestrado/tree/main/PRC2021/TP5)
+- [Ontobud Repos](https://github.com/EtienneCosta/Mestrado/tree/main/PRC2021/TP6)
+- [Virtual Map](https://github.com/EtienneCosta/Mestrado/tree/main/PRC2021/TP8)
+- [JCR Pubs Walkthrough](https://github.com/EtienneCosta/Mestrado/tree/main/PRC2021/JCR-Pubs-Walkthrough)
+- [JCR Website](https://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/index-fichas.html) - Fun Stuff .
+- [Ultimate Fighting Championship Stats](https://github.com/EtienneCosta/UFC-STATS) - Ontology for UFC .
 
 
 # Formal Methods
