@@ -23,6 +23,13 @@ Projects developed during the master's degree in computer engineering. ![uminho]
 - [Class](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/GT/Turma)- Class grammar.
 - [SELRA](https://github.com/EtienneCosta/Mestrado/tree/main/GCS/SELRA)- Selection of learning resources .
 
+**Scripting in natural language processing
+- [Menu](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/TPCs/Menu)
+- [Grammar](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/TPCs/Grammar) 
+- [Names](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/TPCs/Names)
+- [Genealogy](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/Projects/TP1)
+- [Databases](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/Projects/TP2)
+- [Make From Template](https://github.com/EtienneCosta/Mestrado/tree/main/SPLN2021/Projects/TP3)
 # Formal Methods
 
 **Software Analysis and Testing**
